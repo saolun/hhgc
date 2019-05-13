@@ -15,3 +15,6 @@
 Route::get('/', function () {
     return view('web.index');
 });
+
+//发布项目
+Route::get('/projects/release','Web\ReleaseController@show');
