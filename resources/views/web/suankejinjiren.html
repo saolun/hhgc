@@ -1,0 +1,994 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-CN" lang="zh-CN">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0" />
+  <title>算客经纪人--算客工场</title>
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+  <link rel="shortcut icon" href="/favicon.ico" />
+  <link rel="stylesheet" media="screen" href="static/css/application-f742c9f4d291b8a5e98f7948d3ab74777a2b906c7081c9c6a7b3a231883543f5.css" />
+  <script src="static/js/application-a53f0e0a6a61a86e6cb8f94a2fb64a861d3f1c5f341a2ae992c4adf325a4ea38.js"></script>
+</head>
+<body>
+<script>
+    $(function () {
+        $(".my-title-in").idTabs();
+    });
+</script>
+<style>
+    body {
+        background: #f0c844 url(static/images/banner-3c66a8029eb57f759cb48b77bbc8728cb95f6911c1fd4b5453481f3d925cacbf.png) top center no-repeat;
+    }
+
+    .mtb34 {
+        margin: 34px 0;
+    }
+
+    .reward, .mode, .my, .dynamic, .rule {
+        width: 1100px;
+        background: #FFF;
+        /*border-radius: 6px;*/
+        margin: 0 auto;
+        margin-top: 30px;
+        /*box-shadow: 0 6px 6px #6c2c80;*/
+    }
+
+    h1 {
+        text-align: center;
+        padding: 30px 0 10px 0;
+        font-size: 20px;
+        color: #333;
+        margin-bottom: 10px;
+    }
+
+    h3 {
+        text-align: center;
+        padding-top: 20px;
+        font-size: 18px;
+        color: #333;
+    }
+
+    /*我的奖励*/
+    .reward {
+        width: 1096px;
+        height: 306px;
+        background: url(static/images/my_reward-73f66fd1e0fcfae59f12ed25f0d3f19c12a0b7b683d7ccec94a43b675c12b0ce.png);
+        font-size: 20px;
+        color: #333;
+    }
+
+    .reward .r_left {
+        width: 280px;
+        height: 100px;
+        float: left;
+        margin-left: 100px;
+        margin-top: 150px;
+    }
+
+    .reward .r_left .tx {
+        height: 80px;
+        width: 80px;
+        background: #f5f5f5;
+        float: left;
+        margin-left: 10px;
+    }
+
+    .reward .r_left img {
+        border-radius: 100%;
+        height: 80px;
+        width: 80px;
+    }
+
+    .reward .r_left p {
+        font-size: 20px;
+        color: #333;
+        padding: 26px 0 0 110px;
+    }
+
+    .reward .r_right {
+        width: 430px;
+        height: 130px;
+        float: left;
+        margin-top: 150px;
+        margin-left: 50px;
+    }
+
+    .reward .r_right ul li {
+        list-style: none;
+        margin-bottom: 26px;
+        font-size: 20px;
+        color: #333;
+    }
+
+    .reward .r_right ul li span {
+        padding-left: 30px;
+    }
+
+    .reward h2 {
+        margin-top: 73px;
+        font-size: 20px;
+        color: #f66626;
+    }
+
+    /*参与方式*/
+    .mode {
+        width: 1096px;
+        height: 1052px;
+        background: url(static/images/cyfs-1e4da36ce09a76e13cd92a60c02ad8c8a1477cd6c07dfb2ed44354e810aa1b60.png);
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    .mode-l, .mode-r {
+        height: 688px;
+        width: 450px;
+        /*border: 1px solid #999;*/
+        position: relative;
+    }
+
+    .mode p {
+        color: #333;
+        font-size: 16px;
+        line-height: 24px;
+        width: 476px;
+        padding-left: 20px;
+        padding-bottom: 20px;
+    }
+
+    .mode ul {
+        padding-left: 20px;
+        padding-bottom: 20px;
+        font-size: 14px;
+        margin-top: 20px;
+    }
+
+    .mode p span {
+        color: #f66626;
+    }
+
+    .mode .button {
+        height: 40px;
+        line-height: 40px;
+        display: inline-block;
+        text-align: center;
+        width: 200px;
+        background: #b91616;
+        border: medium none;
+        border-radius: 4px;
+
+        margin: 16px 0 8px 0;
+        font-size: 16px;
+        color: #FFF;
+    }
+
+    .mode-l {
+        float: left;
+        margin-left: 70px;
+    }
+
+    .ewm {
+        height: 210px;
+        width: 166px;
+        background: #f5f5f5 url(static/images/blank_ewm-e94284d71ebf33a1854372601b2ce5fcd54e3f3a35e83c70680458ecb9df1f17.jpg);
+        margin: 0 auto;
+        margin-top: 264px;
+    }
+
+    .mode-l ul {
+        float: left;
+    }
+
+    .l_left {
+        float: left;
+        padding-top: 2px;
+    }
+
+    .l_right {
+        width: 390px;
+        float: left;
+        line-height: 22px;
+        margin-right: 30px;
+        color: #666;
+    }
+
+    .mode-r {
+        float: right;
+        margin-right: 74px;
+    }
+
+    .mode-r img {
+        width: 126px;
+        height: 133px;
+    }
+
+    .mode-r ul li {
+        padding-bottom: 5px;
+    }
+
+    .mode-r ul li span {
+        color: #666;
+    }
+
+    /*我的邀请*/
+    .tb {
+        width: 864px;
+        margin: 0 auto;
+        border: #54076c 4px solid;
+        max-height: 600px;
+        overflow: auto;
+    }
+
+    .tb table {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .tb table td {
+        height: 70px;
+        line-height: 70px;
+        border: #54076c 1px solid;
+        padding:0;
+    }
+
+    .tb table th {
+        background: #edbe29;
+        border: #54076c 1px solid;
+
+    }
+
+    .my-pro {
+        width: 1096px;
+        height: 870px;
+        background: url(static/images/my_pro-0af86563925c79047ebecc60bf491571daaea08d45454219769d71d5e3f018c8.png);
+    }
+
+    .my-mem {
+        width: 1096px;
+        height: 870px;
+        background: url(static/images/my_mem-fe346bee599847f30695370f1076de58daa5bd77fcb7e18f5f91a5a2bd7ff708.png);
+    }
+
+    .my {
+        /*height: 820px;*/
+        padding-bottom: 50px;
+    }
+
+    .m_sx {
+        width: 1100px;
+        text-align: center;
+    }
+
+    .my .m_sx ul {
+        width: 864px;
+        /*height: 110px;*/
+        margin: 0 auto;
+        margin-top: 110px;
+    }
+
+    .my .m_sx ul li {
+        height: 76px;
+        width: 288px;
+        float: left;
+        border-radius: 4px;
+        margin-top: 20px;
+    }
+
+    .my .m_sx ul a, .my .m_sx ul a:hover {
+        display: inline-block;
+        width: 288px;
+        height: 76px;
+        line-height: 76px;
+        font-size: 20px;
+        /*border: 1px solid #fff;*/
+    }
+
+    .my .m_sx ul a:hover, .my .m_sx ul a.selected {
+        border: #54076c 4px solid;
+        border-bottom: none;
+    }
+
+    .my .m_sx ul li img {
+        /*margin: 14px 0 0 40px*/
+    }
+
+    /*动态展示*/
+    .dynamic {
+        height: 870px;
+        width: 1096px;
+        background: url(static/images/qm-a8574ff27393daf6bca6c363161d9f5d31e0acfd3028fb0ff8e68bbc97daa784.png);
+    }
+
+    .dynamic .dy_s, .dy_x {
+        /*height: 312px;*/
+        /*width: 952px;*/
+        /*box-shadow: 0 0 4px #dadada;*/
+        /*border-radius: 4px;*/
+        margin: 0 auto;
+        margin-top: 16px;
+    }
+
+    .dynamic .dy_s ul {
+        height: 330px;
+        /*width: 680px;*/
+        float: left;
+        margin-left: 50px;
+        margin-top: 127px;
+    }
+
+    .dynamic .dy_s ul li {
+        height: 33px;
+        width: 802px;
+        color: #666;
+        font-size: 14px;
+        line-height: 30px;
+        padding-left: 30px;
+        margin-bottom: 7px;
+    }
+
+    .dynamic .dy_s ul li span {
+        float: right;
+        color: #999;
+        /*padding-right: 30px;*/
+    }
+
+    .dynamic .dy_s .dy_r {
+        height: 312px;
+        width: 200px;
+        float: right;
+    }
+
+    .dynamic .dy_s .dy_r dl dt {
+        flot: left;
+        margin: 110px 0 0 70px;
+    }
+
+    .dynamic .dy_s .dy_r dl dd {
+        flot: left;
+        margin: 7px 0 0 58px;
+        font-size: 16px;
+    }
+
+    .dynamic .dy_x .dy_l {
+        height: 312px;
+        width: 180px;
+        float: left;
+    }
+
+    .dynamic .dy_x .dy_l dl dt {
+        margin: 110px 0 0 66px;
+    }
+
+    .dynamic .dy_x .dy_l dl dd {
+        margin: 7px 0 0 58px;
+        font-size: 16px;
+    }
+
+    .dynamic .dy_x ul {
+        height: 312px;
+        width: 883px;
+        float: right;
+        margin-top: 56px;
+    }
+
+    .dynamic .dy_x ul li {
+        height: 33px;
+        width: 680px;
+        color: #666;
+        font-size: 14px;
+        line-height: 30px;
+        padding-left: 30px;
+        margin-bottom: 7px;
+    }
+
+    .dynamic .dy_x ul li span {
+        float: right;
+        color: #999;
+        margin-right: -124px;
+    }
+
+    /*活动规则*/
+    .rule {
+        height: 200px;
+    }
+
+    .rule p {
+        font-size: 16px;
+        color: #666;
+        padding-left: 130px;
+        line-height: 26px;
+    }
+</style>
+<div style="margin-top:480px;">
+  <!-- 我的奖励 -->
+  <div style="padding-bottom: 20px;">
+    <!-- 参与的方式 -->
+    <div class="mode">
+
+      <div class="mode-l">
+
+            <!--<a href="javascript:void(0)" onclick="show_little_alert('show_login_div')">-->
+<!--登录参与-->
+<!--</a>-->
+<style>
+  #show_login_div .Validform_wrong{
+    display: flex;
+    align-items: center;
+    padding: 5px 20px;
+    font-size: 12px;
+  }
+
+  #show_login_div .Validform_wrong::before{
+    content: '';
+    background: url(static/images/login_error_icon-2fdef50ff4540ce104cd74e7fcd05fb63bc863e243d4feebf77a5d7dec3f957a.png) no-repeat;/*兼容没测*/
+    background-size: cover;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-right: 2px;
+  }
+</style>
+<div id="show_login_div" style="display: none;">
+  <div class="font20 little-alert" style="top: 80px;position: fixed;">
+    <div class="alert-header">
+      <span class="title">欢迎登录！</span>
+      <i class="close-icon" onclick="polling_flag = false;$('#show_login_div').hide();"></i>
+    </div>
+    <div class="alert-content">
+      <div class="bid_form_div" style="padding: 20px 20px 10px 20px;text-align:center;">
+        <div class="publish-item login-type-select">
+          <div style="display: flex;margin-bottom: 20px;padding: 0 30px;">
+            <a class="font-link active" login_type="pwd" href="javascript:void(0);">密码登录</a>
+            <a class="font-link" login_type="wx" href="javascript:void(0);">微信登录</a>
+            <a class="font-link" login_type="valid" href="javascript:void(0);">验证码登录</a>
+          </div>
+
+          <div class="login-type">
+            <div class="pwd-login">
+              <form class="new_user" style="padding:0; margin:0;" id="new_user" action="/users/sign_in" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="lY7j5INjec5UaZngRRQjk/QXNPC/mwF67ZDTSSLJtAEa5pQDvvsVjOxBuW0b85Po7L2YkbGg4kYVVvifJkzgBg==" />
+                  <p><span class="font-red" style="font-size:14px;" id="err_msg"></span></p>
+                  <table class="publish-project_info" style="width: 80%; margin: 0 auto;" cellspacing="0" cellpadding="0">
+                    <tr>
+                      <td>
+                        <input autofocus="autofocus" id="new_user_mobile" placeholder="请输入手机号" datatype="*" class="ui-input" style="width:400px" nullmsg="不能为空" type="text" value="" name="user[mobile]" />
+                        <div class="Validform_checktip"></div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <input autocomplete="off" id="user_pwd" onkeydown="if(event.keyCode==13){document.getElementById(&#39;btn_login&#39;).click();return false};" placeholder="请输入您的密码" datatype="*" nullmsg="不能为空" style="width:400px" class="ui-input" type="password" name="user[password]" />
+                        <div class="Validform_checktip"></div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td align="font14 left" style="padding-left:20px;display: flex;justify-content: space-between;">
+                        <span>
+                          <label style="margin: 0;" for="ck_rmbUser">记住密码</label>
+                          <input type="checkbox" name="ck_rmbUser" id="ck_rmbUser" value="1" style="margin: 0 0 0 2px;" />
+                        </span>
+                        <span>
+                          <a class="font14 font-green1 mr20" href="/users/password/new">忘记密码?</a>
+                        </span>
+
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <input type="button" class="font16 ui-btn confirm-btn" style="width: 374px;" onclick="$('#err_msg').text('');" id="btn_login" AUTOCOMPLETE="off" value="登录">
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <a class="font16" style="color: #337ab7;" href="/member_applies?from=nav_top">注册</a>
+
+<!--                        <span>-->
+<!--                        </span>-->
+                      </td>
+                    </tr>
+                  </table>
+</form>            </div>
+            <div class="wx-login">
+              <img style="height: 160px;width: 160px;" id="wx_qr_img" src="static/picture/default_qr_code-e370b7478685a8868ad8f637a4b82d704cdafdb953b8fc24cb47930ca4a964f5.jpg" alt="Default qr code e370b7478685a8868ad8f637a4b82d704cdafdb953b8fc24cb47930ca4a964f5" />
+              <span class="font16" style="padding: 20px 0 0 0;">使用微信扫一扫登录</span>
+            </div>
+            <div class="valid-login">
+              <form id="login_by_mobile-for-login" action="/origins/login_by_mobile" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="QE7N6aog0Gg1+4w/xOS2UABhgq24kCm5BAKny4FFkV7PJroOl7i8Ko3TrLKaAwYrGMsuzLaryoX8xIwdhcDFWQ==" />
+                <div><span style="font-size:14px;" id="tip-msg"></span></div>
+                <table class="publish-project_info" style="width: 80%; margin: 0 auto;" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td colspan="2">
+                      <input type="tel" name="mobile" id="mobile" datatype="m" class="ui-input" style="width:400px;" placeHolder="请输入您的手机号码" />
+                      <div class="Validform_checktip"></div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td colspan="2">
+                      <div style="width: 400px;margin: 0 auto;display: flex;" id="validate_code_div">
+                          <span style="flex: 1 1 auto;">
+                            <input type="text" class="ui-input" name="validate_code" id="validate_code-for-login" style="width: 100%;" placeholder="请输入验证码" value="">
+                            <div class="Validform_checktip"></div>
+                          </span>
+                          <span style="padding: 0 10px;display: flex;flex-flow: column;justify-content: center;" id="validate_code_tip">
+                           <a href="#" id="yzm_btn_reg_box_for_login" onclick="yzm_reg_box();">获取短信验证码</a>
+                          </span>
+                      </div>
+                    </td>
+                    <!--<input type="button" onclick="send_code()" id="yzm_btn_reg_box_for_login" class="validate-code-btn" value="获取验证码">-->
+                  </tr>
+                  <tr>
+                    <td colspan="2">
+                      <p style="display: none; text-align: left;" id="wait_tip">
+                        请您耐心等待…… <br>
+                        您将会接到12590开头的电话为您播报验证码。
+                      </p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td colspan="2">
+                      <input type="button" class="font16 ui-btn confirm-btn" style="width: 374px;" onclick="submit_by_ajax(this)" AUTOCOMPLETE="off" value="登录">
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <a class="font16" style="color: #337ab7;" href="/member_applies?from=nav_top">注册</a>
+
+                      <!--                        <span>-->
+                      <!--                        </span>-->
+                    </td>
+                  </tr>
+                </table>
+</form>            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="shade-div"></div>
+</div>
+
+
+<form id="new_reg_validate_code" action="/validate_codes/create_reg" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="Y8F+K+WYbQIvrISsFEKwwe8FQCgY3tZYpSKogIRf4SbsqQnM2AABQJeEpCFKpQC696/sSRblNWRd5INWgNq1IQ==" />
+    <input type="hidden" name="validate_code[receiver]" id="reg_validate_code_receiver" value="" />
+    <input type="hidden" name="validate_code[send_type]" id="reg_validate_code_type" value="" />
+</form><script type="text/javascript">
+    var polling_flag = false;
+    $(function () {
+        var form_login = $("#new_user").Validform({
+            btnSubmit: "#btn_login",
+            showAllError: true,
+            tiptype: 4,
+            ajaxPost: true,
+            beforeSubmit: function (curform) {
+                $('#btn_login').val('正在登录...');
+                $('#btn_login').attr('disabled', true);
+            },
+            callback: function (data) {
+                if (data.status == "200" || data.status == 302) {
+                    save_login_info();
+//                  手机密码登录成功弹出登录成功窗口
+
+                    if (data.status == "200") {
+                        var replace_href = top.location.href;
+//                  点击意见反馈弹出框需登录 登录后弹出意见反馈窗口标志
+                        var form_href = $("#new_user").attr("action");
+                        if (form_href.match(/show_fb_dlg=true/)) {
+                            replace_href += (replace_href.match(/\?/) ? "&show_fb_dlg=true" : "?show_fb_dlg=true");
+                        }
+                        top.location.replace(replace_href);
+                    } else if (data.status == 302) {
+                        top.location.reload();
+                    }
+
+                } else if (data.status == "422") {
+                    $("#err_msg").text("页面已过期，请刷新页面后登陆！");
+                    $('#btn_login').val('登录');
+                    $('#btn_login').removeAttr('disabled');
+                } else {
+                    $("#err_msg").text("用户名或密码错误！");
+                    $('#btn_login').val('登录');
+                    $('#btn_login').removeAttr('disabled');
+                }
+                //$("#new_user_mobile").focus();
+            }
+
+        });
+        form_login.tipmsg.r = " ";
+
+
+        $('.font-link').on('click', function () {
+            $('.font-link').removeClass('active');
+            $(this).addClass('active');
+            var login_type = $(this).attr('login_type');
+            $('#tip-msg').text('');
+            if (login_type == 'pwd') {
+                $('.login-type').animate({
+                    marginLeft: '0',
+                    opacity: '0.5'
+                }, 500);
+                $('.login-type').animate({
+                    marginLeft: '0',
+                    opacity: '1'
+                }, 300);
+                polling_flag = false;
+            }
+
+            if (login_type == 'wx') {
+                $('#wx_qr_img').css('filter', 'blur(4px)');
+                $('.login-type').animate({
+                    opacity: '0.5',
+                    marginLeft: '-460px',
+                    opacity: '1'
+                }, 500, function () {
+                    $.ajax({
+                        type: 'get',
+                        dataType: 'json',
+                        url: "/home/get_qr_ticket",
+                        success: function (result, status, o) {
+                            polling_flag = true;
+                            if($('#wx_qr_img').attr('src') === 'https://mp.weixin.qq.com/cgi-bin/showqrcode?ticket=' + result['login_qr_ticket']){
+                            }else{
+                                $('#wx_qr_img').attr('src', 'https://mp.weixin.qq.com/cgi-bin/showqrcode?ticket=' + result['login_qr_ticket']);
+                            }
+                            // $('#wx_qr_img').attr('src', 'https://mp.weixin.qq.com/cgi-bin/showqrcode?ticket=' + 'gQG27zwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAyRE5xaE1hZGlkTDExN3hnVU5zMVoAAgRh-zZcAwSAUQEA');
+                            $('#wx_qr_img').css('filter', '');
+                            polling_find_user(0);
+                        }
+                    });
+                });
+
+            }
+
+
+            if (login_type == 'valid') {
+                $('#login_by_mobile-for-login').attr('action',$('#login_by_mobile-for-login').attr('action').replace(/scene_id=\d*/, '1=1'));
+                $('.login-type').animate({
+                    marginLeft: '-920px',
+                    opacity: '0.5'
+                }, 500);
+
+                $('#validate_code_tip').html("<a href='#' id='yzm_btn_reg_box_for_login' onclick='yzm_reg_box();'>获取短信验证码</a>");
+
+                $('.login-type').animate({
+                    opacity: '1'
+                }, 300);
+                polling_flag = false;
+            }
+
+        });
+
+        //记住密码
+        if ($.cookie("rmbUser") == "true") {
+            $("#ck_rmbUser").prop("checked", true);
+            $("#new_user_mobile").val($.cookie("new_user_mobile"));
+            $("#user_pwd").val($.cookie("user_pwd"));
+        }
+    });
+    // }).call(this);
+
+    //获取语音验证码
+    function getVoiceCode_by_login(e) {
+        var mobile = $('#mobile').val();
+        if (!(/^1[0-9]{10}$/.test(mobile))) {
+            // alert("请输入正确的手机号");
+            $('#mobile').next('.Validform_checktip').addClass('Validform_wrong').text('请输入正确的手机号');
+            return;
+        }else{
+            $('#mobile').next('.Validform_checktip').removeClass('Validform_wrong').text('');
+        }
+        $('#reg_validate_code_type').val('voice');
+        $('#reg_validate_code_receiver').val(mobile);
+        $("#new_reg_validate_code").ajaxSubmit({
+            success: function (data) {
+                $(e).parent().remove();
+                $('#wait_tip').show();
+            },
+            error: function () {
+                alert("异常错误");
+            }
+        });
+    };
+
+    function yzm_reg_box() {
+        var mobile = $('#mobile').val();
+        if (!(/^1[0-9]{10}$/.test(mobile))) {
+            // alert("请输入正确的手机号");
+            $('#mobile').next('.Validform_checktip').addClass('Validform_wrong').text('请输入正确的手机号');
+            return;
+        }else{
+            $('#mobile').next('.Validform_checktip').removeClass('Validform_wrong').text('');
+        }
+        $('#reg_validate_code_receiver').val(mobile);
+        $('#reg_validate_code_type').val('sms');
+        $("#new_reg_validate_code").ajaxSubmit({
+            dataType: 'script',
+            success: function (data) {
+                return timing($("#yzm_btn_reg_box_for_login"));
+            },
+            error: function () {
+                return alert("异常错误");
+            }
+        });
+    };
+
+    function timing($e) {
+        $p_node = $e.parent();
+        var wait = 60;
+        $p_node.html("未接到短信？(" + wait + ")秒后<br><a href='#'>点此获取语音验证码</a>");
+        var stop_code = setInterval(function () {
+            wait--;
+            if (wait === 0) {
+                $p_node.html("未接到短信？<br><a href='#' onclick='getVoiceCode_by_login(this)'>点此获取语音验证码</a>");
+                wait = 60;
+                return clearInterval(stop_code);
+            } else {
+                $p_node.html("未接到短信？(" + wait + ")秒后<br><a href='#'>点此获取语音验证码</a>");
+            }
+        }, 1000);
+    };
+
+    function submit_by_ajax(e) {
+        var mobile = $('#mobile').val();
+        var validate_code = $('#validate_code-for-login').val();
+        if (!(/^1[0-9]{10}$/.test(mobile))) {
+            // alert("请输入正确的手机号");
+            $('#mobile').next('.Validform_checktip').addClass('Validform_wrong').text('请输入正确的手机号');
+            return;
+        }else{
+            $('#mobile').next('.Validform_checktip').removeClass('Validform_wrong').text('');
+        }
+        $.ajax({
+            sync: true,
+            type: 'post',
+            url: '/validate_codes/check_validate_code.json',
+            data: {
+                'mobile': mobile,
+                'validate_code': validate_code,
+                authenticity_token: $("#login_by_mobile-for-login input[name='authenticity_token']").val()
+            },
+            dataType: 'json',
+            success: function (json) {
+                if (json) {
+                    $('#validate_code-for-login').next('.Validform_checktip').removeClass('Validform_wrong').text('');
+                    $("#login_by_mobile-for-login").submit();
+                } else {
+                    // alert('验证码有误!');
+                    $('#validate_code-for-login').next('.Validform_checktip').addClass('Validform_wrong').text('验证码有误!');
+                    $(e).val('登录');
+                    $(e).removeAttr('disabled');
+                }
+            },
+            beforeSend: function () {
+
+                $(e).val('正在登录...');
+                $(e).attr('disabled', true);
+            },
+            error: function () {
+                alert('网络繁忙，请稍候重试！');
+            }
+        })
+    }
+
+    //记住用户名密码
+    function save_login_info() {
+        if ($("#ck_rmbUser").prop("checked")) {
+            var new_user_mobile = $("#new_user_mobile").val();
+            var user_pwd = $("#user_pwd").val();
+            $.cookie("rmbUser", "true", {expires: 7}); //存储一个带7天期限的cookie
+            $.cookie("new_user_mobile", new_user_mobile, {expires: 7});
+            $.cookie("user_pwd", user_pwd, {expires: 7});
+        } else {
+            $.cookie("rmbUser", "false", {expire: -1});
+            $.cookie("new_user_mobile", "", {expires: -1});
+            $.cookie("user_pwd", "", {expires: -1});
+        }
+    }
+
+    function polling_find_user(recursion_deep) {
+        if(polling_flag){
+            var num = recursion_deep;
+
+            $.ajax({
+                type: 'get',
+                url: "/home/polling_find_user_from_qr",
+                dataType: 'json',
+                success: function (r) {
+                    if(r.tf){
+                        window.location.reload();
+                    }else{
+                        console.log('polling_f_u' + '--' + num.toString());
+                        if(r.scene_id && num > 0){
+                            var replace_href = $('#login_by_mobile-for-login').attr('action');
+                            replace_href += (replace_href.match(/\?/) ? "&scene_id=" + r.scene_id : "?scene_id=" + r.scene_id);
+                            $('#login_by_mobile-for-login').attr('action', replace_href);
+                            // 滑动到手机号登录界面
+                            $('#tip-msg').text('为了您的账户安全，请完成手机验证一键登录哦！');
+                            $('.login-type').animate({
+                                marginLeft: '-920px',
+                                opacity: '0.5'
+                            }, 500);
+                            $('.login-type').animate({
+                                opacity: '1'
+                            }, 300);
+                            polling_flag = false;
+                        }else{
+                            setTimeout(
+                                function() {
+                                    polling_find_user(++num)
+                                }, 2000);
+                        }
+                    }
+                }
+            });
+        }
+    }
+</script>
+            <div class="ewm" onclick="$('#show_login_div').show()"></div>
+            <div class="font-center">
+              <button type="button" class="button" onclick="$('#show_login_div').show()">获取二维码</button>
+            </div>
+
+      </div>
+      <div class="mode-r">
+        <div class="font-center" style="margin-top:472px;">
+              <button type="button" class="button" onclick="$('#show_login_div').show()">填写信息</button>
+        </div>
+
+      </div>
+    </div>
+    <!-- 我的邀请 -->
+
+    <!-- 动态展示 -->
+    <div class="dynamic">
+      <div class="dy_s">
+        <ul class="marquee" data-direction='down' data-duration='12000' data-pauseOnHover="true" data-duplicated='true'>
+                      <li>
+                          用户
+
+                        邀请了
+                        钢筋混凝土
+                        关注算客工场，获得200元算客优惠券。
+                        <span>2019-05-09</span></li>
+                      <li>
+                          用户
+
+                        邀请了
+                        蓝
+                        关注算客工场，获得200元算客优惠券。
+                        <span>2019-05-09</span></li>
+                      <li>
+                          <a target="_blank" href="/m/21394">于工(0021394)</a>
+
+                        邀请了
+                        阳光
+                        关注算客工场，获得200元算客优惠券。
+                        <span>2019-05-09</span></li>
+                      <li>
+                          <a target="_blank" href="/m/21394">于工(0021394)</a>
+
+                        邀请了
+                        刘永强
+                        关注算客工场，获得200元算客优惠券。
+                        <span>2019-05-09</span></li>
+                      <li>
+                          用户
+
+                        邀请了
+                        龙舌兰
+                        关注算客工场，获得200元算客优惠券。
+                        <span>2019-05-09</span></li>
+                      <li>
+                          用户
+
+                        邀请了
+                        阿步
+                        关注算客工场，获得200元算客优惠券。
+                        <span>2019-05-09</span></li>
+                      <li>
+                          用户
+
+                        邀请了
+                        León
+                        关注算客工场，获得200元算客优惠券。
+                        <span>2019-05-09</span></li>
+                      <li>
+                          用户
+
+                        邀请了
+                        H
+                        关注算客工场，获得200元算客优惠券。
+                        <span>2019-05-09</span></li>
+
+        </ul>
+
+
+      </div>
+
+      <div class="dy_x">
+        <ul data-direction='down' data-duration='12000' data-pauseOnHover="true" data-duplicated='true'>
+              <li>
+                      <a target="_blank" href="/m/103612">严工(0103612)</a>
+
+                    成功向算客工场推荐雇主 153****0299 的项目。
+                    <span>2019-01-07</span>
+
+              </li>
+
+              <li>
+                      广联达周艳芳周哈哈
+
+                    成功向算客工场推荐雇主 139****0998 的项目。
+                    <span>2018-12-10</span>
+
+              </li>
+
+              <li>
+                      <a target="_blank" href="/m/59950">胡工(0059950)</a>
+
+                    成功向算客工场推荐雇主 189****9489 的项目。
+                    <span>2018-09-19</span>
+
+              </li>
+
+              <li>
+                      <a target="_blank" href="/m/55034">欧工(0055034)</a>
+
+                    推荐的项目“<a target="_blank" href="/projects/15848">山东 济南 | 土建 | 算量</a>”圆满结束，
+                    成功获得佣金100元。
+                    <span>2018-08-29</span>
+              </li>
+
+              <li>
+                      <a target="_blank" href="/m/66">张工(0000066)</a>
+
+                    成功向算客工场推荐雇主 181****8661 的项目。
+                    <span>2018-08-28</span>
+
+              </li>
+
+              <li>
+                      <a target="_blank" href="/m/64">李工(0000064)</a>
+
+                    推荐的项目“<a target="_blank" href="/projects/14216">四川 成都 | 学校 | 安装 | 算量+编清单+组价</a>”圆满结束，
+                    成功获得佣金650元。
+                    <span>2018-08-13</span>
+              </li>
+
+              <li>
+                      <a target="_blank" href="/m/31307">王工(0031307)</a>
+
+                    成功向算客工场推荐雇主 186****0900 的项目。
+                    <span>2018-07-28</span>
+
+              </li>
+
+              <li>
+                      用户
+
+                    成功向算客工场推荐雇主 139****2756 的项目。
+                    <span>2018-06-01</span>
+
+              </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+
+  </div>
+</div>
+<script type='text/javascript'>
+    var _hmt = _hmt || [];
+    (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?455ff2b31e6e616c3896cdec23d94f4e";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+<img src="static/picture/track_ua.gif" width="0" height="0" style="line-height: 0;display: none;"/>
+</body>
+</html>

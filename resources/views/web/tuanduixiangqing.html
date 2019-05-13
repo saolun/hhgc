@@ -1,0 +1,1455 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!--  <meta name="viewport" content="width=device-width, initial-scale=1">-->
+  <title>信达造价工作室-算客工场-全国工程造价交易平台</title>
+  <meta name="description" content="算客工场--专注于算量业务外包的服务交易平台，平台聚集全国算量大赛获奖选手、资深专家、各地算量产品代言人等造价行业高手，为雇主提供高性价比的精准算量服务。"/>
+  <meta name="keywords" content="算客工场,兼职,抽钢筋,算量,安装,精装,造价,北京小栗科技有限公司"/>
+
+  <link rel="stylesheet" media="all" href="static/css/application-f742c9f4d291b8a5e98f7948d3ab74777a2b906c7081c9c6a7b3a231883543f5.css" data-turbolinks-track="true" />
+
+  <script src="static/js/application-a53f0e0a6a61a86e6cb8f94a2fb64a861d3f1c5f341a2ae992c4adf325a4ea38.js" data-turbolinks-track="true"></script>
+  <script src="static/js/charts_utils.js" data-turbolinks-track="true"></script>
+  <script src="static/js/highcharts.js" data-turbolinks-track="true"></script>
+  <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="Kcbe8/H2D1AN7nTCIDHy24pGIuM3Asbs96aFSmCd1Va6K7yWyDZBjz+OaAdmufvP59vFR9SYq4o6gJTi2yOVJQ==" />
+  <style>
+    .header {
+      position: relative;
+      z-index: 0;
+    }
+  </style>
+</head>
+<body style="background: #f5f5f5;">
+<div class="header" style="z-index: 999;">
+  <div class="w rel">
+    <a href="/" class="fl">
+      <img src="static/picture/logo-b-7dc7909fd0c649f0c33ead53590ba017abe9398b2493a0a86bff0fdbd0093c5e.png" alt="Logo b 7dc7909fd0c649f0c33ead53590ba017abe9398b2493a0a86bff0fdbd0093c5e" width="147" height="38" />
+    </a>
+    <ul class="mnav fl">
+      <li>
+        <a href="/home/pub_index">发布项目</a>
+      </li>
+      <li>
+        <a href="/projects/pub">项目</a>
+      </li>
+      <li>
+        <a href="/companies">企业/团队</a>
+      </li>
+      <li>
+        <a href="/members">算客</a>
+      </li>
+      <!--      <li>-->
+      <!--      </li>-->
+
+      <li>
+        <a href="/qas">帮助</a>
+      </li>
+    </ul>
+
+    <div class="login mr">
+  <div class="loginLater">
+    <a class="userTitle new" href="javascript:void(0);">
+      发现
+      <img src="static/picture/nav_dropdown-8b682a5122f5ec43ead40fb80dd8293a4e0db544b05ede7efecbffaac19024a2.png" alt="Nav dropdown 8b682a5122f5ec43ead40fb80dd8293a4e0db544b05ede7efecbffaac19024a2" />
+    </a>
+
+    <div class="umenu" style="position: absolute; left:0;">
+      <ul style="display: block;">
+        <li>
+          <a href="/recruits">招聘</a>
+        </li>
+        <li>
+          <a href="/share_softwares">工具箱</a>
+        </li>
+        <li>
+          <a href="/articles">最新动态</a>
+        </li>
+        <li>
+          <a target="_blank" href="/vip_members/new">算客会员</a>
+        </li>
+<!--        <li>-->
+<!--        </li>-->
+        <li>
+          <a target="_blank" href="/origins">算客经纪人</a>
+        </li>
+        <li>
+          <a href="/coupons">算客大礼包</a>
+        </li>
+        <li>
+          <a href="/my/perm">我的权限</a>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+</div>
+
+    <div class="login fr">
+
+
+        <a class="loginButton" onclick="$('#show_login_div').show()" href="javascript:;">登录</a>
+
+        <a class="regButton" href="/member_applies?from=nav_top">注册</a>
+
+    </div>
+  </div>
+</div>
+<div class="clearfix"></div>
+  <!--<a href="javascript:void(0)" onclick="show_little_alert('show_login_div')">-->
+<!--登录参与-->
+<!--</a>-->
+<style>
+  #show_login_div .Validform_wrong{
+    display: flex;
+    align-items: center;
+    padding: 5px 20px;
+    font-size: 12px;
+  }
+
+  #show_login_div .Validform_wrong::before{
+    content: '';
+    background: url(static/images/login_error_icon-2fdef50ff4540ce104cd74e7fcd05fb63bc863e243d4feebf77a5d7dec3f957a.png) no-repeat;/*兼容没测*/
+    background-size: cover;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-right: 2px;
+  }
+</style>
+<div id="show_login_div" style="display: none;">
+  <div class="font20 little-alert" style="top: 80px;position: fixed;">
+    <div class="alert-header">
+      <span class="title">欢迎登录！</span>
+      <i class="close-icon" onclick="polling_flag = false;$('#show_login_div').hide();"></i>
+    </div>
+    <div class="alert-content">
+      <div class="bid_form_div" style="padding: 20px 20px 10px 20px;text-align:center;">
+        <div class="publish-item login-type-select">
+          <div style="display: flex;margin-bottom: 20px;padding: 0 30px;">
+            <a class="font-link active" login_type="pwd" href="javascript:void(0);">密码登录</a>
+            <a class="font-link" login_type="wx" href="javascript:void(0);">微信登录</a>
+            <a class="font-link" login_type="valid" href="javascript:void(0);">验证码登录</a>
+          </div>
+
+          <div class="login-type">
+            <div class="pwd-login">
+              <form class="new_user" style="padding:0; margin:0;" id="new_user" action="/users/sign_in" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="ScqvnisDexybI9c97VV7JJ2RZRP4HGfapdMVwr4fRUbaJ837EsM1w6lDy/ir3XIw8AyCtxuGCrxo9QRqBaEFNQ==" />
+                  <p><span class="font-red" style="font-size:14px;" id="err_msg"></span></p>
+                  <table class="publish-project_info" style="width: 80%; margin: 0 auto;" cellspacing="0" cellpadding="0">
+                    <tr>
+                      <td>
+                        <input autofocus="autofocus" id="new_user_mobile" placeholder="请输入手机号" datatype="*" class="ui-input" style="width:400px" nullmsg="不能为空" type="text" value="" name="user[mobile]" />
+                        <div class="Validform_checktip"></div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <input autocomplete="off" id="user_pwd" onkeydown="if(event.keyCode==13){document.getElementById(&#39;btn_login&#39;).click();return false};" placeholder="请输入您的密码" datatype="*" nullmsg="不能为空" style="width:400px" class="ui-input" type="password" name="user[password]" />
+                        <div class="Validform_checktip"></div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td align="font14 left" style="padding-left:20px;display: flex;justify-content: space-between;">
+                        <span>
+                          <label style="margin: 0;" for="ck_rmbUser">记住密码</label>
+                          <input type="checkbox" name="ck_rmbUser" id="ck_rmbUser" value="1" style="margin: 0 0 0 2px;" />
+                        </span>
+                        <span>
+                          <a class="font14 font-green1 mr20" href="/users/password/new">忘记密码?</a>
+                        </span>
+
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <input type="button" class="font16 ui-btn confirm-btn" style="width: 374px;" onclick="$('#err_msg').text('');" id="btn_login" AUTOCOMPLETE="off" value="登录">
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <a class="font16" style="color: #337ab7;" href="/member_applies?from=nav_top">注册</a>
+
+<!--                        <span>-->
+<!--                        </span>-->
+                      </td>
+                    </tr>
+                  </table>
+</form>            </div>
+            <div class="wx-login">
+              <img style="height: 160px;width: 160px;" id="wx_qr_img" src="static/picture/default_qr_code-e370b7478685a8868ad8f637a4b82d704cdafdb953b8fc24cb47930ca4a964f5.jpg" alt="Default qr code e370b7478685a8868ad8f637a4b82d704cdafdb953b8fc24cb47930ca4a964f5" />
+              <span class="font16" style="padding: 20px 0 0 0;">使用微信扫一扫登录</span>
+            </div>
+            <div class="valid-login">
+              <form id="login_by_mobile-for-login" action="/origins/login_by_mobile" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="tbWUohjQ6zOQftAnQjp+lv2YKVHA8Dzk4YmM6u63VZUmWPbHIRCl7KIezOIEsneCkAXO9SNqUYIsr51CVQkV5g==" />
+                <div><span style="font-size:14px;" id="tip-msg"></span></div>
+                <table class="publish-project_info" style="width: 80%; margin: 0 auto;" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td colspan="2">
+                      <input type="tel" name="mobile" id="mobile" datatype="m" class="ui-input" style="width:400px;" placeHolder="请输入您的手机号码" />
+                      <div class="Validform_checktip"></div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td colspan="2">
+                      <div style="width: 400px;margin: 0 auto;display: flex;" id="validate_code_div">
+                          <span style="flex: 1 1 auto;">
+                            <input type="text" class="ui-input" name="validate_code" id="validate_code-for-login" style="width: 100%;" placeholder="请输入验证码" value="">
+                            <div class="Validform_checktip"></div>
+                          </span>
+                          <span style="padding: 0 10px;display: flex;flex-flow: column;justify-content: center;" id="validate_code_tip">
+                           <a href="#" id="yzm_btn_reg_box_for_login" onclick="yzm_reg_box();">获取短信验证码</a>
+                          </span>
+                      </div>
+                    </td>
+                    <!--<input type="button" onclick="send_code()" id="yzm_btn_reg_box_for_login" class="validate-code-btn" value="获取验证码">-->
+                  </tr>
+                  <tr>
+                    <td colspan="2">
+                      <p style="display: none; text-align: left;" id="wait_tip">
+                        请您耐心等待…… <br>
+                        您将会接到12590开头的电话为您播报验证码。
+                      </p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td colspan="2">
+                      <input type="button" class="font16 ui-btn confirm-btn" style="width: 374px;" onclick="submit_by_ajax(this)" AUTOCOMPLETE="off" value="登录">
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <a class="font16" style="color: #337ab7;" href="/member_applies?from=nav_top">注册</a>
+
+                      <!--                        <span>-->
+                      <!--                        </span>-->
+                    </td>
+                  </tr>
+                </table>
+</form>            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="shade-div"></div>
+</div>
+
+
+<form id="new_reg_validate_code" action="/validate_codes/create_reg" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="2t/cXmUgxZ5rDb0sb58kKc7hHaWHT38TlgeKsq/dlf1JMr47XOCLQVltoekpFy09o3z6AWTVEnVbIZsaFGPVjg==" />
+    <input type="hidden" name="validate_code[receiver]" id="reg_validate_code_receiver" value="" />
+    <input type="hidden" name="validate_code[send_type]" id="reg_validate_code_type" value="" />
+</form><script type="text/javascript">
+    var polling_flag = false;
+    $(function () {
+        var form_login = $("#new_user").Validform({
+            btnSubmit: "#btn_login",
+            showAllError: true,
+            tiptype: 4,
+            ajaxPost: true,
+            beforeSubmit: function (curform) {
+                $('#btn_login').val('正在登录...');
+                $('#btn_login').attr('disabled', true);
+            },
+            callback: function (data) {
+                if (data.status == "200" || data.status == 302) {
+                    save_login_info();
+//                  手机密码登录成功弹出登录成功窗口
+
+                    if (data.status == "200") {
+                        var replace_href = top.location.href;
+//                  点击意见反馈弹出框需登录 登录后弹出意见反馈窗口标志
+                        var form_href = $("#new_user").attr("action");
+                        if (form_href.match(/show_fb_dlg=true/)) {
+                            replace_href += (replace_href.match(/\?/) ? "&show_fb_dlg=true" : "?show_fb_dlg=true");
+                        }
+                        top.location.replace(replace_href);
+                    } else if (data.status == 302) {
+                        top.location.reload();
+                    }
+
+                } else if (data.status == "422") {
+                    $("#err_msg").text("页面已过期，请刷新页面后登陆！");
+                    $('#btn_login').val('登录');
+                    $('#btn_login').removeAttr('disabled');
+                } else {
+                    $("#err_msg").text("用户名或密码错误！");
+                    $('#btn_login').val('登录');
+                    $('#btn_login').removeAttr('disabled');
+                }
+                //$("#new_user_mobile").focus();
+            }
+
+        });
+        form_login.tipmsg.r = " ";
+
+
+        $('.font-link').on('click', function () {
+            $('.font-link').removeClass('active');
+            $(this).addClass('active');
+            var login_type = $(this).attr('login_type');
+            $('#tip-msg').text('');
+            if (login_type == 'pwd') {
+                $('.login-type').animate({
+                    marginLeft: '0',
+                    opacity: '0.5'
+                }, 500);
+                $('.login-type').animate({
+                    marginLeft: '0',
+                    opacity: '1'
+                }, 300);
+                polling_flag = false;
+            }
+
+            if (login_type == 'wx') {
+                $('#wx_qr_img').css('filter', 'blur(4px)');
+                $('.login-type').animate({
+                    opacity: '0.5',
+                    marginLeft: '-460px',
+                    opacity: '1'
+                }, 500, function () {
+                    $.ajax({
+                        type: 'get',
+                        dataType: 'json',
+                        url: "/home/get_qr_ticket",
+                        success: function (result, status, o) {
+                            polling_flag = true;
+                            if($('#wx_qr_img').attr('src') === 'https://mp.weixin.qq.com/cgi-bin/showqrcode?ticket=' + result['login_qr_ticket']){
+                            }else{
+                                $('#wx_qr_img').attr('src', 'https://mp.weixin.qq.com/cgi-bin/showqrcode?ticket=' + result['login_qr_ticket']);
+                            }
+                            // $('#wx_qr_img').attr('src', 'https://mp.weixin.qq.com/cgi-bin/showqrcode?ticket=' + 'gQG27zwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAyRE5xaE1hZGlkTDExN3hnVU5zMVoAAgRh-zZcAwSAUQEA');
+                            $('#wx_qr_img').css('filter', '');
+                            polling_find_user(0);
+                        }
+                    });
+                });
+
+            }
+
+
+            if (login_type == 'valid') {
+                $('#login_by_mobile-for-login').attr('action',$('#login_by_mobile-for-login').attr('action').replace(/scene_id=\d*/, '1=1'));
+                $('.login-type').animate({
+                    marginLeft: '-920px',
+                    opacity: '0.5'
+                }, 500);
+
+                $('#validate_code_tip').html("<a href='#' id='yzm_btn_reg_box_for_login' onclick='yzm_reg_box();'>获取短信验证码</a>");
+
+                $('.login-type').animate({
+                    opacity: '1'
+                }, 300);
+                polling_flag = false;
+            }
+
+        });
+
+        //记住密码
+        if ($.cookie("rmbUser") == "true") {
+            $("#ck_rmbUser").prop("checked", true);
+            $("#new_user_mobile").val($.cookie("new_user_mobile"));
+            $("#user_pwd").val($.cookie("user_pwd"));
+        }
+    });
+    // }).call(this);
+
+    //获取语音验证码
+    function getVoiceCode_by_login(e) {
+        var mobile = $('#mobile').val();
+        if (!(/^1[0-9]{10}$/.test(mobile))) {
+            // alert("请输入正确的手机号");
+            $('#mobile').next('.Validform_checktip').addClass('Validform_wrong').text('请输入正确的手机号');
+            return;
+        }else{
+            $('#mobile').next('.Validform_checktip').removeClass('Validform_wrong').text('');
+        }
+        $('#reg_validate_code_type').val('voice');
+        $('#reg_validate_code_receiver').val(mobile);
+        $("#new_reg_validate_code").ajaxSubmit({
+            success: function (data) {
+                $(e).parent().remove();
+                $('#wait_tip').show();
+            },
+            error: function () {
+                alert("异常错误");
+            }
+        });
+    };
+
+    function yzm_reg_box() {
+        var mobile = $('#mobile').val();
+        if (!(/^1[0-9]{10}$/.test(mobile))) {
+            // alert("请输入正确的手机号");
+            $('#mobile').next('.Validform_checktip').addClass('Validform_wrong').text('请输入正确的手机号');
+            return;
+        }else{
+            $('#mobile').next('.Validform_checktip').removeClass('Validform_wrong').text('');
+        }
+        $('#reg_validate_code_receiver').val(mobile);
+        $('#reg_validate_code_type').val('sms');
+        $("#new_reg_validate_code").ajaxSubmit({
+            dataType: 'script',
+            success: function (data) {
+                return timing($("#yzm_btn_reg_box_for_login"));
+            },
+            error: function () {
+                return alert("异常错误");
+            }
+        });
+    };
+
+    function timing($e) {
+        $p_node = $e.parent();
+        var wait = 60;
+        $p_node.html("未接到短信？(" + wait + ")秒后<br><a href='#'>点此获取语音验证码</a>");
+        var stop_code = setInterval(function () {
+            wait--;
+            if (wait === 0) {
+                $p_node.html("未接到短信？<br><a href='#' onclick='getVoiceCode_by_login(this)'>点此获取语音验证码</a>");
+                wait = 60;
+                return clearInterval(stop_code);
+            } else {
+                $p_node.html("未接到短信？(" + wait + ")秒后<br><a href='#'>点此获取语音验证码</a>");
+            }
+        }, 1000);
+    };
+
+    function submit_by_ajax(e) {
+        var mobile = $('#mobile').val();
+        var validate_code = $('#validate_code-for-login').val();
+        if (!(/^1[0-9]{10}$/.test(mobile))) {
+            // alert("请输入正确的手机号");
+            $('#mobile').next('.Validform_checktip').addClass('Validform_wrong').text('请输入正确的手机号');
+            return;
+        }else{
+            $('#mobile').next('.Validform_checktip').removeClass('Validform_wrong').text('');
+        }
+        $.ajax({
+            sync: true,
+            type: 'post',
+            url: '/validate_codes/check_validate_code.json',
+            data: {
+                'mobile': mobile,
+                'validate_code': validate_code,
+                authenticity_token: $("#login_by_mobile-for-login input[name='authenticity_token']").val()
+            },
+            dataType: 'json',
+            success: function (json) {
+                if (json) {
+                    $('#validate_code-for-login').next('.Validform_checktip').removeClass('Validform_wrong').text('');
+                    $("#login_by_mobile-for-login").submit();
+                } else {
+                    // alert('验证码有误!');
+                    $('#validate_code-for-login').next('.Validform_checktip').addClass('Validform_wrong').text('验证码有误!');
+                    $(e).val('登录');
+                    $(e).removeAttr('disabled');
+                }
+            },
+            beforeSend: function () {
+
+                $(e).val('正在登录...');
+                $(e).attr('disabled', true);
+            },
+            error: function () {
+                alert('网络繁忙，请稍候重试！');
+            }
+        })
+    }
+
+    //记住用户名密码
+    function save_login_info() {
+        if ($("#ck_rmbUser").prop("checked")) {
+            var new_user_mobile = $("#new_user_mobile").val();
+            var user_pwd = $("#user_pwd").val();
+            $.cookie("rmbUser", "true", {expires: 7}); //存储一个带7天期限的cookie
+            $.cookie("new_user_mobile", new_user_mobile, {expires: 7});
+            $.cookie("user_pwd", user_pwd, {expires: 7});
+        } else {
+            $.cookie("rmbUser", "false", {expire: -1});
+            $.cookie("new_user_mobile", "", {expires: -1});
+            $.cookie("user_pwd", "", {expires: -1});
+        }
+    }
+
+    function polling_find_user(recursion_deep) {
+        if(polling_flag){
+            var num = recursion_deep;
+
+            $.ajax({
+                type: 'get',
+                url: "/home/polling_find_user_from_qr",
+                dataType: 'json',
+                success: function (r) {
+                    if(r.tf){
+                        window.location.reload();
+                    }else{
+                        console.log('polling_f_u' + '--' + num.toString());
+                        if(r.scene_id && num > 0){
+                            var replace_href = $('#login_by_mobile-for-login').attr('action');
+                            replace_href += (replace_href.match(/\?/) ? "&scene_id=" + r.scene_id : "?scene_id=" + r.scene_id);
+                            $('#login_by_mobile-for-login').attr('action', replace_href);
+                            // 滑动到手机号登录界面
+                            $('#tip-msg').text('为了您的账户安全，请完成手机验证一键登录哦！');
+                            $('.login-type').animate({
+                                marginLeft: '-920px',
+                                opacity: '0.5'
+                            }, 500);
+                            $('.login-type').animate({
+                                opacity: '1'
+                            }, 300);
+                            polling_flag = false;
+                        }else{
+                            setTimeout(
+                                function() {
+                                    polling_find_user(++num)
+                                }, 2000);
+                        }
+                    }
+                }
+            });
+        }
+    }
+</script>
+
+<div class="g-wrap mt20">
+  <div class="personal wrap">
+      <style>
+  .company-nav {
+    float: left;
+    width: 300px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    text-align: center;
+    padding-top: 20px;
+  }
+
+  .company-nav .company-info {
+
+  }
+    .company-info .logo img{
+      border-radius: 6px;
+    }
+
+  .company-info .title{
+    font-size: 16px;
+    text-align: left;
+    padding: 10px 20px;
+    margin: 0 auto;
+    display: inline-block;
+  }
+  .company-info .region{
+    color: #999999;
+  }
+  .company-info .region img{
+    width: 12px;
+    vertical-align: sub;
+  }
+  .company-info .operations{
+    padding: 0 20px;
+  }
+
+  .company-info .operations .employ {
+    display: block;
+    padding: 10px 0;
+    margin: 20px 0;
+    background-color: #f06746;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+  }
+  .company-info .operations #store_company{
+    margin: 20px 0;
+  }
+  .company-info .operations .clt_mbr button{
+    display: block;
+    background-color: #f06746;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    width: 100%;
+    border: none;
+    padding: 10px 0;
+  }
+  .company-info .guarantee{
+    color: #999999;
+    margin: 20px 0;
+  }
+  .company-info .guarantee em{
+    color: #f06746;
+  }
+  .page-view-div td{
+    border: 1px solid #f5f5f5;
+    border-bottom: none;
+    color: #999999;
+  }
+  .page-view-div td:nth-of-type(1){
+    border-left: none;
+  }
+  .page-view-div td:nth-of-type(3){
+    border-right: none;
+  }
+  .page-view-div th:nth-of-type(1){
+    border-left: none;
+  }
+  .page-view-div th:nth-of-type(3){
+    border-right: none;
+  }
+  .page-view-div th{
+    border: 1px solid #f5f5f5;
+    border-bottom: none;
+    border-top: none;
+  }
+
+
+</style>
+<div class="company-nav">
+  <div class="company-info">
+    <div class="logo
+        copper
+">
+      <img src="static/picture/4117290427___-____.png" alt="4117290427        " width="83" height="83" />
+    </div>
+
+    <div class="company-org-tag">
+          <div class="vip-pro-show copper">
+            先锋团队
+          </div>
+    </div>
+    <div class="title">
+      信达造价工作室
+    </div>
+    <div class="region">
+      <img src="static/picture/region_seek_cont-3fa6b6bbfbd5784d6529417bd33ea49f8482506832fd18c0102a28e1f4f31ffd.png" alt="Region seek cont 3fa6b6bbfbd5784d6529417bd33ea49f8482506832fd18c0102a28e1f4f31ffd" />&nbsp;宁夏 银川市
+    </div>
+      <div class="guarantee">
+        保证金：<em>¥2000</em>
+      </div>
+    <div class="operations">
+        <a href="javascript: void(0);" class="employ" onclick="$('#show_login_div').show()">收藏企业</a>
+        <a class="employ" target="_blank" href="/projects/publish_way?project%5Bhire%5D=20815&amp;project%5Bis_hire_com%5D=1">雇佣TA</a>
+          <a class="blank-btn employ" data-toggle="modal" data-target="#greet_pop" data-remote="true" href="/companies/135/tips/new_greet.js">打招呼</a>
+    </div>
+  </div>
+  <div class="page-view-div">
+    <table>
+      <tr>
+        <td>昨日浏览量</td>
+        <td>总浏览量</td>
+        <td>收藏量</td>
+      </tr>
+      <tr>
+        <th>6</th>
+        <th>728</th>
+        <th id="store_amount">0</th>
+      </tr>
+    </table>
+  </div>
+</div>
+
+    <div class="personal-content">
+      <style>
+  .company-item{
+    margin-bottom: 10px;
+    border-radius: 10px;
+  }
+  .company-item .pro-row {
+    margin: 10px 40px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #f5f5f5;
+    font-size: 14px;
+  }
+
+  .company-item .pro-row .row {
+    text-align: left;
+    padding: 3px 0;
+  }
+
+  .company-item .pro-row .row .title {
+    font-size: 16px;
+  }
+
+  .company-item .pro-row .pro-info {
+    color: #666666;
+  }
+
+  .company-item .pro-row .pro-comment {
+    color: #666666;
+  }
+
+  .company-item .pro-row .take-in-date em {
+    float: right;
+    font-size: 12px;
+    color: #999999;
+    margin-top: 6px;
+  }
+
+  .nav-tabs {
+    border: none;
+    border-bottom: 1px solid #f5f5f5;
+  }
+
+  .nav-tabs .active {
+    border: none;
+  }
+  .nav-tabs > li {
+    margin-bottom: 0;
+  }
+  .nav-tabs > li > a:hover {
+    border: none;
+    background: none;
+    border-bottom: 2px solid #f06746;
+  }
+
+  .nav-tabs > li > a {
+    border: none;
+    background: none;
+    height: 50px;
+    line-height: 30px;
+    font-size: 18px;
+  }
+
+  .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    border: none;
+    color: #f06746;
+    border-bottom: 2px solid #f06746;
+  }
+    .off-line .pro-info .col em{
+      color: #f06746;
+    }
+  .off-line .pro-info{
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+  .off-line .pro-info .col{
+    padding: 0;
+    margin: 0;
+  }
+
+    .slider-box {
+      text-align: center;
+    }
+    .slider-box .bx-wrapper{
+      margin: 20px auto;
+      box-shadow: none;
+    }
+
+    .slider-box .bx-controls{
+      margin: 0 auto;
+    }
+  .bx-wrapper .bx-next {
+    background: url(static/images/controls-fb8bb2cb24ed3e2582ee453261b95c28be7a9281ebaded11cd31207ec1254ee2.png) no-repeat -43px -32px;
+  }
+  .bx-wrapper .bx-prev {
+    background: url(static/images/controls-fb8bb2cb24ed3e2582ee453261b95c28be7a9281ebaded11cd31207ec1254ee2.png) no-repeat 0 -32px;
+  }
+
+
+  .img-item {
+    margin: 0;
+  }
+
+  .cert-list .img-item{
+    height: 200px;
+  }
+  .cert-list .img-label{
+    top: 170px;
+    width: 200px;
+  }
+  .img-item img{
+    width: 200px;
+    height: 200px;
+  }
+  .img-item .img-operate a{
+    background: #f8a27c;
+    padding: 9px 12px;
+    display: block;
+    float: left;
+    margin-right: 2px;
+  }
+  .person-list .img-item{
+    width: 200px;
+    height: 200px;
+    font-size: 14px;
+    display: inline-block;
+    margin: 5px;
+    position: relative;
+  }
+  .person-list .img-label{
+    color: #333333;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    width: 200px;
+  }
+  .personal-content .personal-item p {
+    font-size: 14px;
+    line-height: 30px;
+    padding: 15px 40px;
+  }
+
+  .upgrade a{
+    color: #f06746;
+    padding: 2px 8px;
+    border: 1px solid #f06746;
+    border-radius: 4px;
+  }
+  .upgrade a:hover{
+    color: #ffffff;
+    background: #f06746;
+  }
+  .bx-wrapper .bx-controls-direction a {
+    text-indent: -9999px;
+    z-index: 99;
+  }
+</style>
+  <div class="personal-item" style="text-align: left;">
+
+  <h2>
+    <em>团队介绍</em>
+  </h2>
+
+  <p id="company_instr_show">团队由5人组成，其中土建、市政、绿化3人，安装两人。拥有多年从事造价咨询业务经验，擅长工程量计算，控制价、预结算编制。</p>
+</div>
+<div class="personal-item modeltype-row bg-white" style="text-align: left;">
+
+
+</div>
+
+
+<div class="personal-item bg-white modeltype-row" style="padding: 20px;">
+    <div class="data-item">
+      <div class="data-title"><span style="background: #ffffff;">完成项目数据</span></div>
+      <div class="data-img">
+        <div id="pie2d_container" style="min-height:200px"></div>
+      </div>
+      <div class="data-info">
+        <table>
+          <tr>
+            <td>共完成：</td>
+            <td>13&nbsp;个</td>
+            <td>总规模：</td>
+            <td>77033&nbsp;平方米</td>
+          </tr>
+          <tr>
+            <td>总用时：</td>
+            <td>53&nbsp;天</td>
+            <td>总收入：</td>
+            <td>
+              55600.0
+              元
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <div class="data-item">
+      <div class="data-title"><span style="background: #ffffff;">团队能力展示</span></div>
+      <div class="data-img">
+        <div id="radar_container" style="min-height:200px"></div>
+      </div>
+      <div class="data-info">
+        <table>
+          <tr>
+            <td>好评率：</td>
+            <td>
+                100%
+            </td>
+            <td>信誉分：</td>
+            <td>100（高）</td>
+          </tr>
+          <tr>
+            <td>纠纷：</td>
+            <td>0&nbsp;个</td>
+            <td>成果按时交付率：</td>
+            <td>
+                100%
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div class="row" style="margin-left: -20px;">
+      <div class="col-xs-2 title">专业范围：</div>
+      <div class="col-xs-10 content">
+        <div class="modeltype_list">
+            <div>土建\钢筋</div>
+            <div>土建\钢构</div>
+            <div>安装</div>
+            <div>市政\园林\绿化</div>
+        </div>
+      </div>
+    </div>
+</div>
+
+<div class="company-item bg-white">
+  <!-- Nav tabs -->
+  <ul class="nav nav-tabs" role="tablist" style="padding-left: 40px;">
+    <li role="presentation" class="active">
+      <a href="#online" aria-controls="home" role="tab" data-toggle="tab">完成项目</a>
+    </li>
+    <li role="presentation">
+      <a href="#offline" aria-controls="profile" role="tab" data-toggle="tab">线下项目</a>
+    </li>
+  </ul>
+  <!-- Tab panes -->
+  <div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="online">
+      <div class="list-group list-custom">
+          <div class="pro-row">
+            <div class="row">
+              <div class="col col-xs-9 title">
+                <a href="/projects/18845" target="_blank">
+                  宁夏固原|锅炉房/泵房|土建|算量+编清单+组价|广联达
+                </a>
+              </div>
+              <div class="col col-xs-3 take-in-date">
+                <em>承接日期:2019-04-02</em>
+              </div>
+            </div>
+            <div class="row pro-info">
+              <div class="col col-xs-4">
+                项目金额：<em style="color: #f06746;">¥500</em>
+              </div>
+              <div class="col col-xs-4">
+                项目规模：<em></em>
+              </div>
+              <div class="col col-xs-4">
+                项目周期：<em>1.9</em>天
+              </div>
+            </div>
+            <div class="row pro-comment">
+              <div class="col col-xs-12">
+                评价：<em title="辛苦了，谢谢">辛苦了，谢谢</em>
+              </div>
+            </div>
+          </div>
+          <div class="pro-row">
+            <div class="row">
+              <div class="col col-xs-9 title">
+                <a href="/projects/15439" target="_blank">
+                  标段3:10#地块4#工程量和清单提量
+                </a>
+              </div>
+              <div class="col col-xs-3 take-in-date">
+                <em>承接日期:2018-08-02</em>
+              </div>
+            </div>
+            <div class="row pro-info">
+              <div class="col col-xs-4">
+                项目金额：<em style="color: #f06746;">¥900</em>
+              </div>
+              <div class="col col-xs-4">
+                项目规模：<em>1010平方米</em>
+              </div>
+              <div class="col col-xs-4">
+                项目周期：<em>4.5</em>天
+              </div>
+            </div>
+            <div class="row pro-comment">
+              <div class="col col-xs-12">
+                评价：<em title="感谢配合">感谢配合</em>
+              </div>
+            </div>
+          </div>
+          <div class="pro-row">
+            <div class="row">
+              <div class="col col-xs-9 title">
+                <a href="/projects/16223" target="_blank">
+                  宁夏 固原 | 住宅（地上部分）|中高层住宅（18层及以下） | 土建 | 算量+编清单+组价
+                </a>
+              </div>
+              <div class="col col-xs-3 take-in-date">
+                <em>承接日期:2018-09-18</em>
+              </div>
+            </div>
+            <div class="row pro-info">
+              <div class="col col-xs-4">
+                项目金额：<em style="color: #f06746;">¥35000</em>
+              </div>
+              <div class="col col-xs-4">
+                项目规模：<em>54400平方米</em>
+              </div>
+              <div class="col col-xs-4">
+                项目周期：<em>10.0</em>天
+              </div>
+            </div>
+            <div class="row pro-comment">
+              <div class="col col-xs-12">
+                评价：<em title=""></em>
+              </div>
+            </div>
+          </div>
+          <div class="pro-row">
+            <div class="row">
+              <div class="col col-xs-9 title">
+                <a href="/projects/14957" target="_blank">
+                  标段11：12#工程量计算和清单提量
+                </a>
+              </div>
+              <div class="col col-xs-3 take-in-date">
+                <em>承接日期:2018-07-06</em>
+              </div>
+            </div>
+            <div class="row pro-info">
+              <div class="col col-xs-4">
+                项目金额：<em style="color: #f06746;">¥1000</em>
+              </div>
+              <div class="col col-xs-4">
+                项目规模：<em>1648平方米</em>
+              </div>
+              <div class="col col-xs-4">
+                项目周期：<em>2.0</em>天
+              </div>
+            </div>
+            <div class="row pro-comment">
+              <div class="col col-xs-12">
+                评价：<em title="辛苦了，谢谢你的付出">辛苦了，谢谢你的付出</em>
+              </div>
+            </div>
+          </div>
+          <div class="pro-row">
+            <div class="row">
+              <div class="col col-xs-9 title">
+                <a href="/projects/14836" target="_blank">
+                  宁夏 固原 | 医院 | 安装 | 组价
+                </a>
+              </div>
+              <div class="col col-xs-3 take-in-date">
+                <em>承接日期:2018-06-27</em>
+              </div>
+            </div>
+            <div class="row pro-info">
+              <div class="col col-xs-4">
+                项目金额：<em style="color: #f06746;">¥1000</em>
+              </div>
+              <div class="col col-xs-4">
+                项目规模：<em></em>
+              </div>
+              <div class="col col-xs-4">
+                项目周期：<em>1.2</em>天
+              </div>
+            </div>
+            <div class="row pro-comment">
+              <div class="col col-xs-12">
+                评价：<em title=""></em>
+              </div>
+            </div>
+          </div>
+        <div class="page-nav">
+          <div class="pagination"><span class="previous_page disabled"><<上一页</span> <em class="current">1</em> <a rel="next" href="/c/20815?my_projects_page=2">2</a> <a href="/c/20815?my_projects_page=3">3</a> <a class="next_page" rel="next" href="/c/20815?my_projects_page=2">下一页>></a></div>
+        </div>
+      </div>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="offline">
+      <div class="list-group list-custom off-line">
+          <div class="font-center clearfix">
+            <div class="mt20">
+              <img src="static/picture/rec-c0b611a1686e7f9102e28eca00ff1730bba7a38253c90c542647d9a467b3e11e.png" alt="Rec c0b611a1686e7f9102e28eca00ff1730bba7a38253c90c542647d9a467b3e11e" />
+            </div>
+            <div class="font14">
+              暂未录入线下项目经验
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document" id="pop_div">
+  </div>
+</div>
+
+
+<div class="modal fade bs-example-modal-sm" id="mini_modal" role="dialog" aria-labelledby="mySmallModalLabel">
+  <div class="modal-dialog modal-sm" role="document" id="pop_div_mini">
+
+  </div>
+</div>
+
+
+<div class="personal-item bg-white" style="text-align: left;">
+  <h2>
+    <em>团队人员</em>
+  </h2>
+
+  <div class="person-list">
+  </div>
+</div>
+
+<style>
+  .greet-create-success .modal-content{
+    padding: 30px 20px;
+    text-align: center;
+  }
+  .greet-create-success .success-msg{
+    font-size: 18px;
+    color: #666666;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  .greet-create-success .success-msg img{
+    width: 20px;
+    vertical-align: sub;
+  }
+</style>
+<div class="modal fade greet-pop" id="greet_pop" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">企业咨询</h4>
+      </div>
+      <div id="greet_form_content">
+        <div style="text-align: center; padding: 20px; font-size: 16px; color: #999999;">正在加载...</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade greet-create-success" id="greet_create_success" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog modal-sm" role="document">
+    <div class="modal-content">
+      <div class="success-msg">
+        提示信息：消息发送成功，企业收到后，会第一时间与您联系，请您耐心等待。
+      </div>
+      <button type="button" class="ui-btn blank-btn" style="padding: 0 30px;" data-dismiss="modal">好的</button>
+    </div>
+  </div>
+</div>
+<script type="text/javascript">
+    (function(){
+        var p = document.getElementById("company_instr_show");
+        var s = p.innerHTML;
+        var span = document.createElement("span");
+        span.style.background = "#ffffff";
+        span.style.padding = "0";
+        span.style.display = "inline";
+        span.style.borderRadius = "0";
+        var a = document.createElement("a");
+        a.style.display="inline";
+        a.style.color = "#5390df";
+        a.style.whiteSpace = "nowrap";
+        var w = s.substring(0, 180);
+        span.innerHTML = w;
+        if(s.length > 180){
+            a.innerHTML = "&lt;查看更多&gt;";
+            span.innerHTML = w+'......';
+        }else{
+            a.innerHTML = "";
+        }
+        a.href = "javascript:void();";
+        a.onclick = function(){
+            if (a.innerHTML == '&lt;查看更多&gt;'){
+                a.innerHTML = "&lt;收起&gt;";
+                span.innerHTML = s;
+            }else{
+                a.innerHTML = "&lt;查看更多&gt;";
+                span.innerHTML = w+'......';
+            }
+        };
+        p.innerHTML = "";
+        p.appendChild(span);
+        p.appendChild(a);
+    })();
+    var jiathis_config = {
+        data_track_clickback: true,
+        summary: "",
+        shortUrl: false,
+        hideMore: false
+    }
+
+    $('#project_type').on('change', function () {
+        $('#project_type_filter').submit();
+    });
+    $('#project_type > option').each(function () {
+        if ($(this).val() == '') {
+            $(this).selected();
+        }
+    });
+    var series = [{
+        type: 'pie',
+        name: '已完成的项目类型占比',
+        data: []
+    }];
+    series[0]['data'].push({
+        name: '办公/写字楼',
+        y: 7.6923076923076925
+    });
+    series[0]['data'].push({
+        name: '多层住宅',
+        y: 15.384615384615385
+    });
+    series[0]['data'].push({
+        name: '高层住宅',
+        y: 7.6923076923076925
+    });
+    series[0]['data'].push({
+        name: '厂房/仓库',
+        y: 7.6923076923076925
+    });
+    series[0]['data'].push({
+        name: '公租房',
+        y: 7.6923076923076925
+    });
+    series[0]['data'].push({
+        name: '学校',
+        y: 15.384615384615385
+    });
+    series[0]['data'].push({
+        name: '公厕',
+        y: 7.6923076923076925
+    });
+    series[0]['data'].push({
+        name: '医院',
+        y: 15.384615384615385
+    });
+    setTimeout(pie2d('pie2d_container', '', series), 100);
+
+    var radar_series = [{
+        name: '分数',
+        data: [],
+        pointPlacement: 'on'
+    }];
+
+    //经验
+    radar_series[0]['data'].push(56.92);
+
+    //沟通
+    radar_series[0]['data'].push(100);
+
+    //效率
+    radar_series[0]['data'].push(65.0);
+
+    //态度
+    radar_series[0]['data'].push(100);
+
+    //规范
+    radar_series[0]['data'].push(87.6923076923077);
+
+    //质量
+    radar_series[0]['data'].push(82.0);
+
+    var categories = ['经验', '沟通', '效率', '态度', '规范', '质量'];
+    setTimeout(radar('radar_container', '', categories, radar_series), 100);
+</script>
+    </div>
+  </div>
+</div>
+<div class="clearfix"></div>
+
+<div class="mt10 tborder">
+  <div class="footer">
+  <div id='show_dlgs' show_fb_dlg=""></div><!--点击意见反馈弹出框需登录 登录后弹出意见反馈窗口标志-->
+  <div class="w">
+    <div>
+      <ul class="tel">
+        <li style="margin-bottom: 12px;">
+          <img src="static/picture/footer_logo-93a287937d6cfc0545b5193c491578c201a4bb5c47c1ff3193bcea0a5b204292.png" alt="Footer logo 93a287937d6cfc0545b5193c491578c201a4bb5c47c1ff3193bcea0a5b204292" />
+        </li>
+        <li><img src="static/picture/footer_position_icon-135dea1e0065c84db485aa9a0167983bcf9c72cf46e5e6e62095583096992ce2.png" alt="Footer position icon 135dea1e0065c84db485aa9a0167983bcf9c72cf46e5e6e62095583096992ce2" width="14" height="14" />
+          北京市昌平区龙域东二路龙域中心东塔五层K13区
+        </li>
+        <li><img src="static/picture/footer_phone_icon-8043e8e9c266263ea8e8ec67c5fa7cdee61ce9c8133513726ef73ae2c8843161.png" alt="Footer phone icon 8043e8e9c266263ea8e8ec67c5fa7cdee61ce9c8133513726ef73ae2c8843161" width="14" height="14" />
+          4009938200
+          15321980075
+        </li>
+        <li><img src="static/picture/footer_qq_icon-d2a806a6465988b99f4e56cd1f5c8205d1485a51a9af48d2388da1a65b7765d9.png" alt="Footer qq icon d2a806a6465988b99f4e56cd1f5c8205d1485a51a9af48d2388da1a65b7765d9" width="14" height="14" />
+          3283170039
+          工作日8:30-17:30
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <a target="_blank" href="http://www.3kgc.com/articles/4">关于我们</a>
+          |
+          <a target="_blank" href="/articles?assort=2">平台规则</a>
+          |
+          <a target="_blank" href="/articles">最新动态</a>
+          |
+          <a target="_blank" href="http://www.3kgc.com/articles/13">手机版</a>
+        </li>
+        <li>
+          Copyright 2015-2019 北京小栗科技有限公司 版权所有 京ICP备15032803号
+        </li>
+        <li>
+          <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+          document.write(unescape("%3Cspan id='cnzz_stat_icon_1255094452'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s95.cnzz.com/stat.php%3Fid%3D1255094452%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));</script>
+          <script type='text/javascript'>
+              var _hmt = _hmt || [];
+              (function () {
+                  var hm = document.createElement("script");
+                  hm.src = "https://hm.baidu.com/hm.js?455ff2b31e6e616c3896cdec23d94f4e";
+                  var s = document.getElementsByTagName("script")[0];
+                  s.parentNode.insertBefore(hm, s);
+              })();
+          </script>
+          <a class="bdxy" target="_blank" href="http://www.baidu.com/s?wd=www.3kgc.com@v"></a>
+          <a class="zfb" target="_blank" href="javascript:void(0)"></a>
+          <a class="aly" target="_blank" href="javascript:void(0)"></a>
+          <a class="smyz" target="_blank" href="http://www.anquan.org/authenticate/cert/?site=www.3kgc.com&at=business"></a>
+
+        </li>
+
+      </ul>
+
+    </div>
+    <div class="clearfix mb10"></div>
+  </div>
+
+</div>
+<div class="dialog noflash-dialog" style="margin-left: -100px;width:250px;height:200px;">
+
+  <div class="dialog-head">提示<a class="close" href="javascript:;"><b>&#8855;</b>关闭</a></div>
+  <div class="dialog-body">
+    我们的产品需要安装flashplayer 10或更高版本 <br/>
+    请
+    <a target="_blank" href="http://get.adobe.com/flashplayer">点击此处</a>  免费下载
+  </div>
+</div>
+<div class="dialog-bg"></div>
+
+<div class="m-right-tool-bar">
+  <ul>
+    <li class="m-right-tool-list" style="border-top:none;">
+      <span class="hbtn" intext="QQ客服">
+        <img class="bg" src="static/picture/blank-2f561b02a49376e3679acd5975e3790abdff09ecbadfa1e1858c7ba26e3ffcef.gif" alt="Blank 2f561b02a49376e3679acd5975e3790abdff09ecbadfa1e1858c7ba26e3ffcef" width="40" height="28" />
+        <span>QQ客服</span>
+
+        <div class="bg-poptip">
+          <div class="ui-poptip ui-poptip-r ui-poptip-white">
+            <div class="ui-poptip-arrow ui-poptip-arrow-border"></div>
+            <div class=" ui-poptip-arrow ui-poptip-arrow-bg"></div>
+            <div class="m-tool-box clear" style="width:132px;text-align: center;">
+              <p class="clear mt20 mb10" style="font-size:14px;font-weight:400;color:rgba(153,153,153,1);">
+                <img style="  background: url(static/images/service_icon_pc-b31bf3f0171d000dca0362e92e884e0bd3ff6fcef95fd512719b507d0eb7ba72.png) no-repeat -435px -30px;" src="static/picture/blank-2f561b02a49376e3679acd5975e3790abdff09ecbadfa1e1858c7ba26e3ffcef.gif" alt="Blank 2f561b02a49376e3679acd5975e3790abdff09ecbadfa1e1858c7ba26e3ffcef" width="30" height="26" />QQ客服
+              </p>
+
+              <p class="clear">
+                <a target="_blank" title="点击聊天" href="http://wpa.qq.com/msgrd?v=3&uin=3214423261&site=qq&menu=yes">
+                  项目问题咨询
+                </a></p>
+
+              <p class="clear mt10 mb10">
+
+                <a target="_blank" title="点击聊天" href="http://wpa.qq.com/msgrd?v=3&uin=2726153751&site=qq&menu=yes">
+                  算客注册咨询
+                </a></p>
+
+              <p class="clear mb10">
+                <a target="_blank" title="点击聊天" href="http://wpa.qq.com/msgrd?v=3&uin=2726153751&site=qq&menu=yes">
+                  团队企业合作
+                </a></p>
+            </div>
+          </div>
+        </div>
+      </span>
+
+    </li>
+    <li class="m-right-tool-list">
+      <span class="hbtn m-right-tool1" intext="联系我们">
+        <img class="bg" src="static/picture/blank-2f561b02a49376e3679acd5975e3790abdff09ecbadfa1e1858c7ba26e3ffcef.gif" alt="Blank 2f561b02a49376e3679acd5975e3790abdff09ecbadfa1e1858c7ba26e3ffcef" width="40" height="28" />
+        <span>联系我们</span>
+
+        <div class="bg-poptip" style="width: 446px;">
+          <div class="ui-poptip ui-poptip-r ui-poptip-white">
+            <div class="ui-poptip-arrow ui-poptip-arrow-border"></div>
+            <div class=" ui-poptip-arrow ui-poptip-arrow-bg"></div>
+            <div class="m-tool-box clear lxwm">
+              <p class="clear">
+                <span class="bg_phone"></span>电话：4009938200
+                15321980075
+              </p>
+
+              <p class="clear">
+                <span class="bg_address"></span>北京市昌平区龙域东二路龙域中心东塔五层
+              </p>
+            </div>
+          </div>
+        </div>
+      </span>
+
+    </li>
+    <li class="m-right-tool-list">
+      <span class="hbtn m-right-tool2" intext="二维码">
+        <img class="bg" src="static/picture/blank-2f561b02a49376e3679acd5975e3790abdff09ecbadfa1e1858c7ba26e3ffcef.gif" alt="Blank 2f561b02a49376e3679acd5975e3790abdff09ecbadfa1e1858c7ba26e3ffcef" width="40" height="28" />
+        <span>二维码</span>
+
+        <div class="bg-poptip" style="width: 275px;height:267px;top:-100px;">
+          <div class="ui-poptip ui-poptip-r ui-poptip-white">
+            <div class="ui-poptip-arrow ui-poptip-arrow-border" style="top:115px"></div>
+            <div class=" ui-poptip-arrow ui-poptip-arrow-bg" style="top:115px"></div>
+            <div class="m-tool-box clear all-center" style="width:228px;">
+              <div class="clear">
+                <img class="mt10 mb10" src="static/picture/app_service_content-951302c48746fabaa5d925a0d48f332c22d5bf1a7bd47d60081b0249105143be.png" alt="App service content 951302c48746fabaa5d925a0d48f332c22d5bf1a7bd47d60081b0249105143be" /><br>
+              </div>
+            </div>
+          </div>
+        </div>
+      </span>
+
+    </li>
+      <li class="m-right-tool-list">
+      <span class="hbtn m-right-tool3_no_login" intext="意见反馈">
+        <img class="bg" src="static/picture/blank-2f561b02a49376e3679acd5975e3790abdff09ecbadfa1e1858c7ba26e3ffcef.gif" alt="Blank 2f561b02a49376e3679acd5975e3790abdff09ecbadfa1e1858c7ba26e3ffcef" width="40" height="28" />
+        <span>意见反馈</span></span>
+      </li>
+
+    <li class="m-right-tool-list gototop" id="gototop">
+      <a title="返回顶部" href="#"><span class="hbtn m-right-tool4" intext="TOP">
+        <img class="bg" src="static/picture/blank-2f561b02a49376e3679acd5975e3790abdff09ecbadfa1e1858c7ba26e3ffcef.gif" alt="Blank 2f561b02a49376e3679acd5975e3790abdff09ecbadfa1e1858c7ba26e3ffcef" width="40" height="28" />
+        <span style="padding-left: 5px;">TOP</span></span></a>
+    </li>
+  </ul>
+</div>
+<div class="dlg-hidden" id="user-fb">
+  <form class="form-bd plr20" id="new_feedback" action="/feedbacks" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="/MNeMYQvrQjjSOaindsegEHCiRsIFX0QCKUXBm5jgiZvLjxUve/j19Eo+mfbUxeULF9uv+uPEHbFgwau1d3CVQ==" />
+    <p>
+      <textarea cols="50" rows="5" datatype="*" placeholder="如果您在使用平台时遇到些问题,或者有个人建议,请告知我们,我们会尽快解决." name="feedback[content]" id="feedback_content">
+</textarea>
+
+    </p>
+
+    <!--<p>-->
+    <!--手机号(选填):-->
+    <!--<= f.text_field :mobile, class: "w300", placeholder: "请输入手机号" >-->
+
+    <!--</p>-->
+
+    <p class="font-gray">
+      感谢您的参与,高质量的反馈或建议,一经采纳,将给您增加200经验值
+    </p>
+
+    <div class="mt10">
+      <input type="submit" name="commit" value="提交反馈" class="ui-btn" data-disable-with="提交中..." />
+    </div>
+</form></div>
+<script type="text/javascript" charset="utf-8">
+    $(function () {
+        $(".m-right-tool3").click(function () {
+            $("#user-fb").dialog({width: "500px", title: "意见反馈"})
+        });
+
+//      点击意见反馈弹出框需登录 登录后弹出意见反馈窗口标志
+        $(".m-right-tool3_no_login").click(function () {
+            var new_user_form = document.getElementById("new_user");
+            var login_form = document.getElementById("login_by_mobile-for-login");
+            new_user_form.action += "?show_fb_dlg=true";
+            login_form.action += "?show_fb_dlg=true";
+            $('#show_login_div').show();
+        });
+    });
+</script>
+<img src="static/picture/track_ua.gif" width="0" height="0" style="line-height: 0;display: none;"/>
+</div>
+
+</body>
+</html>

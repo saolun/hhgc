@@ -1,0 +1,1733 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<!--  <title></title>-->
+  <title>算客工场--工程行业技术服务众包平台</title>
+<!--  <meta name="description" content="算客工场-- 是一个直达工程师的实名制交易平台，当你遇到任何工程项目问题，都可以快速找到合适的算客，在线委托需求，支付费用，获得服务；我们致力于用共享经济的理念改变工作方式，借助互联网连接工程建设领域的服务需求与工程师，让从业者更方便的出售知识和技能。"/>-->
+  <meta name="description" content="算客工场-- 是一个直达工程师的实名制交易平台，当你遇到任何工程项目问题，都可以快速找到合适的算客，在线委托需求，支付费用，获得服务；我们致力于用共享经济的理念改变工作方式，借助互联网连接工程建设领域的服务需求与工程师，让从业者更方便的出售知识和技能。"/>
+<!--  <meta name="keywords" content="算客工场,造价私活,造价,安装算量,抽钢筋,土建算量,精装算量,北京小栗科技有限公司"/>-->
+  <meta name="keywords" content="算客工场,造价私活,造价,安装算量,抽钢筋,土建算量,精装算量,北京小栗科技有限公司"/>
+  <link rel="stylesheet" media="all" href="static/css/application-f742c9f4d291b8a5e98f7948d3ab74777a2b906c7081c9c6a7b3a231883543f5.css" data-turbolinks-track="true" />
+
+  <script src="static/js/application-a53f0e0a6a61a86e6cb8f94a2fb64a861d3f1c5f341a2ae992c4adf325a4ea38.js" data-turbolinks-track="true"></script>
+  <script src="static/js/highcharts.js" data-turbolinks-track="true"></script>
+  <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="og4J+H6Vy7ZVvaLFKGIsZLx5g6cXutsD1PAE81wZfqcS5tZOflw1YjU+OoFuZC/lFoDMFsqKnHluPsZfKwcCtg==" />
+  <style>
+    .header {
+      position: relative;
+      z-index: 0;
+    }
+    /*时间控件*/
+    .ui-datepicker-title{
+      display: flex !important;
+      justify-content: center !important;
+    }
+    .ui-datepicker-year, .ui-datepicker-month{
+      background: #ffffff !important;
+      color: #f66626 !important;
+    }
+  </style>
+</head>
+<body>
+
+<!--[if lt IE 10]>
+
+<p class="ui-tip ui-tip-yellow font-center ie-update">
+  您正在使用IE低版本浏览器，为了您的账号安全和更好的产品体验，<br/>强烈建议您立即 <a class="font-blue"
+                                                href="http://windows.microsoft.com/zh-cn/internet-explorer/download-ie"
+                                                target="_blank">升级IE浏览器</a> 或者用更快更安全的 <a class="font-blue"
+                                                                                         href="http://www.baidu.com/s?wd=chrome"
+                                                                                         target="_blank">谷歌浏览器Chrome</a>
+  。
+  <br/>
+  <br/>
+  <br/>
+  <span class="font16">您也可以关注我们的微信公众号，随时随地使用算客工场</span><br/>
+  <img class="mt10 mb10" src="static/picture/wx-ie-ad7b5613fee33b52167aee1634394882650e400a1fe28d66f6c42a9d8639d4a4.jpg" alt="Wx ie ad7b5613fee33b52167aee1634394882650e400a1fe28d66f6c42a9d8639d4a4" width="780" height="375" />
+</p>
+<![endif]-->
+
+<div class="header" style="z-index: 999;">
+  <div class="w rel">
+    <a href="/" class="fl">
+      <img src="static/picture/logo-b-7dc7909fd0c649f0c33ead53590ba017abe9398b2493a0a86bff0fdbd0093c5e.png" alt="Logo b 7dc7909fd0c649f0c33ead53590ba017abe9398b2493a0a86bff0fdbd0093c5e" width="147" height="38" />
+    </a>
+    <ul class="mnav fl">
+      <li>
+        <a href="/home/pub_index">发布项目</a>
+      </li>
+      <li>
+        <a href="/projects/pub">项目</a>
+      </li>
+      <li>
+        <a href="/companies">企业/团队</a>
+      </li>
+      <li>
+        <a href="/members">算客</a>
+      </li>
+      <!--      <li>-->
+      <!--      </li>-->
+
+      <li>
+        <a href="/qas">帮助</a>
+      </li>
+    </ul>
+
+    <div class="login mr">
+  <div class="loginLater">
+    <a class="userTitle new" href="javascript:void(0);">
+      发现
+      <img src="static/picture/nav_dropdown-8b682a5122f5ec43ead40fb80dd8293a4e0db544b05ede7efecbffaac19024a2.png" alt="Nav dropdown 8b682a5122f5ec43ead40fb80dd8293a4e0db544b05ede7efecbffaac19024a2" />
+    </a>
+
+    <div class="umenu" style="position: absolute; left:0;">
+      <ul style="display: block;">
+        <li>
+          <a href="/recruits">招聘</a>
+        </li>
+        <li>
+          <a href="/share_softwares">工具箱</a>
+        </li>
+        <li>
+          <a href="/articles">最新动态</a>
+        </li>
+        <li>
+          <a target="_blank" href="/vip_members/new">算客会员</a>
+        </li>
+<!--        <li>-->
+<!--        </li>-->
+        <li>
+          <a target="_blank" href="/origins">算客经纪人</a>
+        </li>
+        <li>
+          <a href="/coupons">算客大礼包</a>
+        </li>
+        <li>
+          <a href="/my/perm">我的权限</a>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+</div>
+
+    <div class="login fr">
+
+
+        <a class="loginButton" onclick="$('#show_login_div').show()" href="javascript:;">登录</a>
+
+        <a class="regButton" href="/member_applies?from=nav_top">注册</a>
+
+    </div>
+  </div>
+</div>
+<div class="clearfix"></div>
+  <!--<a href="javascript:void(0)" onclick="show_little_alert('show_login_div')">-->
+<!--登录参与-->
+<!--</a>-->
+<style>
+  #show_login_div .Validform_wrong{
+    display: flex;
+    align-items: center;
+    padding: 5px 20px;
+    font-size: 12px;
+  }
+
+  #show_login_div .Validform_wrong::before{
+    content: '';
+    background: url(static/images/login_error_icon-2fdef50ff4540ce104cd74e7fcd05fb63bc863e243d4feebf77a5d7dec3f957a.png) no-repeat;/*兼容没测*/
+    background-size: cover;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-right: 2px;
+  }
+</style>
+<div id="show_login_div" style="display: none;">
+  <div class="font20 little-alert" style="top: 80px;position: fixed;">
+    <div class="alert-header">
+      <span class="title">欢迎登录！</span>
+      <i class="close-icon" onclick="polling_flag = false;$('#show_login_div').hide();"></i>
+    </div>
+    <div class="alert-content">
+      <div class="bid_form_div" style="padding: 20px 20px 10px 20px;text-align:center;">
+        <div class="publish-item login-type-select">
+          <div style="display: flex;margin-bottom: 20px;padding: 0 30px;">
+            <a class="font-link active" login_type="pwd" href="javascript:void(0);">密码登录</a>
+            <a class="font-link" login_type="wx" href="javascript:void(0);">微信登录</a>
+            <a class="font-link" login_type="valid" href="javascript:void(0);">验证码登录</a>
+          </div>
+
+          <div class="login-type">
+            <div class="pwd-login">
+              <form class="new_user" style="padding:0; margin:0;" id="new_user" action="/users/sign_in" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="sh6a5lIFJ/onLvZ8OOnDWisjrJ7V3qO/bawXvudZ1I4C9kVQUszZLketbjh+78DbgdrjLwju5MXXYtUSkEeonw==" />
+                  <p><span class="font-red" style="font-size:14px;" id="err_msg"></span></p>
+                  <table class="publish-project_info" style="width: 80%; margin: 0 auto;" cellspacing="0" cellpadding="0">
+                    <tr>
+                      <td>
+                        <input autofocus="autofocus" id="new_user_mobile" placeholder="请输入手机号" datatype="*" class="ui-input" style="width:400px" nullmsg="不能为空" type="text" value="" name="user[mobile]" />
+                        <div class="Validform_checktip"></div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <input autocomplete="off" id="user_pwd" onkeydown="if(event.keyCode==13){document.getElementById(&#39;btn_login&#39;).click();return false};" placeholder="请输入您的密码" datatype="*" nullmsg="不能为空" style="width:400px" class="ui-input" type="password" name="user[password]" />
+                        <div class="Validform_checktip"></div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td align="font14 left" style="padding-left:20px;display: flex;justify-content: space-between;">
+                        <span>
+                          <label style="margin: 0;" for="ck_rmbUser">记住密码</label>
+                          <input type="checkbox" name="ck_rmbUser" id="ck_rmbUser" value="1" style="margin: 0 0 0 2px;" />
+                        </span>
+                        <span>
+                          <a class="font14 font-green1 mr20" href="/users/password/new">忘记密码?</a>
+                        </span>
+
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <input type="button" class="font16 ui-btn confirm-btn" style="width: 374px;" onclick="$('#err_msg').text('');" id="btn_login" AUTOCOMPLETE="off" value="登录">
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <a class="font16" style="color: #337ab7;" href="/member_applies?from=nav_top">注册</a>
+
+<!--                        <span>-->
+<!--                        </span>-->
+                      </td>
+                    </tr>
+                  </table>
+</form>            </div>
+            <div class="wx-login">
+              <img style="height: 160px;width: 160px;" id="wx_qr_img" src="static/picture/default_qr_code-e370b7478685a8868ad8f637a4b82d704cdafdb953b8fc24cb47930ca4a964f5.jpg" alt="Default qr code e370b7478685a8868ad8f637a4b82d704cdafdb953b8fc24cb47930ca4a964f5" />
+              <span class="font16" style="padding: 20px 0 0 0;">使用微信扫一扫登录</span>
+            </div>
+            <div class="valid-login">
+              <form id="login_by_mobile-for-login" action="/origins/login_by_mobile" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="b21v1ZTqfEBFzButFLAdSXYWwe4T9tVY3zjaTDk4Y0TfhbBjlCOClCVPg+lSth7I3O+OX87GkiJl9hjgTiYfVQ==" />
+                <div><span style="font-size:14px;" id="tip-msg"></span></div>
+                <table class="publish-project_info" style="width: 80%; margin: 0 auto;" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td colspan="2">
+                      <input type="tel" name="mobile" id="mobile" datatype="m" class="ui-input" style="width:400px;" placeHolder="请输入您的手机号码" />
+                      <div class="Validform_checktip"></div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td colspan="2">
+                      <div style="width: 400px;margin: 0 auto;display: flex;" id="validate_code_div">
+                          <span style="flex: 1 1 auto;">
+                            <input type="text" class="ui-input" name="validate_code" id="validate_code-for-login" style="width: 100%;" placeholder="请输入验证码" value="">
+                            <div class="Validform_checktip"></div>
+                          </span>
+                          <span style="padding: 0 10px;display: flex;flex-flow: column;justify-content: center;" id="validate_code_tip">
+                           <a href="#" id="yzm_btn_reg_box_for_login" onclick="yzm_reg_box();">获取短信验证码</a>
+                          </span>
+                      </div>
+                    </td>
+                    <!--<input type="button" onclick="send_code()" id="yzm_btn_reg_box_for_login" class="validate-code-btn" value="获取验证码">-->
+                  </tr>
+                  <tr>
+                    <td colspan="2">
+                      <p style="display: none; text-align: left;" id="wait_tip">
+                        请您耐心等待…… <br>
+                        您将会接到12590开头的电话为您播报验证码。
+                      </p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td colspan="2">
+                      <input type="button" class="font16 ui-btn confirm-btn" style="width: 374px;" onclick="submit_by_ajax(this)" AUTOCOMPLETE="off" value="登录">
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <a class="font16" style="color: #337ab7;" href="/member_applies?from=nav_top">注册</a>
+
+                      <!--                        <span>-->
+                      <!--                        </span>-->
+                    </td>
+                  </tr>
+                </table>
+</form>            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="shade-div"></div>
+</div>
+
+
+<form id="new_reg_validate_code" action="/validate_codes/create_reg" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="CNdqGNwvMdkg0KNNNuHZa4ryYi5Lu6tIn2jUXWkTLwS4P7Wu3ObPDUBTOwlw59rqIAstn5aL7DIlphbxHg1TFQ==" />
+    <input type="hidden" name="validate_code[receiver]" id="reg_validate_code_receiver" value="" />
+    <input type="hidden" name="validate_code[send_type]" id="reg_validate_code_type" value="" />
+</form><script type="text/javascript">
+    var polling_flag = false;
+    $(function () {
+        var form_login = $("#new_user").Validform({
+            btnSubmit: "#btn_login",
+            showAllError: true,
+            tiptype: 4,
+            ajaxPost: true,
+            beforeSubmit: function (curform) {
+                $('#btn_login').val('正在登录...');
+                $('#btn_login').attr('disabled', true);
+            },
+            callback: function (data) {
+                if (data.status == "200" || data.status == 302) {
+                    save_login_info();
+//                  手机密码登录成功弹出登录成功窗口
+
+                    if (data.status == "200") {
+                        var replace_href = top.location.href;
+//                  点击意见反馈弹出框需登录 登录后弹出意见反馈窗口标志
+                        var form_href = $("#new_user").attr("action");
+                        if (form_href.match(/show_fb_dlg=true/)) {
+                            replace_href += (replace_href.match(/\?/) ? "&show_fb_dlg=true" : "?show_fb_dlg=true");
+                        }
+                        top.location.replace(replace_href);
+                    } else if (data.status == 302) {
+                        top.location.reload();
+                    }
+
+                } else if (data.status == "422") {
+                    $("#err_msg").text("页面已过期，请刷新页面后登陆！");
+                    $('#btn_login').val('登录');
+                    $('#btn_login').removeAttr('disabled');
+                } else {
+                    $("#err_msg").text("用户名或密码错误！");
+                    $('#btn_login').val('登录');
+                    $('#btn_login').removeAttr('disabled');
+                }
+                //$("#new_user_mobile").focus();
+            }
+
+        });
+        form_login.tipmsg.r = " ";
+
+
+        $('.font-link').on('click', function () {
+            $('.font-link').removeClass('active');
+            $(this).addClass('active');
+            var login_type = $(this).attr('login_type');
+            $('#tip-msg').text('');
+            if (login_type == 'pwd') {
+                $('.login-type').animate({
+                    marginLeft: '0',
+                    opacity: '0.5'
+                }, 500);
+                $('.login-type').animate({
+                    marginLeft: '0',
+                    opacity: '1'
+                }, 300);
+                polling_flag = false;
+            }
+
+            if (login_type == 'wx') {
+                $('#wx_qr_img').css('filter', 'blur(4px)');
+                $('.login-type').animate({
+                    opacity: '0.5',
+                    marginLeft: '-460px',
+                    opacity: '1'
+                }, 500, function () {
+                    $.ajax({
+                        type: 'get',
+                        dataType: 'json',
+                        url: "/home/get_qr_ticket",
+                        success: function (result, status, o) {
+                            polling_flag = true;
+                            if($('#wx_qr_img').attr('src') === 'https://mp.weixin.qq.com/cgi-bin/showqrcode?ticket=' + result['login_qr_ticket']){
+                            }else{
+                                $('#wx_qr_img').attr('src', 'https://mp.weixin.qq.com/cgi-bin/showqrcode?ticket=' + result['login_qr_ticket']);
+                            }
+                            // $('#wx_qr_img').attr('src', 'https://mp.weixin.qq.com/cgi-bin/showqrcode?ticket=' + 'gQG27zwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAyRE5xaE1hZGlkTDExN3hnVU5zMVoAAgRh-zZcAwSAUQEA');
+                            $('#wx_qr_img').css('filter', '');
+                            polling_find_user(0);
+                        }
+                    });
+                });
+
+            }
+
+
+            if (login_type == 'valid') {
+                $('#login_by_mobile-for-login').attr('action',$('#login_by_mobile-for-login').attr('action').replace(/scene_id=\d*/, '1=1'));
+                $('.login-type').animate({
+                    marginLeft: '-920px',
+                    opacity: '0.5'
+                }, 500);
+
+                $('#validate_code_tip').html("<a href='#' id='yzm_btn_reg_box_for_login' onclick='yzm_reg_box();'>获取短信验证码</a>");
+
+                $('.login-type').animate({
+                    opacity: '1'
+                }, 300);
+                polling_flag = false;
+            }
+
+        });
+
+        //记住密码
+        if ($.cookie("rmbUser") == "true") {
+            $("#ck_rmbUser").prop("checked", true);
+            $("#new_user_mobile").val($.cookie("new_user_mobile"));
+            $("#user_pwd").val($.cookie("user_pwd"));
+        }
+    });
+    // }).call(this);
+
+    //获取语音验证码
+    function getVoiceCode_by_login(e) {
+        var mobile = $('#mobile').val();
+        if (!(/^1[0-9]{10}$/.test(mobile))) {
+            // alert("请输入正确的手机号");
+            $('#mobile').next('.Validform_checktip').addClass('Validform_wrong').text('请输入正确的手机号');
+            return;
+        }else{
+            $('#mobile').next('.Validform_checktip').removeClass('Validform_wrong').text('');
+        }
+        $('#reg_validate_code_type').val('voice');
+        $('#reg_validate_code_receiver').val(mobile);
+        $("#new_reg_validate_code").ajaxSubmit({
+            success: function (data) {
+                $(e).parent().remove();
+                $('#wait_tip').show();
+            },
+            error: function () {
+                alert("异常错误");
+            }
+        });
+    };
+
+    function yzm_reg_box() {
+        var mobile = $('#mobile').val();
+        if (!(/^1[0-9]{10}$/.test(mobile))) {
+            // alert("请输入正确的手机号");
+            $('#mobile').next('.Validform_checktip').addClass('Validform_wrong').text('请输入正确的手机号');
+            return;
+        }else{
+            $('#mobile').next('.Validform_checktip').removeClass('Validform_wrong').text('');
+        }
+        $('#reg_validate_code_receiver').val(mobile);
+        $('#reg_validate_code_type').val('sms');
+        $("#new_reg_validate_code").ajaxSubmit({
+            dataType: 'script',
+            success: function (data) {
+                return timing($("#yzm_btn_reg_box_for_login"));
+            },
+            error: function () {
+                return alert("异常错误");
+            }
+        });
+    };
+
+    function timing($e) {
+        $p_node = $e.parent();
+        var wait = 60;
+        $p_node.html("未接到短信？(" + wait + ")秒后<br><a href='#'>点此获取语音验证码</a>");
+        var stop_code = setInterval(function () {
+            wait--;
+            if (wait === 0) {
+                $p_node.html("未接到短信？<br><a href='#' onclick='getVoiceCode_by_login(this)'>点此获取语音验证码</a>");
+                wait = 60;
+                return clearInterval(stop_code);
+            } else {
+                $p_node.html("未接到短信？(" + wait + ")秒后<br><a href='#'>点此获取语音验证码</a>");
+            }
+        }, 1000);
+    };
+
+    function submit_by_ajax(e) {
+        var mobile = $('#mobile').val();
+        var validate_code = $('#validate_code-for-login').val();
+        if (!(/^1[0-9]{10}$/.test(mobile))) {
+            // alert("请输入正确的手机号");
+            $('#mobile').next('.Validform_checktip').addClass('Validform_wrong').text('请输入正确的手机号');
+            return;
+        }else{
+            $('#mobile').next('.Validform_checktip').removeClass('Validform_wrong').text('');
+        }
+        $.ajax({
+            sync: true,
+            type: 'post',
+            url: '/validate_codes/check_validate_code.json',
+            data: {
+                'mobile': mobile,
+                'validate_code': validate_code,
+                authenticity_token: $("#login_by_mobile-for-login input[name='authenticity_token']").val()
+            },
+            dataType: 'json',
+            success: function (json) {
+                if (json) {
+                    $('#validate_code-for-login').next('.Validform_checktip').removeClass('Validform_wrong').text('');
+                    $("#login_by_mobile-for-login").submit();
+                } else {
+                    // alert('验证码有误!');
+                    $('#validate_code-for-login').next('.Validform_checktip').addClass('Validform_wrong').text('验证码有误!');
+                    $(e).val('登录');
+                    $(e).removeAttr('disabled');
+                }
+            },
+            beforeSend: function () {
+
+                $(e).val('正在登录...');
+                $(e).attr('disabled', true);
+            },
+            error: function () {
+                alert('网络繁忙，请稍候重试！');
+            }
+        })
+    }
+
+    //记住用户名密码
+    function save_login_info() {
+        if ($("#ck_rmbUser").prop("checked")) {
+            var new_user_mobile = $("#new_user_mobile").val();
+            var user_pwd = $("#user_pwd").val();
+            $.cookie("rmbUser", "true", {expires: 7}); //存储一个带7天期限的cookie
+            $.cookie("new_user_mobile", new_user_mobile, {expires: 7});
+            $.cookie("user_pwd", user_pwd, {expires: 7});
+        } else {
+            $.cookie("rmbUser", "false", {expire: -1});
+            $.cookie("new_user_mobile", "", {expires: -1});
+            $.cookie("user_pwd", "", {expires: -1});
+        }
+    }
+
+    function polling_find_user(recursion_deep) {
+        if(polling_flag){
+            var num = recursion_deep;
+
+            $.ajax({
+                type: 'get',
+                url: "/home/polling_find_user_from_qr",
+                dataType: 'json',
+                success: function (r) {
+                    if(r.tf){
+                        window.location.reload();
+                    }else{
+                        console.log('polling_f_u' + '--' + num.toString());
+                        if(r.scene_id && num > 0){
+                            var replace_href = $('#login_by_mobile-for-login').attr('action');
+                            replace_href += (replace_href.match(/\?/) ? "&scene_id=" + r.scene_id : "?scene_id=" + r.scene_id);
+                            $('#login_by_mobile-for-login').attr('action', replace_href);
+                            // 滑动到手机号登录界面
+                            $('#tip-msg').text('为了您的账户安全，请完成手机验证一键登录哦！');
+                            $('.login-type').animate({
+                                marginLeft: '-920px',
+                                opacity: '0.5'
+                            }, 500);
+                            $('.login-type').animate({
+                                opacity: '1'
+                            }, 300);
+                            polling_flag = false;
+                        }else{
+                            setTimeout(
+                                function() {
+                                    polling_find_user(++num)
+                                }, 2000);
+                        }
+                    }
+                }
+            });
+        }
+    }
+</script>
+
+<div class="bg_gray">
+  <script>
+    $(function(){
+       $('.main_qa').on('click', function(){
+           $('.sub_qa').hide();
+           $(this).next('.sub_qa').toggle();
+           $('.help-qa').hide();
+           $("#"+$(this).attr('for')).show();
+       });
+    });
+</script>
+<div class="h－header">
+  <img src="static/picture/wz_help_banner-0860d006bd329e315b15dc83d4cd9d2f5334e76988297576b2468d714b93947b.png" alt="Wz help banner 0860d006bd329e315b15dc83d4cd9d2f5334e76988297576b2468d714b93947b" />
+</div>
+<div class="h-middle">
+  <div class="m-left">
+    <div class="main_qa" for="hq0">  <img src="static/picture/icon_help_zk-c31d7171d7c4f70777933a32e343704011699df59586fca313e6d6db4b5598a6.png" alt="Icon help zk c31d7171d7c4f70777933a32e343704011699df59586fca313e6d6db4b5598a6" />&nbsp;&nbsp;常见问题</div>
+    <div class="sub_qa">
+          <i>&bull;</i>&nbsp;<a href="#q81" title="如何退保证金?">如何退保证金?</a> <br>
+          <i>&bull;</i>&nbsp;<a href="#q82" title="如何租赁加密锁？">如何租赁加密锁？</a> <br>
+          <i>&bull;</i>&nbsp;<a href="#q83" title="如何修改注册手机号码？">如何修改注册手机号码？</a> <br>
+    </div>
+    <div class="main_qa" for="hq1" >  <img src="static/picture/icon_help_zk-c31d7171d7c4f70777933a32e343704011699df59586fca313e6d6db4b5598a6.png" alt="Icon help zk c31d7171d7c4f70777933a32e343704011699df59586fca313e6d6db4b5598a6" />&nbsp;&nbsp;雇主遇到的问题</div>
+    <div class="sub_qa" style="display:none">
+          <i>&bull;</i>&nbsp;<a href="#q62" title="质量保障">质量保障</a> <br>
+          <i>&bull;</i>&nbsp;<a href="#q27" title="业务流程">业务流程</a> <br>
+          <i>&bull;</i>&nbsp;<a href="#q33" title="发项目前准备">发项目前准备</a> <br>
+          <i>&bull;</i>&nbsp;<a href="#q34" title="发布项目方式">发布项目方式</a> <br>
+          <i>&bull;</i>&nbsp;<a href="#q35" title="项目费用">项目费用</a> <br>
+          <i>&bull;</i>&nbsp;<a href="#q36" title="项目审核">项目审核</a> <br>
+          <i>&bull;</i>&nbsp;<a href="#q37" title="如何选标">如何选标</a> <br>
+          <i>&bull;</i>&nbsp;<a href="#q73" title="托管费用">托管费用</a> <br>
+          <i>&bull;</i>&nbsp;<a href="#q38" title="过程管理">过程管理</a> <br>
+          <i>&bull;</i>&nbsp;<a href="#q85" title="关闭项目">关闭项目</a> <br>
+          <i>&bull;</i>&nbsp;<a href="#q40" title="项目变更">项目变更</a> <br>
+          <i>&bull;</i>&nbsp;<a href="#q39" title="验收付款">验收付款</a> <br>
+          <i>&bull;</i>&nbsp;<a href="#q43" title="质保时限">质保时限</a> <br>
+          <i>&bull;</i>&nbsp;<a href="#q44" title="维权">维权</a> <br>
+          <i>&bull;</i>&nbsp;<a href="#q46" title="积分奖励">积分奖励</a> <br>
+    </div>
+    <div class="main_qa" for="hq2" >  <img src="static/picture/icon_help_zk-c31d7171d7c4f70777933a32e343704011699df59586fca313e6d6db4b5598a6.png" alt="Icon help zk c31d7171d7c4f70777933a32e343704011699df59586fca313e6d6db4b5598a6" />&nbsp;&nbsp;算客遇到的问题</div>
+    <div class="sub_qa" style="display:none">
+          <i>&bull;</i>&nbsp;<a href="#q75" title="注册">注册</a> <br>
+          <i>&bull;</i>&nbsp;<a href="#q47" title="认证算客">认证算客</a> <br>
+          <i>&bull;</i>&nbsp;<a href="#q79" title="订阅项目提醒">订阅项目提醒</a> <br>
+          <i>&bull;</i>&nbsp;<a href="#q67" title="投标须知">投标须知</a> <br>
+          <i>&bull;</i>&nbsp;<a href="#q77" title="投标资格">投标资格</a> <br>
+          <i>&bull;</i>&nbsp;<a href="#q76" title="金牌会员">金牌会员</a> <br>
+          <i>&bull;</i>&nbsp;<a href="#q78" title="项目类型">项目类型</a> <br>
+          <i>&bull;</i>&nbsp;<a href="#q55" title="保证金">保证金</a> <br>
+          <i>&bull;</i>&nbsp;<a href="#q56" title="加密锁">加密锁</a> <br>
+          <i>&bull;</i>&nbsp;<a href="#q48" title="投标前需确认">投标前需确认</a> <br>
+          <i>&bull;</i>&nbsp;<a href="#q50" title="提升中标率">提升中标率</a> <br>
+          <i>&bull;</i>&nbsp;<a href="#q51" title="工作规范">工作规范</a> <br>
+          <i>&bull;</i>&nbsp;<a href="#q52" title="质保时限">质保时限</a> <br>
+          <i>&bull;</i>&nbsp;<a href="#q53" title="费用结算">费用结算</a> <br>
+          <i>&bull;</i>&nbsp;<a href="#q54" title="提现">提现</a> <br>
+          <i>&bull;</i>&nbsp;<a href="#q57" title="信誉分扣除规则">信誉分扣除规则</a> <br>
+          <i>&bull;</i>&nbsp;<a href="#q58" title="算客等级">算客等级</a> <br>
+    </div>
+    <div class="main_qa" for="hq3" >  <img src="static/picture/icon_help_zk-c31d7171d7c4f70777933a32e343704011699df59586fca313e6d6db4b5598a6.png" alt="Icon help zk c31d7171d7c4f70777933a32e343704011699df59586fca313e6d6db4b5598a6" />&nbsp;&nbsp;流程问题</div>
+    <div class="sub_qa" style="display:none">
+          <i>&bull;</i>&nbsp;<a href="#q84" title="业务流程">业务流程</a> <br>
+          <i>&bull;</i>&nbsp;<a href="#q31" title="委托项目">委托项目</a> <br>
+          <i>&bull;</i>&nbsp;<a href="#q30" title="派单项目">派单项目</a> <br>
+          <i>&bull;</i>&nbsp;<a href="#q29" title="公开报名项目">公开报名项目</a> <br>
+          <i>&bull;</i>&nbsp;<a href="#q32" title="平台收费">平台收费</a> <br>
+    </div>
+  </div>
+  <div class="m-right">
+
+    <div id="hq0" class="help-qa" style="display: block;">
+          <p class="q"><a name="q81"></a>如何退保证金?</p>
+          <p class="a">
+            <p>
+	<span style="font-size:14px;color:#000000;">1、提取保证金首先确保您没有正在进行中的项目；</span>
+</p>
+<p>
+	<span style="font-size:14px;color:#000000;"> 2、保证金提出需要您在个人中心里退出雇主保障计划，建议您慎重考虑，这会影响到你的投标次数和投标金额；</span>
+</p>
+<p>
+	<span style="font-size:14px;color:#000000;">3、在加入保障计划后30天（如果承接过项目，需要项目结束后30天）才可以提取保证金，申请提取保证金后，24h到账，可以提取到银行卡或者支付宝，注意要和您注册时身份信息是同一个人，否则提取会失败；</span>
+</p>
+<p>
+	<br />
+</p>
+          </p>
+          <p class="q"><a name="q82"></a>如何租赁加密锁？</p>
+          <p class="a">
+            <p>
+	<span style="font-size:14px;color:#000000;">租用条件：仅面向金牌算客，在中标项目后可申请广联达正版加密锁租赁服务，数量有限，没有空闲锁时不再提供。</span> 
+</p>
+<p>
+	<span style="font-size:14px;color:#000000;">租锁费用：200元/月（按月从账户余额中扣除），押金1000元（冻结保证金1000元）； 租用当天开始计时，不满一个月按一个月算。租用后平台使用顺丰快递邮寄（免费）。</span> 
+</p>
+<p>
+	<span style="font-size:14px;color:#000000;">回收：加密锁到期后，如无接到新项目，平台有权停止加密锁使用权，并要求算客寄回。</span> 
+</p>
+<p>
+	<span style="font-size:14px;color:#000000;"><br />
+</span> 
+</p>
+          </p>
+          <p class="q"><a name="q83"></a>如何修改注册手机号码？</p>
+          <p class="a">
+            <p>
+	<span style="font-size:14px;color:#000000;">因为手机号码涉及您账户的信息，所以需通过平台核实确认后才能修改，修改手机号码需提供新旧手机号码及您手持身份证的照片给客服QQ</span><span style="font-size:14px;color:#000000;">3290453251。</span> 
+</p>
+<p>
+	<span style="font-size:14px;"><br />
+</span> 
+</p>
+          </p>
+    </div>
+    <div id="hq1" class="help-qa">
+          <p class="q"><a name="q62"></a>质量保障</p>
+          <p class="a">
+            <p>
+	<span style="color:#000000;font-size:14px;"><span style="font-family:&quot;font-size:14px;">1、平台认证算客需通过实名认证，提交执业证书、通过平台认证考试。</span></span> 
+</p>
+<p>
+	<span style="color:#000000;font-size:14px;">2、平台推荐的算客均为3年以上工作经验的从业人员，在专业能力上有较好的保证。</span> 
+</p>
+<p>
+	<span style="color:#000000;font-size:14px;">3、平台承接业务的算客，需按照服务费缴纳保证金。</span> 
+</p>
+<p>
+	<span style="color:#000000;font-size:14px;">4、平台要求算客定期提交工作进度，雇主可在过程中了解项目的进展情况，判定项目风险。</span> 
+</p>
+<p>
+	<span style="color:#000000;font-size:14px;">5、交付成果需要提交3-6类成果文件，保证项目方便后期对接。（说明：成果文件以雇主要求提供的形式为准）</span> 
+</p>
+<p>
+	<span style="color:#000000;font-size:14px;">6、针对业务不熟悉的雇主，平台提供专家复核，通过经验丰富的专家把控项目质量。（说明：需另行支付费用）</span> 
+</p>
+<p>
+	<span style="color:#000000;font-size:14px;">7、根据算客的项目经验介绍和平台上已完成项目的雇主评价，筛选有责任心的算客。</span> 
+</p>
+<p>
+	<span style="color:#000000;font-size:14px;">8、<span style="font-family:&quot;font-size:14px;">先验收再付款，质量有问题，算客会配合修改，不配合可以扣服务费或拒绝付款。</span></span> 
+</p>
+<p>
+	<span style="color:#999999;font-size:14px;">平台提醒：由于工程造价业务没有完全准确的评判标准，发现问题可及时和算客沟通，要求算客修改为满意的结果。</span> 
+</p>
+<p>
+	<span style="color:#000000;font-size:14px;"><br />
+</span> 
+</p>
+<p style="font-family:&quot;font-size:medium;">
+	<span style="font-size:14px;"></span> 
+</p>
+          </p>
+          <p class="q"><a name="q27"></a>业务流程</p>
+          <p class="a">
+            <p>
+	<img src="static/picture/5bec075f8a57.png" alt="" width="760" height="317" title="" align="" /> 
+</p>
+<p>
+	<br />
+</p>
+<p>
+	<span style="font-size:14px;"></span> 
+</p>
+<p>
+	<span style="font-size:14px;"></span> 
+</p>
+          </p>
+          <p class="q"><a name="q33"></a>发项目前准备</p>
+          <p class="a">
+            <p>
+	<span style="font-size:14px;"><span style="font-size:14px;"></span><span style="color:#000000;font-size:14px;"></span></span><span style="font-size:14px;color:#000000;">明确项目工作内容，准备齐全图纸及资料文件。</span> 
+</p>
+<p>
+	<span style="font-size:14px;"><br />
+</span> 
+</p>
+          </p>
+          <p class="q"><a name="q34"></a>发布项目方式</p>
+          <p class="a">
+            <p>
+	<span style="color:#000000;font-size:14px;">方式一&nbsp; &nbsp; 自助发布项目。</span> 
+</p>
+<p>
+	<span style="color:#000000;font-family:微软雅黑;background-color:#FFFFFF;font-size:14px;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;手机端（<span style="color:#999999;">微信公众号“算客工场”</span>）<span style="font-family:微软雅黑;background-color:#FFFFFF;font-size:14px;">发布项目</span><span style="font-size:14px;">，提交后平台客服与您联系审核。</span></span> 
+</p>
+<p>
+	<span style="color:#000000;font-family:微软雅黑;background-color:#FFFFFF;font-size:14px;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 电脑端算客工场官网（<span style="color:#999999;">www.3kgc.com</span>）发布项目</span><span style="color:#000000;font-size:14px;">，提交后平台客服与您联系审核。</span> 
+</p>
+<p>
+	<span style="color:#000000;font-size:14px;"> 方式二&nbsp; &nbsp; 邮箱发送项目资料。</span> 
+</p>
+<p>
+	<span style="color:#000000;font-size:14px;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 将图纸等资料及您的联系方式发送至<span style="color:#999999;">skgc400@qq.com</span>客服评估后与您电话联系。</span> 
+</p>
+<p>
+	<span style="color:#000000;font-size:14px;"> 方式三&nbsp; &nbsp; 联系客服发项目。</span> 
+</p>
+<p>
+	<span style="color:#000000;font-size:14px;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 致电<span style="color:#999999;">010-57252696</span>联系客服发布项目。</span> 
+</p>
+<p>
+	<span style="color:#000000;font-size:14px;"><br />
+</span> 
+</p>
+          </p>
+          <p class="q"><a name="q35"></a>项目费用</p>
+          <p class="a">
+            <p>
+	<span style="background-color:#FFFFFF;font-family:微软雅黑;font-size:14px;color:#000000;">平台根据项目的建筑面积、具体的需求（算量、组价、专业）、工期时间长短综合评估报价。</span> 
+</p>
+<p>
+	<span style="font-family:微软雅黑;font-size:14px;color:#000000;"><span style="background-color:#FFFFFF;color:#000000;">可以点击</span></span><span style="font-family:微软雅黑;font-size:14px;"><a href="http://www.3kgc.com/projects/calc" target="_blank"><span style="color:#999999;">价格测算</span></a></span><span style="font-family:微软雅黑;font-size:14px;color:#000000;">或联系客服进行人工报价。</span> 
+</p>
+<p>
+	<span style="font-family:微软雅黑;font-size:14px;"><span style="color:#999999;">平台提醒：</span><span style="font-family:微软雅黑;font-size:14px;background-color:#FFFFFF;color:#999999;">为保障项目的质量，如项目费用过低平台不予发布。</span></span> 
+</p>
+<p>
+	<span style="font-family:微软雅黑;font-size:14px;"></span> 
+</p>
+<p>
+	<span style="color:#000000;font-family:微软雅黑;font-size:14px;background-color:#FFFFFF;"><span style="color:#000000;"><br />
+</span></span> 
+</p>
+          </p>
+          <p class="q"><a name="q36"></a>项目审核</p>
+          <p class="a">
+            <p>
+	<span style="color:#000000;font-size:14px;">发布的项目需要经过平台审核，平台会综合评估项目范围，工作内容，资料的完整性，工期及费用的合理性等内容。</span> 
+</p>
+<p>
+	<span style="font-size:14px;"><span style="color:#000000;">预计提交后审核时</span><span style="color:#000000;">间：</span></span><span style="font-size:14px;color:#000000;">工作日</span><span style="font-size:14px;color:#000000;font-family:微软雅黑;background-color:#FFFFFF;"><span style="color:#000000;">(8:30~17:30)</span></span><span style="font-size:14px;color:#000000;">2小时内完成审核发布。</span><span style="color:#000000;font-size:14px;">非工作时间4小时内完成审核发布。</span> 
+</p>
+<p>
+	<span style="font-size:14px;"><span style="color:#000000;">如紧急项目请致电</span><span style="color:#999999;">010-57252696</span></span> 
+</p>
+<p>
+	<span style="font-size:14px;"><span style="color:#999999;"><br />
+</span></span> 
+</p>
+<p>
+	<span style="font-size:14px;"></span> 
+</p>
+          </p>
+          <p class="q"><a name="q37"></a>如何选标</p>
+          <p class="a">
+            <p>
+	<span style="font-size:14px;"><span style="color:#000000;font-size:14px;">委托项目</span><span style="color:#000000;font-size:14px;">：平台管理，直接指派多名优秀算客合作完成。复核人员对成果进行复核。项目经理管理进度及质量。</span></span> 
+</p>
+<p>
+	<span style="color:#000000;font-size:14px;">派单项目：平台推荐与项目匹配的算客。雇主沟通确认后托管费用选标。</span> 
+</p>
+<p>
+	<span style="font-size:14px;"><span style="color:#000000;font-size:14px;">公开派单：平台指派普通算客，</span><span style="font-size:14px;color:#000000;">雇主沟通确认后托管费用选标。</span></span> 
+</p>
+<p>
+	<span style="color:#999999;font-size:14px;">平台提醒：选标前请与算客充分沟通：工作内容、进度、注意事项。</span> 
+</p>
+<p>
+	<span style="font-size:14px;"></span> 
+</p>
+<p>
+	<span style="color:#999999;font-size:14px;"><br />
+</span> 
+</p>
+          </p>
+          <p class="q"><a name="q73"></a>托管费用</p>
+          <p class="a">
+            <p>
+	<span style="font-size:14px;">确认好算客后，需托管服务费并选标，算客才开始进行工作。</span> 
+</p>
+<p>
+	<span style="font-size:14px;">托管服务费可通过手机端或电脑端进行，可选择微信、支付宝、网银付款托管，也可转账到算客工场公司账户。</span> 
+</p>
+<p>
+	<span style="font-size:14px;">支付宝账户</span> 
+</p>
+<p>
+	<span style="color:#999999;font-size:14px;">bjxiaolikeji@163.com</span> 
+</p>
+<p>
+	<span style="font-size:14px;">对公账户</span> 
+</p>
+<p>
+	<span style="color:#999999;font-size:14px;">户名：北京小栗科技有限公司&nbsp; &nbsp;&nbsp;</span><span style="color:#999999;font-size:14px;">账号：1100&nbsp;1016&nbsp;0000&nbsp;5300&nbsp;1644&nbsp; &nbsp;&nbsp;</span><span style="color:#999999;font-size:14px;">开户银行：建行北京沙河支行</span> 
+</p>
+<p>
+	<span style="font-size:14px;">平台提醒：托管服务费后，服务费在算客工场的支付宝账户，并非支付给算客。</span> 
+</p>
+<p>
+	<span style="font-size:14px;"><br />
+</span> 
+</p>
+<p>
+	<span style="font-size:14px;"></span> 
+</p>
+          </p>
+          <p class="q"><a name="q38"></a>过程管理</p>
+          <p class="a">
+            <p>
+	<span style="font-size:14px;"><span style="color:#000000;">委托项目：平台代雇主进行过程管理。</span></span> 
+</p>
+<p>
+	<span style="font-size:14px;"><span style="color:#000000;">派单项目、公开派单项目：按照平台算客工作规范，算客定时上传工作进度及说明，请及时验收，如发现质量问题或进度延迟，及时联系算客或平台，避免后期成果偏差较大。</span></span> 
+</p>
+<p>
+	<span style="font-size:14px;"><span style="color:#000000;"><span style="color:#999999;">平台提醒：平台规范规定</span><span style="font-size:14px;color:#999999;">工期5天内的项目，每天提交一次。工期大于5天的项目，每2天提交一次。</span></span></span>
+</p>
+<p>
+	<span style="font-size:14px;"><span style="color:#000000;"><span style="font-size:14px;color:#999999;"><br />
+</span></span></span>
+</p>
+<p>
+	<span style="font-size:14px;"><span style="color:#000000;"><span style="font-size:14px;color:#999999;"><br />
+</span></span></span> 
+</p>
+<p>
+	<span style="font-size:14px;"></span> 
+</p>
+<p>
+	<br />
+</p>
+          </p>
+          <p class="q"><a name="q85"></a>关闭项目</p>
+          <p class="a">
+            <div style="margin:0px;padding:0px;color:#363B42;font-family:&quot;font-size:14px;background-color:#FFFFFF;">
+	<span style="font-size:14px;">情况一：</span>
+</div>
+<p style="color:#363B42;font-family:&quot;font-size:14px;background-color:#FFFFFF;">
+	<span style="font-size:14px;">雇主发布项目后，未通过审核时，可以关闭。</span>
+</p>
+<p style="color:#363B42;font-family:&quot;font-size:14px;background-color:#FFFFFF;">
+	<span style="font-size:14px;">在微信或者网页端，我发布的项目中，找到此项目，直接关闭。</span>
+</p>
+<div style="margin:0px;padding:0px;color:#363B42;font-family:&quot;font-size:14px;background-color:#FFFFFF;">
+	<span style="font-size:14px;">情况二：</span>
+</div>
+<div style="margin:0px;padding:0px;color:#363B42;font-family:&quot;font-size:14px;background-color:#FFFFFF;">
+	<span style="font-size:14px;">雇主发布项目后，通过审核，投标状态下，雇主可“申请关闭”，填写关闭申请。</span>
+</div>
+<div style="margin:0px;padding:0px;color:#363B42;font-family:&quot;font-size:14px;background-color:#FFFFFF;">
+	<span style="font-size:14px;">平台管理员接收到申请后会电话确认后进行关闭。</span>
+</div>
+<p style="color:#363B42;font-family:&quot;font-size:14px;background-color:#FFFFFF;">
+	<span style="font-size:14px;">情况三：</span>
+</p>
+<div style="margin:0px;padding:0px;color:#363B42;font-family:&quot;font-size:14px;background-color:#FFFFFF;">
+	<span style="font-size:14px;">雇主发布项目后，算客已经开始工作中，雇主可“申请关闭”，填写关闭申请。</span>
+</div>
+<div style="margin:0px;padding:0px;color:#363B42;font-family:&quot;font-size:14px;background-color:#FFFFFF;">
+	<span style="color:#363B42;font-family:&quot;font-size:14px;background-color:#FFFFFF;">平台管理员接收到申请后会电话确认后，进行与算客的协商，再进行关闭。</span><br />
+</div>
+<p style="color:#363B42;font-family:&quot;font-size:14px;background-color:#FFFFFF;">
+	<span style="font-size:14px;">情况四：</span>
+</p>
+<div style="margin:0px;padding:0px;color:#363B42;font-family:&quot;font-size:14px;background-color:#FFFFFF;">
+	<div style="margin:0px;padding:0px;">
+		<span style="font-size:14px;">上次发布项目未选标后</span>
+	</div>
+	<div style="margin:0px;padding:0px;">
+		<span style="font-size:14px;">下次需托管服务费才能自动审核通过。</span>
+	</div>
+</div>
+          </p>
+          <p class="q"><a name="q40"></a>项目变更</p>
+          <p class="a">
+            <p>
+	<span style="font-size:14px;color:#000000;">变更工作内容：需联系平台</span><span style="font-size:14px;color:#999999;">010-57252696</span><span style="font-size:14px;color:#000000;">。</span> 
+</p>
+<p>
+	<span style="font-size:14px;color:#000000;">取消或关闭项目：需联系平台</span><span style="font-size:14px;color:#000000;"><span style="color:#999999;">0</span><span style="color:#999999;">10-57252696</span></span><span style="font-size:14px;color:#000000;">。</span> 
+</p>
+<p>
+	<span style="font-size:14px;color:#000000;">变更时间或价钱：请进行项目变更操作，</span><span style="font-size:14px;color:#000000;">具体步骤如下</span> 
+</p>
+<p>
+	<span style="font-size:14px;color:#000000;"> </span> 
+</p>
+<p>
+	<span style="font-size:14px;color:#000000;">1、在电脑端或微信“项目页面”点击“项目变更”按钮，操作相关变动。</span><br />
+<span style="font-size:14px;color:#000000;">2、登录电脑使用的浏览器（建议使用360安全浏览器）——百度输入“算客工场”(或者输入网址www.3kgc.com)；</span><br />
+<span style="font-size:14px;color:#000000;">3、进入官网后，登录账号（手机号，忘记密码可以使用验证码登录）；</span><br />
+<span style="font-size:14px;color:#000000;">4、页面右上角，我发布的项目，进入需要变更的项目项目详情界面；</span><br />
+<span style="font-size:14px;color:#000000;">5、页面中部有“项目变更”，通过项目变更可以变更费用（增加或者减少），变更工期。</span> 
+</p>
+<p>
+	<span style="font-size:14px;"></span> 
+</p>
+<p>
+	<span style="font-size:14px;color:#999999;">平台提醒：为保障双方权益，如发生变更，请在平台完成变更，勿只在线下通知算客变更。</span>
+</p>
+<p>
+	<span style="font-size:14px;color:#000000;"><br />
+</span> 
+</p>
+<p>
+	<span style="font-size:14px;"></span> 
+</p>
+<p>
+	<span style="font-size:14px;"></span> 
+</p>
+          </p>
+          <p class="q"><a name="q39"></a>验收付款</p>
+          <p class="a">
+            <p>
+	<span style="font-size:14px;color:#000000;">算客完成工作提交成果后，算客可以在3天后提出付款申请；</span> 
+</p>
+<p>
+	<span style="font-size:14px;color:#000000;">算客未申请时，平台在算客提交成果7天后将自动申请付款；</span> 
+</p>
+<p>
+	<span style="font-size:14px;color:#000000;">雇主应在算客申请付款5天内验收并提出修改意见，多于5天雇主未通过平台网站提出修改意见的，平台视为雇主确认无异议，将立即给算客支付费用。</span>
+</p>
+<p>
+	<span style="font-size:14px;color:#000000;"><br />
+</span>
+</p>
+<p>
+	<br />
+</p>
+<p>
+	<span style="font-size:14px;"><span style="font-size:14px;"></span></span> 
+</p>
+          </p>
+          <p class="q"><a name="q43"></a>质保时限</p>
+          <p class="a">
+            <p>
+	<span style="color:#000000;font-size:14px;">算客对项目提供30天质保，从交付日算起。</span> 
+</p>
+<p>
+	<span style="color:#000000;font-size:14px;"><br />
+</span> 
+</p>
+          </p>
+          <p class="q"><a name="q44"></a>维权</p>
+          <p class="a">
+            <p>
+	<span style="color:#000000;font-family:微软雅黑;font-size:14px;background-color:#FFFFFF;"><span style="font-family:微软雅黑;font-size:14px;background-color:#FFFFFF;">如算客提交成果文件无法达到质量要求，可要求算客进行调整。</span></span> 
+</p>
+<p>
+	<span style="color:#000000;font-family:微软雅黑;font-size:14px;background-color:#FFFFFF;">算客完成的结果文件始终无法满足雇主的需求，雇主可以维权，将有平台进行裁决，坚决维护雇主的利益。</span> 
+</p>
+<p>
+	<span style="color:#000000;font-size:14px;">1、成果文件不达标，并且算客拒绝修改。</span> 
+</p>
+<p>
+	<span style="color:#000000;font-size:14px;"> 2、算客服务态度恶劣。</span> 
+</p>
+<p>
+	<span style="color:#000000;font-size:14px;"><br />
+</span>
+</p>
+<p>
+	<span style="font-size:14px;"></span> 
+</p>
+          </p>
+          <p class="q"><a name="q46"></a>积分奖励</p>
+          <p class="a">
+            <p>
+	<span style="color:#000000;"> </span>
+</p>
+<p style="font-family:&quot;font-size:medium;text-align:center;">
+	<span style="color:#000000;font-size:14px;">雇主升级</span> 
+</p>
+<p style="font-family:&quot;font-size:medium;">
+	<span style="color:#000000;font-size:14px;">&nbsp;1、</span><span style="color:#000000;font-size:14px;">VIP雇主：</span><span style="color:#000000;font-size:14px;">按自然年计算，年结算项目金额超过10000元，自动升级VIP雇主（积分计算包含本年度之前已经成交的项目金额），短信通知雇主。</span> 
+</p>
+<p style="font-family:&quot;font-size:medium;">
+	<span style="color:#000000;font-size:14px;">2、</span><span style="color:#000000;font-size:14px;">高级VIP雇主：</span><span style="color:#000000;font-size:14px;">按自然年计算，年结算项目金额超过50000元，自动升级（5万以上部分，按2%计算积分），短信通知雇主。</span> 
+</p>
+<p style="font-family:&quot;font-size:medium;">
+	<span style="color:#000000;font-size:14px;">3、按自然年计算，如未达到各级别金额，自动降级。</span> 
+</p>
+<p style="font-family:&quot;font-size:medium;">
+	<span style="color:#000000;font-size:14px;">积分用途</span> 
+</p>
+<p style="font-family:&quot;font-size:medium;">
+	<span style="color:#000000;font-size:14px;">1、设置积分兑换功能，雇主可以使用积分兑换礼品。</span> 
+</p>
+<p style="font-family:&quot;font-size:medium;">
+	<span style="color:#000000;font-size:14px;">2、积分可以抵消项目费用，100分=1元，满1000分可用。</span> 
+</p>
+<p style="font-family:&quot;font-size:medium;">
+	<span style="color:#000000;font-size:14px;">3、积分自发放日起，有效期为两年，过期自动清零。</span> 
+</p>
+<p style="font-family:&quot;font-size:medium;">
+	<span style="color:#000000;font-size:14px;"><br />
+</span> 
+</p>
+<span style="color:#000000;font-size:14px;"></span><br />
+<p>
+	<br />
+</p>
+          </p>
+
+    </div>
+    <div id="hq2" class="help-qa">
+          <p class="q"><a name="q75"></a>注册</p>
+          <p class="a">
+            <p>
+	<span style="font-size:14px;color:#000000;">手机端：通过微信“添加朋友”搜索“<span style="color:#999999;">算客工场</span>” ， 关注， 在“算客”中选择“<span style="font-size:14px;">申请算客</span>”，按提示进行注册。</span> 
+</p>
+<p>
+	<span style="font-size:14px;color:#000000;">电脑端：在百度里输入“<span style="color:#999999;">算客工场</span>”或者输入网址“<a href="www.3kgc.com" target="_blank">www.3kgc.com</a>”，打开后就可以在右上角免费注册。</span> 
+</p>
+<p>
+	<span style="font-size:14px;"><br />
+</span> 
+</p>
+<p>
+	<span style="font-size:14px;"></span> 
+</p>
+          </p>
+          <p class="q"><a name="q47"></a>认证算客</p>
+          <p class="a">
+            <p>
+	<span style="font-size:14px;color:#000000;">成为算客后，可以参与投标承接平台的项目。</span> 
+</p>
+<p>
+	<span style="font-size:14px;color:#000000;">1、验证手机。</span> 
+</p>
+<p>
+	<span style="font-size:14px;color:#000000;">2、实名认证。</span> 
+</p>
+<p>
+	<span style="font-size:14px;color:#000000;">3、算客资料填写。</span> 
+</p>
+<p>
+	<span style="font-size:14px;color:#000000;">4、技能认证（上传执业证书或通过平台的考试认证）&nbsp;</span> 
+</p>
+<p>
+	<span style="font-size:14px;"><br />
+</span> 
+</p>
+<p>
+	<span style="font-size:14px;"></span> 
+</p>
+          </p>
+          <p class="q"><a name="q79"></a>订阅项目提醒</p>
+          <p class="a">
+            <p>
+	<span style="color:#000000;font-size:14px;">通过平台认证后，</span><span style="color:#000000;font-size:14px;">关注“算客工场<span style="font-size:14px;">”</span>微信。</span> 
+</p>
+<p>
+	<span style="color:#000000;font-size:14px;">进入“算客工场<span style="font-size:14px;">”</span>，点击“我的<span style="font-size:14px;">”</span>，“微信信息推送提醒<span style="font-size:14px;">”</span>，选择需要订阅的消息类型及专业即可。</span>
+</p>
+<p>
+	<span style="color:#000000;font-size:14px;"><br />
+</span>
+</p>
+          </p>
+          <p class="q"><a name="q67"></a>投标须知</p>
+          <p class="a">
+            <p>
+	<span style="color:#000000;font-size:14px;">1、可在电脑端（<span style="color:#999999;">www.3kgc.com</span>）和手机端（<span style="color:#999999;">算客工场微信公众号</span>）参与投标。</span> 
+</p>
+<p>
+	<span style="color:#000000;font-size:14px;">2、可投标的项目状态为“投标中”或“报名中”。</span> 
+</p>
+<p>
+	<span style="color:#000000;font-size:14px;">3、参与投标后需等待平台推荐算客。</span> 
+</p>
+<p>
+	<span style="color:#000000;font-size:14px;">4、投标24小时之后，可以取消投标，项目已经选标或者关闭，恢复投标名额。</span> 
+</p>
+<p>
+	<span style="color:#000000;font-size:14px;">5、中标后，会有短信提醒，请注意查收短信，中标后请及时联系雇主，沟通工作范围和内容；请关注雇主是否托管服务费，如果没有托管服务费，让其托管服务费。</span>
+</p>
+<p>
+	<span style="color:#000000;font-size:14px;"><br />
+</span>
+</p>
+          </p>
+          <p class="q"><a name="q77"></a>投标资格</p>
+          <p class="a">
+            <p>
+	<span style="font-size:14px;color:#000000;"><span style="color:#000000;font-size:14px;">1、</span><span style="font-size:14px;color:#000000;">算珠：投标需消耗10个算珠。</span></span> 
+</p>
+<p>
+	<span style="font-size:14px;color:#000000;">2、信誉分：低于60分无法投标。</span> 
+</p>
+<p>
+	<span style="font-size:14px;color:#000000;"><span style="color:#000000;font-size:14px;">3、</span><span style="color:#000000;font-size:14px;"></span></span><span style="font-size:14px;color:#000000;">保障金：</span><span style="font-size:14px;font-family:微软雅黑;color:#000000;">无保证金算客仅可投标参与1个1000元以下的项目。</span><span style="font-size:14px;font-family:微软雅黑;color:#000000;">托管保证金可同时参与3个项目（普通算客）。</span><span style="font-size:14px;color:#000000;"></span> 
+</p>
+<p>
+	<span style="font-size:14px;color:#000000;"><span style="font-family:微软雅黑;background-color:#FFFFFF;color:#000000;font-size:14px;">说明：保证金要大于项目服务费的10%，如投标1万的项目，至少需要1000元保证金。</span></span> 
+</p>
+<span style="color:#000000;font-size:14px;">4、投标次数：普通算客同时投标不超过3个项目，金牌会员同时投标不超过5个项目。</span> 
+<p>
+	<span style="font-size:14px;color:#000000;">5、金牌算客：</span><span style="font-size:14px;color:#000000;">普通算客可投标</span><span style="font-size:14px;color:#000000;">公开派单项目，金牌会员可投标公开派单项目、派单项目。</span> 
+</p>
+<p>
+	<span style="font-size:14px;"><br />
+</span> 
+</p>
+<p>
+	<span style="font-size:14px;"></span> 
+</p>
+          </p>
+          <p class="q"><a name="q76"></a>金牌会员</p>
+          <p class="a">
+            <p>
+	<span style="font-size:14px;color:#000000;">1、可承接派单项目</span> 
+</p>
+<p>
+	<span style="font-size:14px;color:#000000;">2、可租赁广联达全国版加密锁</span> 
+</p>
+<p>
+	<span style="font-size:14px;color:#000000;">3、服务费减少至10%</span> 
+</p>
+<p>
+	<span style="font-size:14px;color:#000000;">4、投标次数增加至5次</span> 
+</p>
+<p>
+	<span style="font-size:14px;color:#000000;">更多会员福利请查看</span><span style="font-size:14px;"><a href="http://www.3kgc.com/vip_members/new" target="_blank">http://www.3kgc.com/vip_members/new</a></span> 
+</p>
+<p>
+	<br />
+</p>
+<p>
+	<span style="font-size:14px;"></span> 
+</p>
+<p>
+	<span style="font-size:14px;"></span> 
+</p>
+          </p>
+          <p class="q"><a name="q78"></a>项目类型</p>
+          <p class="a">
+            <p style="font-family:微软雅黑;color:#333333;background-color:#FFFFFF;">
+	<span style="font-size:14px;"><span style="color:#000000;font-size:14px;">委托项目</span><span style="color:#000000;font-size:14px;">：平台管理，直接指派多名优秀算客合作完成。复核人员对成果进行复核。项目经理管理进度及质量。</span></span>
+</p>
+<p style="font-family:微软雅黑;color:#333333;background-color:#FFFFFF;">
+	<span style="color:#000000;font-size:14px;">派单项目：平台推荐与项目匹配的算客。雇主沟通确认后托管费用选标。</span>
+</p>
+<p style="font-family:微软雅黑;color:#333333;background-color:#FFFFFF;">
+	<span style="font-size:14px;"><span style="color:#000000;font-size:14px;">公开派单：平台指派普通算客，</span><span style="color:#000000;font-size:14px;">雇主沟通确认后托管费用选标。</span></span>
+</p>
+<p style="font-family:微软雅黑;color:#333333;background-color:#FFFFFF;">
+	<span style="font-size:14px;"><span style="color:#000000;font-size:14px;"><br />
+</span></span>
+</p>
+          </p>
+          <p class="q"><a name="q55"></a>保证金</p>
+          <p class="a">
+            <p>
+	<span style="font-size:14px;color:#000000;">为了保障雇主的利益，算客在接项目时，需缴纳保证金。</span> 
+</p>
+<p>
+	<span style="font-size:14px;color:#000000;">1、保证金最低1000元，最高5000元。(工作中心保证金为20000元)</span> 
+</p>
+<p>
+	<span style="font-size:14px;color:#000000;">2、保证金要大于项目服务费的10%，比如1万的项目，至少需要1000元保证金。</span> 
+</p>
+<p>
+	<span style="font-size:14px;color:#000000;">3、保证金额度将直接展示在前台页面，保证金越高越能赢得业主的信赖。</span> 
+</p>
+<p>
+	<span style="font-size:14px;color:#000000;">4、做项目时，保证金将冻结在您的账户中，如业主申请维权判定成立，被冻结的保证金先行赔付。</span> 
+</p>
+<p>
+	<br />
+</p>
+<p>
+	<br />
+</p>
+          </p>
+          <p class="q"><a name="q56"></a>加密锁</p>
+          <p class="a">
+            <p>
+	<span style="color:#000000;font-size:14px;">租赁条件：金牌算客，在中标项目后可申请广联达正版加密锁租赁服务，数量有限，没有空闲锁时不再提供。</span>
+</p>
+<p>
+	<span style="color:#000000;font-size:14px;">租赁流程：中标后，在电脑端我参与的项目界面右上角有“加密锁申请”按钮，申请加密锁后，平台通过顺丰快递邮寄，加密锁需要平台授权才可以使用，需要在电脑端绑定授权</span>
+</p>
+<p>
+	<span style="color:#000000;font-size:14px;">加密锁内容：平台提供加密锁为广联达全国正版锁，包含广联达的大部分产品；</span>
+</p>
+<p>
+	<span style="color:#000000;font-size:14px;">租赁费用：200元/月（按月从账户余额中扣除），押金1000元（冻结保证金1000元）； 租用当天开始计时，不满一个月按一个月算。租用后平台使用顺丰快递邮寄（免费）。</span>
+</p>
+<p>
+	<span style="color:#000000;font-size:14px;">回收：加密锁到期后，如无接到新项目，平台有权停止加密锁使用权，并要求算客寄回。退锁请寄回，并联系平台。电话：<span style="color:#999999;">15313930370</span>&nbsp; 地址：<span style="color:#999999;">北京市昌平区龙域东二路龙域中心东塔五层K13区</span></span>
+</p>
+<p>
+	<br />
+</p>
+          </p>
+          <p class="q"><a name="q48"></a>投标前需确认</p>
+          <p class="a">
+            <p>
+	<span style="font-size:14px;color:#000000;">1、明确项目工作内容、范围；</span> 
+</p>
+<p>
+	<span style="font-size:14px;color:#000000;">2、详细了解：图纸的详细程度、复杂程度、全面性；</span> 
+</p>
+<p>
+	<span style="font-size:14px;color:#000000;">3、确认工期要求是否能满足；</span> 
+</p>
+<p>
+	<span style="font-size:14px;color:#000000;">4、确认个人能力是否匹配；</span> 
+</p>
+<p>
+	<span style="font-size:14px;color:#000000;">5、确认价格是否满意；</span> 
+</p>
+<p>
+	<span style="font-size:14px;color:#000000;">6、明确雇主对成果的质量要求；</span> 
+</p>
+<p>
+	<span style="font-size:14px;color:#000000;">平台提醒：投标即代表能完成项目。中标后如出现：没有时间、没有软件、没了解图纸等因素，造成项目无法继续。<span style="color:#333333;font-family:微软雅黑;font-size:14px;background-color:#FFFFFF;">推荐后由于个人原因未承接此项目，将被扣除50元投标保障金，三次盲目投标将取消报名资格。</span></span>
+</p>
+<p>
+	<span style="font-size:14px;color:#000000;"><br />
+</span> 
+</p>
+          </p>
+          <p class="q"><a name="q50"></a>提升中标率</p>
+          <p class="a">
+            <p>
+	<span style="color:#000000;font-family:makaSimHei;font-size:14px;background-color:#FFFFFF;"><span style="font-family:makaSimHei;font-size:14px;background-color:#FFFFFF;color:#000000;">1、积极投标报名。</span></span> 
+</p>
+<p>
+	<span style="color:#000000;font-family:makaSimHei;font-size:14px;background-color:#FFFFFF;">2、在投标说明处，务必说明自身优势，可以提高中标率。</span> 
+</p>
+<p>
+	<span style="color:#000000;font-family:makaSimHei;font-size:13.7292px;background-color:#FFFFFF;"><span style="color:#000000;font-family:makaSimHei;font-size:14px;background-color:#FFFFFF;">如</span><span style="color:#000000;font-family:makaSimHei;font-size:14px;background-color:#FFFFFF;">做过类似的项目。</span><span style="color:#000000;font-family:makaSimHei;font-size:14px;background-color:#FFFFFF;">简单介绍项目规模及情况。如</span><span style="color:#000000;font-family:makaSimHei;font-size:14px;background-color:#FFFFFF;">比较擅长这个专业。</span><span style="color:#000000;font-family:makaSimHei;font-size:14px;background-color:#FFFFFF;">有多少相同的项目经验。</span><span style="color:#000000;"></span><span style="color:#000000;font-size:14px;">如</span></span><span style="background-color:#FFFFFF;font-family:makaSimHei;font-size:14px;color:#000000;">做过相同地区的项目，了解该地区计算规则。</span> 
+</p>
+<p>
+	<span style="background-color:#FFFFFF;font-family:makaSimHei;font-size:13.7292px;color:#000000;"><span style="color:#000000;font-size:14px;">3、</span><span style="color:#000000;font-family:微软雅黑;font-size:14px;background-color:#FFFFFF;">算客应在平台完善个人资料等展示个人能力的信息</span></span> 
+</p>
+<p>
+	<span style="background-color:#FFFFFF;"><span><span style="font-size:14px;color:#000000;">4、</span></span><span style="color:#000000;font-family:微软雅黑;font-size:14px;background-color:#FFFFFF;">在平台工作需尽职尽责，在平台积累个人良好信誉，提高雇主对自己的认可度（好评率、按时交付率、诚信等）。</span></span>
+</p>
+<p>
+	<span style="background-color:#FFFFFF;"><span style="color:#000000;font-family:微软雅黑;font-size:14px;background-color:#FFFFFF;"><br />
+</span></span>
+</p>
+          </p>
+          <p class="q"><a name="q51"></a>工作规范</p>
+          <p class="a">
+            <p>
+	<span style="color:#000000;font-size:14px;">雇主托管费用选标后，算客开始工作，并应遵守平台规范。</span> 
+</p>
+<p>
+	<span style="color:#000000;font-size:14px;">1、算客中标后应该对雇主提供的图纸资料及雇主的工作要求提出问题整理（没有可不提出）并尽快联系雇主处理。</span> 
+</p>
+<p>
+	<span style="color:#000000;font-size:14px;">2、工作中如有任何疑问需要雇主处理，需及时在平台提交进度说明并附上图纸疑问整理文件。</span> 
+</p>
+<p>
+	<span style="color:#000000;font-size:14px;">3、在平台上按时提交工作进度，规范要求：5天以内项目每天需要更新进度文件，5天以上项目，每2天更新一次进度文件，没有按时更新，系统将会扣除5分信用分，低于80(含）分将不能继续在平台参与投标；。</span> 
+</p>
+<p>
+	<span style="color:#000000;font-size:14px;">4、在平台上按时提交成果全部文件，提交的成果文件需要进行自检。若提交成果文件后平台验收成果文件质量不合格则平台依据相应规则处罚。</span> 
+</p>
+<p>
+	<span style="color:#000000;font-size:14px;">5、对于过程中需求变化（雇主增加项目工作量、减少服务费、提前工作交付时间、暂停项目等情况）或者沟通过程中遇到问题，要及时与雇主沟通，并向平台反馈。</span> 
+</p>
+<p>
+	<span style="color:#000000;font-size:14px;">平台提醒：<span style="color:#000000;font-family:微软雅黑;font-size:14px;background-color:#FFFFFF;">需注意确认雇主托管费用后开始工作。</span></span>
+</p>
+<p>
+	<span style="color:#000000;font-size:14px;"><span style="color:#000000;font-family:微软雅黑;font-size:14px;background-color:#FFFFFF;"><br />
+</span></span>
+</p>
+          </p>
+          <p class="q"><a name="q52"></a>质保时限</p>
+          <p class="a">
+            <p>
+	<span style="color:#000000;font-family:微软雅黑;font-size:14px;line-height:32px;background-color:#FFFFFF;">算客在收到服务费后30天内，应对项目提供维护，修改问题。</span> 
+</p>
+<p>
+	<span style="color:#000000;font-family:微软雅黑;font-size:14px;line-height:32px;background-color:#FFFFFF;"><br />
+</span> 
+</p>
+          </p>
+          <p class="q"><a name="q53"></a>费用结算</p>
+          <p class="a">
+            <p>
+	<span style="font-size:14px;color:#000000;">雇主验收成果合格后会付款</span><span style="color:#000000;font-size:14px;">（<span style="color:#999999;">平台提醒：提交成果后请主动联系雇主</span>）。</span> 
+</p>
+<p>
+	<span style="font-size:14px;color:#000000;">雇主未主动付款，也未反馈问题，可以在提交成果的3天后，点击“申请付款”，雇主仍未操作，那么5天后系统将自动付款。</span> 
+</p>
+<p>
+	<br />
+</p>
+<p style="text-align:left;font-family:微软雅黑;color:#333333;font-size:14px;background-color:#FFFFFF;">
+	<span style="color:#000000;">算客未申请时，平台在算客提交成果7天后将自动申请付款。</span> 
+</p>
+<p style="text-align:left;font-family:微软雅黑;color:#333333;font-size:14px;background-color:#FFFFFF;">
+	<span style="color:#000000;"><br />
+</span> 
+</p>
+<p>
+	<br />
+</p>
+          </p>
+          <p class="q"><a name="q54"></a>提现</p>
+          <p class="a">
+            <p>
+	<span style="font-size:14px;color:#000000;">1、工作日提现：一般次日到账</span>
+</p>
+<p>
+	<span style="font-size:14px;color:#000000;">2、非工作日提现：一般等到第二个工作日到账。</span>
+</p>
+<p>
+	<span style="font-size:14px;color:#000000;">平台提醒：只能提现到注册时姓名对应的银行卡或者支付宝账号。</span>
+</p>
+<p>
+	<span style="font-size:14px;color:#000000;"><br />
+</span>
+</p>
+          </p>
+          <p class="q"><a name="q57"></a>信誉分扣除规则</p>
+          <p class="a">
+            <p>
+	<span style="color:#000000;"><span style="font-size:14px;"><span style="color:#000000;"><span style="color:#000000;"></span></span></span><span style="font-size:14px;"><span style="font-size:14px;"></span><span style="font-size:14px;"></span></span></span><span style="font-size:14px;">1、中标后，因算客责任中止项目，扣除算客30信誉分，酌情扣除保证金。</span> 
+</p>
+<p>
+	<span style="font-size:14px;">2、算客未按平台工作要求提交进度，每次扣5分。</span> 
+</p>
+<p>
+	<span style="font-size:14px;">3、算客未按平台规定时间提交成果文件，每天扣10分。</span> 
+</p>
+<p>
+	<span style="font-size:14px;">4、第一次出现刷单情况，扣除30信誉分，第二次直接封号。</span> 
+</p>
+<p>
+	<span style="font-size:14px;">5、项目结束后算客骚扰雇主，被举报1次，扣10信誉分。</span> 
+</p>
+<p>
+	<span style="font-size:14px;">6、算客在平台承接项目后直接转包或直接把账号交由他人使用，一旦被发现，平台有权更换中标人，首次扣除30信誉分，第二次直接封号。</span> 
+</p>
+<p>
+	<span style="font-size:14px;">7、算客要求雇主先支付费用再提交成果，一经核实，第一次扣30信誉分，第二次直接封号。</span> 
+</p>
+<p>
+	<span style="font-size:14px;">8、算客无故要求雇主增加服务费才开展工作，一经核实，第一次扣30信誉分，第二次直接封号。</span> 
+</p>
+<p>
+	<span style="font-size:14px;">9、算客引导雇主线下交易的（线下支付费用），一经核实，第一次扣30信誉分，第二次直接封号。</span> 
+</p>
+<p>
+	<span style="font-size:14px;">10、算客提交虚假个人信息，一经核实，第一次扣30信誉分，第二次直接封号。</span> 
+</p>
+<p>
+	<br />
+</p>
+          </p>
+          <p class="q"><a name="q58"></a>算客等级</p>
+          <p class="a">
+            <p>
+	<img src="static/picture/2118195762_______171124_______06.png" alt="" width="760" height="376" title="" align="" />
+</p>
+<p>
+	<br />
+</p>
+          </p>
+
+    </div>
+    <div id="hq3" class="help-qa">
+          <p class="q"><a name="q84"></a>业务流程</p>
+          <p class="a">
+            <p>
+	<img src="static/picture/bdf9d4c2aea6.png" alt="" /> 
+</p>
+<p>
+	<br />
+</p>
+<p>
+	<span style="font-size:14px;"></span> 
+</p>
+<p>
+	<span style="font-size:14px;"></span> 
+</p>
+          </p>
+          <p class="q"><a name="q31"></a>委托项目</p>
+          <p class="a">
+            <p>
+	<span style="color:#999999;">
+	<p style="font-family:微软雅黑;color:#333333;background-color:#FFFFFF;">
+		<span style="font-size:14px;color:#000000;">项目发布后由统一管理，平台指派多名优秀算客合作完成，有复核人员进行项目复核，项目经理管理进度及质量。</span>
+	</p>
+	<p style="font-family:微软雅黑;color:#333333;background-color:#FFFFFF;">
+		<span style="font-size:14px;color:#000000;">项目特点：一般由多名算客合作完成，质量要求非常高，项目费用1000元以上。</span>
+	</p>
+	<p style="font-family:微软雅黑;color:#333333;background-color:#FFFFFF;">
+		<span style="font-size:14px;color:#000000;"><br />
+</span>
+	</p>
+</span>
+</p>
+          </p>
+          <p class="q"><a name="q30"></a>派单项目</p>
+          <p class="a">
+            <p>
+	<span style="color:#999999;">
+	<p style="font-family:微软雅黑;color:#333333;background-color:#FFFFFF;">
+		<span style="font-size:14px;">项目发布后由平台推荐与项目匹配的优秀算客，选标后雇主自行管理项目。</span>
+	</p>
+	<p style="font-family:微软雅黑;color:#333333;background-color:#FFFFFF;">
+		<span style="font-size:14px;">项目特点：一般由一名算客独立完成，质量要求较高，项目费用1000元以上的项目。</span>
+	</p>
+	<p style="font-family:微软雅黑;color:#333333;background-color:#FFFFFF;">
+		<span style="font-size:14px;">派单项目只能金牌会员投标承接。</span>
+	</p>
+	<p style="font-family:微软雅黑;color:#333333;background-color:#FFFFFF;">
+		<span style="font-size:14px;"><br />
+</span>
+	</p>
+</span>
+</p>
+          </p>
+          <p class="q"><a name="q29"></a>公开报名项目</p>
+          <p class="a">
+            <p>
+	<span style="font-size:14px;">项目发布后由平台指派普通算客，选标后雇主自行管理项目。</span> 
+</p>
+<p>
+	<span style="font-size:14px;">项目特点：一般由一名算客独立完成，项目工期紧，质量要求不高。</span>
+</p>
+<p>
+	<span style="font-size:14px;"><br />
+</span>
+</p>
+<p>
+	<br />
+</p>
+          </p>
+          <p class="q"><a name="q32"></a>平台收费</p>
+          <p class="a">
+            <p>
+	<span style="font-size:14px;color:#000000;">雇主方：</span> 
+</p>
+<p>
+	<span style="color:#000000;font-size:14px;"> 对于雇主方在平台发布项目，目前免收服务费，可以免费发布。</span> 
+</p>
+<p>
+	<span style="color:#000000;font-size:14px;"></span>
+</p>
+<p>
+	<span style="color:#000000;font-size:14px;"> 算客方：</span> 
+</p>
+<p>
+	<span style="font-size:14px;color:#000000;">平台对普通算客收取项目金额的 15%&nbsp;</span> 
+</p>
+<p>
+	<span style="color:#000000;font-size:14px;"> 对金牌会员算客收取项目金额的10%</span> 
+</p>
+<p>
+	<span style="font-size:14px;color:#000000;">仅对量项目</span><span style="font-size:14px;color:#000000;">收取项目金额的</span><span style="font-size:14px;color:#000000;">7%</span> 
+</p>
+<p>
+	<span style="color:#000000;font-size:14px;">例如算客中标价值 2000 元的项目，则算客最终所得：</span> 
+</p>
+<p>
+	<span style="font-size:14px;color:#000000;">普通算客：2000 元（项目款） - 300 元（服务费）= 1700 元</span> 
+</p>
+<p>
+	<span style="color:#000000;font-size:14px;">会员算客：2000 元（项目款） - 200 元（服务费）= 1800 元</span> 
+</p>
+<p>
+	<span style="color:#000000;font-size:14px;"><br />
+</span>
+</p>
+<p>
+	<span style="font-size:14px;"></span> 
+</p>
+          </p>
+    </div>
+  </div>
+</div>
+</div>
+<div class="clearfix"></div>
+<div class="tborder">
+  <div class="footer">
+  <div id='show_dlgs' show_fb_dlg=""></div><!--点击意见反馈弹出框需登录 登录后弹出意见反馈窗口标志-->
+  <div class="w">
+    <div>
+      <ul class="tel">
+        <li style="margin-bottom: 12px;">
+          <img src="static/picture/footer_logo-93a287937d6cfc0545b5193c491578c201a4bb5c47c1ff3193bcea0a5b204292.png" alt="Footer logo 93a287937d6cfc0545b5193c491578c201a4bb5c47c1ff3193bcea0a5b204292" />
+        </li>
+        <li><img src="static/picture/footer_position_icon-135dea1e0065c84db485aa9a0167983bcf9c72cf46e5e6e62095583096992ce2.png" alt="Footer position icon 135dea1e0065c84db485aa9a0167983bcf9c72cf46e5e6e62095583096992ce2" width="14" height="14" />
+          北京市昌平区龙域东二路龙域中心东塔五层K13区
+        </li>
+        <li><img src="static/picture/footer_phone_icon-8043e8e9c266263ea8e8ec67c5fa7cdee61ce9c8133513726ef73ae2c8843161.png" alt="Footer phone icon 8043e8e9c266263ea8e8ec67c5fa7cdee61ce9c8133513726ef73ae2c8843161" width="14" height="14" />
+          4009938200
+          15321980075
+        </li>
+        <li><img src="static/picture/footer_qq_icon-d2a806a6465988b99f4e56cd1f5c8205d1485a51a9af48d2388da1a65b7765d9.png" alt="Footer qq icon d2a806a6465988b99f4e56cd1f5c8205d1485a51a9af48d2388da1a65b7765d9" width="14" height="14" />
+          3283170039
+          工作日8:30-17:30
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <a target="_blank" href="http://www.3kgc.com/articles/4">关于我们</a>
+          |
+          <a target="_blank" href="/articles?assort=2">平台规则</a>
+          |
+          <a target="_blank" href="/articles">最新动态</a>
+          |
+          <a target="_blank" href="http://www.3kgc.com/articles/13">手机版</a>
+        </li>
+        <li>
+          Copyright 2015-2019 北京小栗科技有限公司 版权所有 京ICP备15032803号
+        </li>
+        <li>
+          <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+          document.write(unescape("%3Cspan id='cnzz_stat_icon_1255094452'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s95.cnzz.com/stat.php%3Fid%3D1255094452%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));</script>
+          <script type='text/javascript'>
+              var _hmt = _hmt || [];
+              (function () {
+                  var hm = document.createElement("script");
+                  hm.src = "https://hm.baidu.com/hm.js?455ff2b31e6e616c3896cdec23d94f4e";
+                  var s = document.getElementsByTagName("script")[0];
+                  s.parentNode.insertBefore(hm, s);
+              })();
+          </script>
+          <a class="bdxy" target="_blank" href="http://www.baidu.com/s?wd=www.3kgc.com@v"></a>
+          <a class="zfb" target="_blank" href="javascript:void(0)"></a>
+          <a class="aly" target="_blank" href="javascript:void(0)"></a>
+          <a class="smyz" target="_blank" href="http://www.anquan.org/authenticate/cert/?site=www.3kgc.com&at=business"></a>
+
+        </li>
+
+      </ul>
+
+    </div>
+    <div class="clearfix mb10"></div>
+  </div>
+
+</div>
+<div class="dialog noflash-dialog" style="margin-left: -100px;width:250px;height:200px;">
+
+  <div class="dialog-head">提示<a class="close" href="javascript:;"><b>&#8855;</b>关闭</a></div>
+  <div class="dialog-body">
+    我们的产品需要安装flashplayer 10或更高版本 <br/>
+    请
+    <a target="_blank" href="http://get.adobe.com/flashplayer">点击此处</a>  免费下载
+  </div>
+</div>
+<div class="dialog-bg"></div>
+
+<div class="m-right-tool-bar">
+  <ul>
+    <li class="m-right-tool-list" style="border-top:none;">
+      <span class="hbtn" intext="QQ客服">
+        <img class="bg" src="static/picture/blank-2f561b02a49376e3679acd5975e3790abdff09ecbadfa1e1858c7ba26e3ffcef.gif" alt="Blank 2f561b02a49376e3679acd5975e3790abdff09ecbadfa1e1858c7ba26e3ffcef" width="40" height="28" />
+        <span>QQ客服</span>
+
+        <div class="bg-poptip">
+          <div class="ui-poptip ui-poptip-r ui-poptip-white">
+            <div class="ui-poptip-arrow ui-poptip-arrow-border"></div>
+            <div class=" ui-poptip-arrow ui-poptip-arrow-bg"></div>
+            <div class="m-tool-box clear" style="width:132px;text-align: center;">
+              <p class="clear mt20 mb10" style="font-size:14px;font-weight:400;color:rgba(153,153,153,1);">
+                <img style="  background: url(static/images/service_icon_pc-b31bf3f0171d000dca0362e92e884e0bd3ff6fcef95fd512719b507d0eb7ba72.png) no-repeat -435px -30px;" src="static/picture/blank-2f561b02a49376e3679acd5975e3790abdff09ecbadfa1e1858c7ba26e3ffcef.gif" alt="Blank 2f561b02a49376e3679acd5975e3790abdff09ecbadfa1e1858c7ba26e3ffcef" width="30" height="26" />QQ客服
+              </p>
+
+              <p class="clear">
+                <a target="_blank" title="点击聊天" href="http://wpa.qq.com/msgrd?v=3&uin=3214423261&site=qq&menu=yes">
+                  项目问题咨询
+                </a></p>
+
+              <p class="clear mt10 mb10">
+
+                <a target="_blank" title="点击聊天" href="http://wpa.qq.com/msgrd?v=3&uin=2726153751&site=qq&menu=yes">
+                  算客注册咨询
+                </a></p>
+
+              <p class="clear mb10">
+                <a target="_blank" title="点击聊天" href="http://wpa.qq.com/msgrd?v=3&uin=2726153751&site=qq&menu=yes">
+                  团队企业合作
+                </a></p>
+            </div>
+          </div>
+        </div>
+      </span>
+
+    </li>
+    <li class="m-right-tool-list">
+      <span class="hbtn m-right-tool1" intext="联系我们">
+        <img class="bg" src="static/picture/blank-2f561b02a49376e3679acd5975e3790abdff09ecbadfa1e1858c7ba26e3ffcef.gif" alt="Blank 2f561b02a49376e3679acd5975e3790abdff09ecbadfa1e1858c7ba26e3ffcef" width="40" height="28" />
+        <span>联系我们</span>
+
+        <div class="bg-poptip" style="width: 446px;">
+          <div class="ui-poptip ui-poptip-r ui-poptip-white">
+            <div class="ui-poptip-arrow ui-poptip-arrow-border"></div>
+            <div class=" ui-poptip-arrow ui-poptip-arrow-bg"></div>
+            <div class="m-tool-box clear lxwm">
+              <p class="clear">
+                <span class="bg_phone"></span>电话：4009938200
+                15321980075
+              </p>
+
+              <p class="clear">
+                <span class="bg_address"></span>北京市昌平区龙域东二路龙域中心东塔五层
+              </p>
+            </div>
+          </div>
+        </div>
+      </span>
+
+    </li>
+    <li class="m-right-tool-list">
+      <span class="hbtn m-right-tool2" intext="二维码">
+        <img class="bg" src="static/picture/blank-2f561b02a49376e3679acd5975e3790abdff09ecbadfa1e1858c7ba26e3ffcef.gif" alt="Blank 2f561b02a49376e3679acd5975e3790abdff09ecbadfa1e1858c7ba26e3ffcef" width="40" height="28" />
+        <span>二维码</span>
+
+        <div class="bg-poptip" style="width: 275px;height:267px;top:-100px;">
+          <div class="ui-poptip ui-poptip-r ui-poptip-white">
+            <div class="ui-poptip-arrow ui-poptip-arrow-border" style="top:115px"></div>
+            <div class=" ui-poptip-arrow ui-poptip-arrow-bg" style="top:115px"></div>
+            <div class="m-tool-box clear all-center" style="width:228px;">
+              <div class="clear">
+                <img class="mt10 mb10" src="static/picture/app_service_content-951302c48746fabaa5d925a0d48f332c22d5bf1a7bd47d60081b0249105143be.png" alt="App service content 951302c48746fabaa5d925a0d48f332c22d5bf1a7bd47d60081b0249105143be" /><br>
+              </div>
+            </div>
+          </div>
+        </div>
+      </span>
+
+    </li>
+      <li class="m-right-tool-list">
+      <span class="hbtn m-right-tool3_no_login" intext="意见反馈">
+        <img class="bg" src="static/picture/blank-2f561b02a49376e3679acd5975e3790abdff09ecbadfa1e1858c7ba26e3ffcef.gif" alt="Blank 2f561b02a49376e3679acd5975e3790abdff09ecbadfa1e1858c7ba26e3ffcef" width="40" height="28" />
+        <span>意见反馈</span></span>
+      </li>
+
+    <li class="m-right-tool-list gototop" id="gototop">
+      <a title="返回顶部" href="#"><span class="hbtn m-right-tool4" intext="TOP">
+        <img class="bg" src="static/picture/blank-2f561b02a49376e3679acd5975e3790abdff09ecbadfa1e1858c7ba26e3ffcef.gif" alt="Blank 2f561b02a49376e3679acd5975e3790abdff09ecbadfa1e1858c7ba26e3ffcef" width="40" height="28" />
+        <span style="padding-left: 5px;">TOP</span></span></a>
+    </li>
+  </ul>
+</div>
+<div class="dlg-hidden" id="user-fb">
+  <form class="form-bd plr20" id="new_feedback" action="/feedbacks" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="lJdOxiUwg/H+YzSg7Bu27Yvib1Onzkj/QDPSsDxy1ckkf5FwJfl9JZ7grOSqHbVsIRsg4nr+D4X6/RAcS2yp2A==" />
+    <p>
+      <textarea cols="50" rows="5" datatype="*" placeholder="如果您在使用平台时遇到些问题,或者有个人建议,请告知我们,我们会尽快解决." name="feedback[content]" id="feedback_content">
+</textarea>
+
+    </p>
+
+    <!--<p>-->
+    <!--手机号(选填):-->
+    <!--<= f.text_field :mobile, class: "w300", placeholder: "请输入手机号" >-->
+
+    <!--</p>-->
+
+    <p class="font-gray">
+      感谢您的参与,高质量的反馈或建议,一经采纳,将给您增加200经验值
+    </p>
+
+    <div class="mt10">
+      <input type="submit" name="commit" value="提交反馈" class="ui-btn" data-disable-with="提交中..." />
+    </div>
+</form></div>
+<script type="text/javascript" charset="utf-8">
+    $(function () {
+        $(".m-right-tool3").click(function () {
+            $("#user-fb").dialog({width: "500px", title: "意见反馈"})
+        });
+
+//      点击意见反馈弹出框需登录 登录后弹出意见反馈窗口标志
+        $(".m-right-tool3_no_login").click(function () {
+            var new_user_form = document.getElementById("new_user");
+            var login_form = document.getElementById("login_by_mobile-for-login");
+            new_user_form.action += "?show_fb_dlg=true";
+            login_form.action += "?show_fb_dlg=true";
+            $('#show_login_div').show();
+        });
+    });
+</script>
+<img src="static/picture/track_ua.gif" width="0" height="0" style="line-height: 0;display: none;"/>
+</div>
+
+<script>
+    $(function () {
+        reset_window();
+    });
+
+    $(window).resize(function () {
+        reset_window();
+    });
+</script>
+</body>
+</html>
