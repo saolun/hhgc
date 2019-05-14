@@ -1,6 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
+
     <meta charset="utf-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -14,22 +12,18 @@
 
     <script src="/web/static/js/application-a53f0e0a6a61a86e6cb8f94a2fb64a861d3f1c5f341a2ae992c4adf325a4ea38.js"
             data-turbolinks-track="true"></script>
-    @section('style')
-        <style>
+    <style>
 
-            body {
-                /*padding-top: 60px !important;*/
-                font-size: 18px;
-            }
+        body {
+            /*padding-top: 60px !important;*/
+            font-size: 18px;
+        }
 
-            .ui-dialog {
-                font-size: 14px;
-            }
+        .ui-dialog {
+            font-size: 14px;
+        }
 
-            .header {
-                position: fixed;
-            }
-        </style>
-    @show
-
-</head>
+        .header {
+            position: fixed;
+        }
+    </style>

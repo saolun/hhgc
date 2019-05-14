@@ -1,7 +1,9 @@
-﻿@extends('web.layouts.header')
-@section('title','page title')
-<body>
-<!--[if lt IE 10]>
+﻿<!DOCTYPE html>
+<html>
+@extends('web.layouts.v1')
+
+@section('content')
+    <!--[if lt IE 10]>
 
 <p class="ui-tip ui-tip-yellow font-center ie-update">
     您正在使用IE低版本浏览器，为了您的账号安全和更好的产品体验，<br/>强烈建议您立即 <a class="font-blue"
@@ -1420,9 +1422,235 @@
 </div>
 
 
-@extends('web.layouts.footer')
-@extends('web.layouts.toolBar')
+<div class="footer">
+    <div id='show_dlgs' show_fb_dlg=""></div><!--点击意见反馈弹出框需登录 登录后弹出意见反馈窗口标志-->
+    <div class="w">
+        <div>
+            <ul class="tel">
+                <li style="margin-bottom: 12px;">
+                    <img src="/web/static/picture/logo-b-7dc7909fd0c649f0c33ead53590ba017abe9398b2493a0a86bff0fdbd0093c5e.png"
+                         alt="Footer logo 93a287937d6cfc0545b5193c491578c201a4bb5c47c1ff3193bcea0a5b204292"/>
+                </li>
+                <li>
+                    <img src="/web/static/picture/footer_position_icon-135dea1e0065c84db485aa9a0167983bcf9c72cf46e5e6e62095583096992ce2.png"
+                         alt="Footer position icon 135dea1e0065c84db485aa9a0167983bcf9c72cf46e5e6e62095583096992ce2"
+                         width="14" height="14"/>
+                    湖南省常德市武陵区白马湖社区三岔路亚米国际二楼
+                </li>
+                <li>
+                    <img src="/web/static/picture/footer_phone_icon-8043e8e9c266263ea8e8ec67c5fa7cdee61ce9c8133513726ef73ae2c8843161.png"
+                         alt="Footer phone icon 8043e8e9c266263ea8e8ec67c5fa7cdee61ce9c8133513726ef73ae2c8843161"
+                         width="14" height="14"/>
+                    0736-7123568
+                    13017363152
+                </li>
+                <li>
+                    <img src="/web/static/picture/footer_qq_icon-d2a806a6465988b99f4e56cd1f5c8205d1485a51a9af48d2388da1a65b7765d9.png"
+                         alt="Footer qq icon d2a806a6465988b99f4e56cd1f5c8205d1485a51a9af48d2388da1a65b7765d9"
+                         width="14" height="14"/>
+                    3354915208
+                    工作日8:30-17:30
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a target="_blank" href="http://www.3kgc.com/articles/4">关于我们</a>
+                    |
+                    <a target="_blank" href="/articles?assort=2">平台规则</a>
+                    |
+                    <a target="_blank" href="/articles">最新动态</a>
+                    |
+                    <a target="_blank" href="http://www.3kgc.com/articles/13">手机版</a>
+                </li>
+                <li>
+                    Copyright 2019-2020 湖南航辉工程咨询有限公司 版权所有 湘ICP备16007157号
+                </li>
+                <li>
+                    <script type='text/javascript'>
+                        var _hmt = _hmt || [];
+                        (function () {
+                            var hm = document.createElement("script");
+                            hm.src = "https://hm.baidu.com/hm.js?455ff2b31e6e616c3896cdec23d94f4e";
+                            var s = document.getElementsByTagName("script")[0];
+                            s.parentNode.insertBefore(hm, s);
+                        })();
+                    </script>
+                    <a class="bdxy" target="_blank" href="http://www.baidu.com/s?wd=www.3kgc.com@v"></a>
+                    <a class="zfb" target="_blank" href="javascript:void(0)"></a>
+                    <a class="aly" target="_blank" href="javascript:void(0)"></a>
+                    <a class="smyz" target="_blank"
+                       href="http://www.anquan.org/authenticate/cert/?site=www.3kgc.com&at=business"></a>
 
+                </li>
 
-</body>
+            </ul>
+
+        </div>
+        <div class="clearfix mb10"></div>
+    </div>
+
+</div>
+<div class="dialog noflash-dialog" style="margin-left: -100px;width:250px;height:200px;">
+
+    <div class="dialog-head">提示<a class="close" href="javascript:;"><b>&#8855;</b>关闭</a></div>
+    <div class="dialog-body">
+        我们的产品需要安装flashplayer 10或更高版本 <br/>
+        请
+        <a target="_blank" href="http://get.adobe.com/flashplayer">点击此处</a> 免费下载
+    </div>
+</div>
+<div class="dialog-bg"></div>
+
+<div class="m-right-tool-bar">
+    <ul>
+        <li class="m-right-tool-list" style="border-top:none;">
+      <span class="hbtn" intext="QQ客服">
+        <img class="bg"
+             src="/web/static/picture/blank-2f561b02a49376e3679acd5975e3790abdff09ecbadfa1e1858c7ba26e3ffcef.gif"
+             alt="Blank 2f561b02a49376e3679acd5975e3790abdff09ecbadfa1e1858c7ba26e3ffcef" width="40" height="28"/>
+        <span>QQ客服</span>
+
+        <div class="bg-poptip">
+          <div class="ui-poptip ui-poptip-r ui-poptip-white">
+            <div class="ui-poptip-arrow ui-poptip-arrow-border"></div>
+            <div class=" ui-poptip-arrow ui-poptip-arrow-bg"></div>
+            <div class="m-tool-box clear" style="width:132px;text-align: center;">
+              <p class="clear mt20 mb10" style="font-size:14px;font-weight:400;color:rgba(153,153,153,1);">
+                <img style="  background: url(/web/static/images/service_icon_pc-b31bf3f0171d000dca0362e92e884e0bd3ff6fcef95fd512719b507d0eb7ba72.png) no-repeat -435px -30px;"
+                     src="/web/static/picture/blank-2f561b02a49376e3679acd5975e3790abdff09ecbadfa1e1858c7ba26e3ffcef.gif"
+                     alt="Blank 2f561b02a49376e3679acd5975e3790abdff09ecbadfa1e1858c7ba26e3ffcef" width="30"
+                     height="26"/>QQ客服
+              </p>
+
+              <p class="clear">
+                <a target="_blank" title="点击聊天" href="http://wpa.qq.com/msgrd?v=3&uin=3354915208&site=qq&menu=yes">
+                  项目问题咨询
+                </a></p>
+
+              <p class="clear mt10 mb10">
+
+                <a target="_blank" title="点击聊天" href="http://wpa.qq.com/msgrd?v=3&uin=3354915208&site=qq&menu=yes">
+                  航哥注册咨询
+                </a></p>
+
+              <p class="clear mb10">
+                <a target="_blank" title="点击聊天" href="http://wpa.qq.com/msgrd?v=3&uin=3354915208&site=qq&menu=yes">
+                  团队企业合作
+                </a></p>
+            </div>
+          </div>
+        </div>
+      </span>
+
+        </li>
+        <li class="m-right-tool-list">
+      <span class="hbtn m-right-tool1" intext="联系我们">
+        <img class="bg"
+             src="/web/static/picture/blank-2f561b02a49376e3679acd5975e3790abdff09ecbadfa1e1858c7ba26e3ffcef.gif"
+             alt="Blank 2f561b02a49376e3679acd5975e3790abdff09ecbadfa1e1858c7ba26e3ffcef" width="40" height="28"/>
+        <span>联系我们</span>
+
+        <div class="bg-poptip" style="width: 446px;">
+          <div class="ui-poptip ui-poptip-r ui-poptip-white">
+            <div class="ui-poptip-arrow ui-poptip-arrow-border"></div>
+            <div class=" ui-poptip-arrow ui-poptip-arrow-bg"></div>
+            <div class="m-tool-box clear lxwm">
+              <p class="clear">
+                <span class="bg_phone"></span>电话：0736-7123568
+                13017363152
+              </p>
+
+              <p class="clear">
+                <span class="bg_address"></span>湖南省常德市武陵区桃源路3号亚米国际二楼
+              </p>
+            </div>
+          </div>
+        </div>
+      </span>
+
+        </li>
+        <li class="m-right-tool-list">
+      <span class="hbtn m-right-tool2" intext="二维码">
+        <img class="bg"
+             src="/web/static/picture/blank-2f561b02a49376e3679acd5975e3790abdff09ecbadfa1e1858c7ba26e3ffcef.gif"
+             alt="Blank 2f561b02a49376e3679acd5975e3790abdff09ecbadfa1e1858c7ba26e3ffcef" width="40" height="28"/>
+        <span>二维码</span>
+
+        <div class="bg-poptip" style="width: 275px;height:267px;top:-100px;">
+          <div class="ui-poptip ui-poptip-r ui-poptip-white">
+            <div class="ui-poptip-arrow ui-poptip-arrow-border" style="top:115px"></div>
+            <div class=" ui-poptip-arrow ui-poptip-arrow-bg" style="top:115px"></div>
+            <div class="m-tool-box clear all-center" style="width:228px;">
+              <div class="clear">
+                <img class="mt10 mb10"
+                     src="/web/static/picture/app_service_content-951302c48746fabaa5d925a0d48f332c22d5bf1a7bd47d60081b0249105143be.png"
+                     alt="App service content 951302c48746fabaa5d925a0d48f332c22d5bf1a7bd47d60081b0249105143be"/><br>
+              </div>
+            </div>
+          </div>
+        </div>
+      </span>
+
+        </li>
+        <li class="m-right-tool-list">
+      <span class="hbtn m-right-tool3_no_login" intext="意见反馈">
+        <img class="bg"
+             src="/web/static/picture/blank-2f561b02a49376e3679acd5975e3790abdff09ecbadfa1e1858c7ba26e3ffcef.gif"
+             alt="Blank 2f561b02a49376e3679acd5975e3790abdff09ecbadfa1e1858c7ba26e3ffcef" width="40" height="28"/>
+        <span>意见反馈</span></span>
+        </li>
+
+        <li class="m-right-tool-list gototop" id="gototop">
+            <a title="返回顶部" href="#"><span class="hbtn m-right-tool4" intext="TOP">
+        <img class="bg"
+             src="/web/static/picture/blank-2f561b02a49376e3679acd5975e3790abdff09ecbadfa1e1858c7ba26e3ffcef.gif"
+             alt="Blank 2f561b02a49376e3679acd5975e3790abdff09ecbadfa1e1858c7ba26e3ffcef" width="40" height="28"/>
+        <span style="padding-left: 5px;">TOP</span></span></a>
+        </li>
+    </ul>
+</div>
+<div class="dlg-hidden" id="user-fb">
+    <form class="form-bd plr20" id="new_feedback" action="/feedbacks" accept-charset="UTF-8" method="post"><input
+                name="utf8" type="hidden" value="&#x2713;"/><input type="hidden" name="authenticity_token"
+                                                                   value="tyiuydLekf1q7iq+zVgyG/0Ogklb+aZUGZa1/a0vthWHu1eSETutRCgkf9gPZx+CjD2TKeXnzdgdrKZxdd6hwQ=="/>
+        <p>
+      <textarea cols="50" rows="5" datatype="*" placeholder="如果您在使用平台时遇到些问题,或者有个人建议,请告知我们,我们会尽快解决."
+                name="feedback[content]" id="feedback_content">
+</textarea>
+
+        </p>
+
+        <!--<p>-->
+        <!--手机号(选填):-->
+        <!--<= f.text_field :mobile, class: "w300", placeholder: "请输入手机号" >-->
+
+        <!--</p>-->
+
+        <p class="font-gray">
+            感谢您的参与,高质量的反馈或建议,一经采纳,将给您增加200经验值
+        </p>
+
+        <div class="mt10">
+            <input type="submit" name="commit" value="提交反馈" class="ui-btn" data-disable-with="提交中..."/>
+        </div>
+    </form>
+</div>
+<script type="text/javascript" charset="utf-8">
+    $(function () {
+        $(".m-right-tool3").click(function () {
+            $("#user-fb").dialog({width: "500px", title: "意见反馈"})
+        });
+
+//      点击意见反馈弹出框需登录 登录后弹出意见反馈窗口标志
+        $(".m-right-tool3_no_login").click(function () {
+            var new_user_form = document.getElementById("new_user");
+            var login_form = document.getElementById("login_by_mobile-for-login");
+            new_user_form.action += "?show_fb_dlg=true";
+            login_form.action += "?show_fb_dlg=true";
+            $('#show_login_div').show();
+        });
+    });
+</script>
+<img src="/web/static/picture/track_ua.gif" width="0" height="0" style="line-height: 0;display: none;"/>
+@endsection
 </html>
