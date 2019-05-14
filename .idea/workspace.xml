@@ -2,8 +2,473 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db77fa26-b0a4-4508-9cdc-b7f7cc39505a" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/hhgc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/hhgc.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.styleci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.styleci.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Console/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Console/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Exceptions/Handler.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Exceptions/Handler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/ForgotPasswordController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/ForgotPasswordController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/ResetPasswordController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/ResetPasswordController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/VerificationController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/VerificationController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/CheckForMaintenanceMode.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/CheckForMaintenanceMode.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/EncryptCookies.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/EncryptCookies.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/TrimStrings.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/TrimStrings.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/TrustProxies.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/TrustProxies.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/BroadcastServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/BroadcastServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/artisan" beforeDir="false" afterPath="$PROJECT_DIR$/artisan" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/cache/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/cache/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/auth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/broadcasting.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/broadcasting.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/cache.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/cache.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/filesystems.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/filesystems.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/hashing.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/hashing.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/logging.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/logging.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/mail.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/mail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/queue.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/queue.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/services.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/session.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/session.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/database/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/factories/UserFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/UserFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpunit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/phpunit.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/public/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/public/robots.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web.config" beforeDir="false" afterPath="$PROJECT_DIR$/public/web.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/css/application-f742c9f4d291b8a5e98f7948d3ab74777a2b906c7081c9c6a7b3a231883543f5.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/css/application-f742c9f4d291b8a5e98f7948d3ab74777a2b906c7081c9c6a7b3a231883543f5.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/fonts/glyphicons-halflings-regular.eot" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/fonts/glyphicons-halflings-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/fonts/glyphicons-halflings-regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/1-d1cb45380dda582b49e21361e3817cb511acf16889a30c3a9aff5839e166d80a.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/1-d1cb45380dda582b49e21361e3817cb511acf16889a30c3a9aff5839e166d80a.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/1471533225_____190112.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/1471533225_____190112.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/2902961071____.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/2902961071____.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/3066431509_____.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/3066431509_____.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/402464767_____banner2018.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/402464767_____banner2018.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/6-898a9e3897d0e0f93f28d006836f00eee5556a98f238fdfc6684346be3de9180.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/6-898a9e3897d0e0f93f28d006836f00eee5556a98f238fdfc6684346be3de9180.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/a-26f68d36b6ed6a5889c4d0f4e891da6479918e057c42a133d74e0efb90e4b586.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/a-26f68d36b6ed6a5889c4d0f4e891da6479918e057c42a133d74e0efb90e4b586.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/b-3f076536f9536d89dced0d1db7cf38f3702a49076be5e656e3d18f03f37bf0fc.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/b-3f076536f9536d89dced0d1db7cf38f3702a49076be5e656e3d18f03f37bf0fc.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/banner-3c66a8029eb57f759cb48b77bbc8728cb95f6911c1fd4b5453481f3d925cacbf.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/banner-3c66a8029eb57f759cb48b77bbc8728cb95f6911c1fd4b5453481f3d925cacbf.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/banner1-93965c65626b0a5d2910bbc716574d40a7b0a2786dff8fdaf28120ef3aff972a.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/banner1-93965c65626b0a5d2910bbc716574d40a7b0a2786dff8fdaf28120ef3aff972a.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/bg-btn-red-558b62ef8ea101465a8353bf315901c219245968ee944ce3edef5595bdad0e80.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/bg-btn-red-558b62ef8ea101465a8353bf315901c219245968ee944ce3edef5595bdad0e80.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/bg-vl-b4c2d13f112e441a3307b008ef9a665f43b6f749404df041cd206ebeb954713d.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/bg-vl-b4c2d13f112e441a3307b008ef9a665f43b6f749404df041cd206ebeb954713d.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/bg_fws_px-7e4056c8049858820d982dd61b7d48c17d68b936dfa8ce33c0ed39006b22c961.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/bg_fws_px-7e4056c8049858820d982dd61b7d48c17d68b936dfa8ce33c0ed39006b22c961.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/bg_fws_qt-e37db8d60123d692acf8605d19a284543bf7e4b72cf1fabf2e653f157c8ff56b.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/bg_fws_qt-e37db8d60123d692acf8605d19a284543bf7e4b72cf1fabf2e653f157c8ff56b.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/bg_fws_rj-ac0a20d94fd7b7270d564133e6f96a18b5d51a8c53c34e24c1da19de49dad3d0.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/bg_fws_rj-ac0a20d94fd7b7270d564133e6f96a18b5d51a8c53c34e24c1da19de49dad3d0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/bg_fws_ts-fac552d24901438d9742dd6becdeb5c09f1d9242a56e70ff3640a776c1696e8d.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/bg_fws_ts-fac552d24901438d9742dd6becdeb5c09f1d9242a56e70ff3640a776c1696e8d.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/bg_fws_ysy-9394b3fc4fc209a89237f1b3ea351950a95c77d178c56b09efa1852ace04a86c.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/bg_fws_ysy-9394b3fc4fc209a89237f1b3ea351950a95c77d178c56b09efa1852ace04a86c.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/bg_fwsy_ts-e6c0393af211876255b6e216072e548477b1dd0af08c5fd328c5859ab4a0bf02.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/bg_fwsy_ts-e6c0393af211876255b6e216072e548477b1dd0af08c5fd328c5859ab4a0bf02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/bg_gr_px-f90aca101cd06d25e06b295f30f704fc21b253b45fe6687e6cf6d2f79b1087fb.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/bg_gr_px-f90aca101cd06d25e06b295f30f704fc21b253b45fe6687e6cf6d2f79b1087fb.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/bg_gr_qt-08393a7f148fff9e0dbd32d2671a6eb315646d994e325d17fb941c14340471a2.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/bg_gr_qt-08393a7f148fff9e0dbd32d2671a6eb315646d994e325d17fb941c14340471a2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/bg_gr_rj-0ecc0d343f785d370c1a1aa933608d6b8656d063eecf8ec31726b18aa47fd06e.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/bg_gr_rj-0ecc0d343f785d370c1a1aa933608d6b8656d063eecf8ec31726b18aa47fd06e.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/bg_gr_ts-d52a82d916eea7fef0a5e5fb360ddd2a0988bbf42808a5ab4ea4e7b8a39c0304.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/bg_gr_ts-d52a82d916eea7fef0a5e5fb360ddd2a0988bbf42808a5ab4ea4e7b8a39c0304.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/bg_help_banner-0e77459f3a35264bed7953e4f481c5e664250f6ae15c4e68bf8bbe784d3fe3f3.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/bg_help_banner-0e77459f3a35264bed7953e4f481c5e664250f6ae15c4e68bf8bbe784d3fe3f3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/bg_yh_sy-1e68abf1ca96f9517f2dcf87df11dfd0fff2eefbfd30c2554efb5369b1a6a3fa.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/bg_yh_sy-1e68abf1ca96f9517f2dcf87df11dfd0fff2eefbfd30c2554efb5369b1a6a3fa.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/blank_ewm-e94284d71ebf33a1854372601b2ce5fcd54e3f3a35e83c70680458ecb9df1f17.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/blank_ewm-e94284d71ebf33a1854372601b2ce5fcd54e3f3a35e83c70680458ecb9df1f17.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/btn_img-4839c15bc3f8e417b677696ed25862d9c787779b5bed1d6cc4ffcf937cc38acc.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/btn_img-4839c15bc3f8e417b677696ed25862d9c787779b5bed1d6cc4ffcf937cc38acc.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/btn_ljcy-6992567a6e87dbc011ca2af92ea29d61a4f118295b0c23a89453adcf50903f76.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/btn_ljcy-6992567a6e87dbc011ca2af92ea29d61a4f118295b0c23a89453adcf50903f76.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/button_changjian-0957c6e35093613b3a6e2db99acda76c28ef0149fa20a61e842130f0b1772276.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/button_changjian-0957c6e35093613b3a6e2db99acda76c28ef0149fa20a61e842130f0b1772276.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/button_guzhu-10f3f773f73d75d5c02b402c701d23a6245d369f30653522eea9ba1d4c55564b.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/button_guzhu-10f3f773f73d75d5c02b402c701d23a6245d369f30653522eea9ba1d4c55564b.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/button_suanke-dcc71cf5ffabb9dc49f2eee34b1fa49767dff70888511c1c1c56dc1de5386fdb.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/button_suanke-dcc71cf5ffabb9dc49f2eee34b1fa49767dff70888511c1c1c56dc1de5386fdb.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/buy_24-bbdc93dc3da7e9a0eb31d6c2bcb6f23538cf5c1a9793ef80b7503be95b398af1.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/buy_24-bbdc93dc3da7e9a0eb31d6c2bcb6f23538cf5c1a9793ef80b7503be95b398af1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/buy_6-80aa740b6fa4c95c2aa7d7ba89170453b1faf00624b55e103afaf25fdad81ae9.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/buy_6-80aa740b6fa4c95c2aa7d7ba89170453b1faf00624b55e103afaf25fdad81ae9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/bz_icon-ea69c6328fee69b963564c1f4548f352d8600f328e4d981a4afeb113a31161bb.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/bz_icon-ea69c6328fee69b963564c1f4548f352d8600f328e4d981a4afeb113a31161bb.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/circle-519c897b904e51aad577c1b6ea3bd6baf41e8a8d0e31b74ed4ed7a9ef3d0ae3a.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/circle-519c897b904e51aad577c1b6ea3bd6baf41e8a8d0e31b74ed4ed7a9ef3d0ae3a.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/cj_bg-ac461273fbc621fea5990ce8fdaaf61ce6d17c9ae0d8527e944ed081dd6e851b.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/cj_bg-ac461273fbc621fea5990ce8fdaaf61ce6d17c9ae0d8527e944ed081dd6e851b.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/controls-fb8bb2cb24ed3e2582ee453261b95c28be7a9281ebaded11cd31207ec1254ee2.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/controls-fb8bb2cb24ed3e2582ee453261b95c28be7a9281ebaded11cd31207ec1254ee2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/cyfs-1e4da36ce09a76e13cd92a60c02ad8c8a1477cd6c07dfb2ed44354e810aa1b60.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/cyfs-1e4da36ce09a76e13cd92a60c02ad8c8a1477cd6c07dfb2ed44354e810aa1b60.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/dlb_bannerbg-310e7c9c148a350cbc0b7c457361943c862fe8b9b513048c1aa370152f60c52d.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/dlb_bannerbg-310e7c9c148a350cbc0b7c457361943c862fe8b9b513048c1aa370152f60c52d.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/dlb_pbg-ecd7fa5f5858008c51acf4d9179d4c3530484a4188602651cae18da966dce476.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/dlb_pbg-ecd7fa5f5858008c51acf4d9179d4c3530484a4188602651cae18da966dce476.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/dlb_qtbg-d5b311a98f6aa0b2b2e4018786716b71ffe39d73bec45c46a9555c7679e12d12.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/dlb_qtbg-d5b311a98f6aa0b2b2e4018786716b71ffe39d73bec45c46a9555c7679e12d12.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/dlb_rbg-f452a79a15cf14e4d1d098cdfdbc53cc3b99cd473f33b4c9b262b5bdc8c8665e.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/dlb_rbg-f452a79a15cf14e4d1d098cdfdbc53cc3b99cd473f33b4c9b262b5bdc8c8665e.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/dlb_spx-70c22b0c890453e42ed06f7fe19ff54f11e0b88cf629707f8f93466bbc022374.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/dlb_spx-70c22b0c890453e42ed06f7fe19ff54f11e0b88cf629707f8f93466bbc022374.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/dlb_sqt-cea7fea5a3ee9d05aee112d0dded5a3b09b8ec51ef9b46748fe783ef9c74bdcc.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/dlb_sqt-cea7fea5a3ee9d05aee112d0dded5a3b09b8ec51ef9b46748fe783ef9c74bdcc.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/dlb_srj-6e7cfffd2586050ae601dcfa301f042aee4757b0711da4c7c74774868a9ca5a3.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/dlb_srj-6e7cfffd2586050ae601dcfa301f042aee4757b0711da4c7c74774868a9ca5a3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/dlb_sts-ac10c308d74e596aa0019c0f6de5b28d47ca57994754890dba3b63b66350034a.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/dlb_sts-ac10c308d74e596aa0019c0f6de5b28d47ca57994754890dba3b63b66350034a.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/dlb_tbg-50dfd895e3ae00924840a2053fa2477b9428c729ffb809ff2e30bb714b3218dd.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/dlb_tbg-50dfd895e3ae00924840a2053fa2477b9428c729ffb809ff2e30bb714b3218dd.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/dlwt_bg_home-1d8be31862fe752f1b14993f14d7722974d620155a7781b55dbf6b6528a22de2.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/dlwt_bg_home-1d8be31862fe752f1b14993f14d7722974d620155a7781b55dbf6b6528a22de2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/dot-bd7f911b422458b397b9c72753939fd267eb6d0740640bfb15006db99feb25c3.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/dot-bd7f911b422458b397b9c72753939fd267eb6d0740640bfb15006db99feb25c3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/error-1e5d439277dc081060306ef17482b3f566154355e9290126caf739f77f32e6d4.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/error-1e5d439277dc081060306ef17482b3f566154355e9290126caf739f77f32e6d4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/faxiangmu_icon-7f3436b3b0beb3301430de1a815da01441d5581d69c8523d7752d5a2afc572c9.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/faxiangmu_icon-7f3436b3b0beb3301430de1a815da01441d5581d69c8523d7752d5a2afc572c9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/file-ico-d3458b18fdf26c6f7f4b78bae54589dec9ded428ee81f5d6be115c5b99a1bd77.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/file-ico-d3458b18fdf26c6f7f4b78bae54589dec9ded428ee81f5d6be115c5b99a1bd77.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/find-ico-3a8ce3f38f64f955087ed74e632a2f59ad7fb22f625e4fc85584f65e2cf5de11.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/find-ico-3a8ce3f38f64f955087ed74e632a2f59ad7fb22f625e4fc85584f65e2cf5de11.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/find-project-6127daf76aec22d0bc1175441a74b814ec7a45697c0db9162563a5083d0381ba.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/find-project-6127daf76aec22d0bc1175441a74b814ec7a45697c0db9162563a5083d0381ba.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/foot_hyyz-2babb3106c67a5ade7675c2ec371d63e0287a972f78466ec7e065b06ac75f02b.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/foot_hyyz-2babb3106c67a5ade7675c2ec371d63e0287a972f78466ec7e065b06ac75f02b.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/footer_aliyun_logo-f9281fde81e191a69f1d3ea6b8f83cd28cf9a1d679d98536e7e9ef9d28f01f42.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/footer_aliyun_logo-f9281fde81e191a69f1d3ea6b8f83cd28cf9a1d679d98536e7e9ef9d28f01f42.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/footer_baidu_logo-0fa8177efc4be8c9d3345fc9c77995ec01d3877865751d5ed7e06f36468523a8.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/footer_baidu_logo-0fa8177efc4be8c9d3345fc9c77995ec01d3877865751d5ed7e06f36468523a8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/footer_zfb_logo-62ed3d5e6ef95855657bbe0bcd1f512c308326dce863d68c49697729ad0ddf07.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/footer_zfb_logo-62ed3d5e6ef95855657bbe0bcd1f512c308326dce863d68c49697729ad0ddf07.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/fxm_icon_cj-a6bb9ed2a92369a0077910ae99f518adafa21f0ce0a087887646d41e2500a01b.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/fxm_icon_cj-a6bb9ed2a92369a0077910ae99f518adafa21f0ce0a087887646d41e2500a01b.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/fxm_icon_kf-7a4ce881cc256a0bb03a573a09b9b105cfd432277b9145cc881a26b6ebebc0be.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/fxm_icon_kf-7a4ce881cc256a0bb03a573a09b9b105cfd432277b9145cc881a26b6ebebc0be.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/fxm_icon_lx-27acd226c55c25d2c9471ae4824cea1a6ee6f68ab47b05e3469a97ffd9a187b2.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/fxm_icon_lx-27acd226c55c25d2c9471ae4824cea1a6ee6f68ab47b05e3469a97ffd9a187b2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/fxm_icon_scj-945a2b2f7e5d5c5a30f54a423af7214584a242655c83155fe63af2b0cad8e93e.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/fxm_icon_scj-945a2b2f7e5d5c5a30f54a423af7214584a242655c83155fe63af2b0cad8e93e.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/fxm_icon_skf-b5f371a65bac570825212ae4f9a03c7eb0adddd6276957b8112c7dae52681adb.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/fxm_icon_skf-b5f371a65bac570825212ae4f9a03c7eb0adddd6276957b8112c7dae52681adb.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/fxm_icon_slx-50e8ac6297db0d3c6a63b28cbcd1efd35ee067a88c703bd0a6391b972fad3821.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/fxm_icon_slx-50e8ac6297db0d3c6a63b28cbcd1efd35ee067a88c703bd0a6391b972fad3821.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/fxm_icon_szf-a1b225540f81a4c98b9590b240660583ddb833e8651a16c22076b895abba27a9.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/fxm_icon_szf-a1b225540f81a4c98b9590b240660583ddb833e8651a16c22076b895abba27a9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/fxm_icon_zf-5918d8bc1af8cffc22616c7ff6b5437c1071c56cfd71bf2b60d434f89f1d544f.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/fxm_icon_zf-5918d8bc1af8cffc22616c7ff6b5437c1071c56cfd71bf2b60d434f89f1d544f.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/fxm_pc_cs-e0f1947efa444a9d3f852663825fbd1ad86cc958a4404d589244cc7fa40ad0ab.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/fxm_pc_cs-e0f1947efa444a9d3f852663825fbd1ad86cc958a4404d589244cc7fa40ad0ab.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/fxm_pc_cspre-344a5481e19071616dc8678b387ccea068210c884fbea6129cf2da11c9defb27.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/fxm_pc_cspre-344a5481e19071616dc8678b387ccea068210c884fbea6129cf2da11c9defb27.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/gy-ico-2df2b8567305a24805f3d956d96b098bf98adf405ceb1c97b87d9255dda642d1.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/gy-ico-2df2b8567305a24805f3d956d96b098bf98adf405ceb1c97b87d9255dda642d1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/gy_icon-56f73bb037ce6ee32be4837f68ad4c7d420e754bef98a568002bb083e79f3153.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/gy_icon-56f73bb037ce6ee32be4837f68ad4c7d420e754bef98a568002bb083e79f3153.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/gz_level_20-d7deeb4a4b4708ce78ecf9a956b3ddb071c7c4aed1b0fef56e94ca3a8b0c24c6.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/gz_level_20-d7deeb4a4b4708ce78ecf9a956b3ddb071c7c4aed1b0fef56e94ca3a8b0c24c6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/home-ico-041d2dd2d7cd0774bfff054d615e42a87041f331a38ba8b0d81ef1508a99f101.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/home-ico-041d2dd2d7cd0774bfff054d615e42a87041f331a38ba8b0d81ef1508a99f101.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/home-lc-ar-4888fcc75b4d0b458bff86fc68d7d61923426881f439b08dd82c8780722c927d.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/home-lc-ar-4888fcc75b4d0b458bff86fc68d7d61923426881f439b08dd82c8780722c927d.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/home_banner_bg-ab7bd04a6cf9778ae68e3a187e4452c3f79520a8b17cfd5c5614959e4b3a92a9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/home_banner_bg-ab7bd04a6cf9778ae68e3a187e4452c3f79520a8b17cfd5c5614959e4b3a92a9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/home_cost_pic-2ee128ee379fd914454d08950138c415f2f8a1655447cbde46ededc32e128b68.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/home_cost_pic-2ee128ee379fd914454d08950138c415f2f8a1655447cbde46ededc32e128b68.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/home_enterprise_bg_pc-fd8cd72dbfa177a4fbd54d4bc216a7d7e69b7c3bfcd8e383928d13eb075a3203.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/home_enterprise_bg_pc-fd8cd72dbfa177a4fbd54d4bc216a7d7e69b7c3bfcd8e383928d13eb075a3203.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/home_index_middle_bg-03a7a6a3a42e04181ef533acb6025a00b1d2ab6d6df086a854b69186571d99d2.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/home_index_middle_bg-03a7a6a3a42e04181ef533acb6025a00b1d2ab6d6df086a854b69186571d99d2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/home_index_middle_main-0b7f8059501c52720739abfbfb18d8163063afc717b9d5e17eacc9bddaaa1aa7.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/home_index_middle_main-0b7f8059501c52720739abfbfb18d8163063afc717b9d5e17eacc9bddaaa1aa7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/home_index_top_bg-18fbb2bc90ee5ca7f462ac91b5c6c7f22c26316c6994d540310c4b447a47084c.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/home_index_top_bg-18fbb2bc90ee5ca7f462ac91b5c6c7f22c26316c6994d540310c4b447a47084c.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/home_index_top_main-fbe140f61a26aa6684cd9c2bfda59b4ccab27e16aec7a1f1d2ab201ed4a1edd0.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/home_index_top_main-fbe140f61a26aa6684cd9c2bfda59b4ccab27e16aec7a1f1d2ab201ed4a1edd0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/home_large_icon-d393e6295f10706fb24c6dd4f50ee31172b29169883b481d09d7b2fff9cb48f1.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/home_large_icon-d393e6295f10706fb24c6dd4f50ee31172b29169883b481d09d7b2fff9cb48f1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/home_protect_pic-14936cfa42dee9242868f6a456f13e2b2048054cc4c3886b761c0c13575d0dee.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/home_protect_pic-14936cfa42dee9242868f6a456f13e2b2048054cc4c3886b761c0c13575d0dee.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/home_scene_icon-40dcbbc3000a7d9430a7162d65eb14da9128c4b5e6570abf087cdc2d209eed7c.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/home_scene_icon-40dcbbc3000a7d9430a7162d65eb14da9128c4b5e6570abf087cdc2d209eed7c.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/home_sk_pic-c52ecf1d8c4617a1670b790c3d29c2195c901051a7fe832c324a81c7347749c9.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/home_sk_pic-c52ecf1d8c4617a1670b790c3d29c2195c901051a7fe832c324a81c7347749c9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/home_speed_pic-1d29789c15a79057c82c606ec118e84ffbbfeb1aa5d0aa8dbbbbc04e4ed91e3b.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/home_speed_pic-1d29789c15a79057c82c606ec118e84ffbbfeb1aa5d0aa8dbbbbc04e4ed91e3b.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/home_urgent_icon-57089cd277d85ad4a8b00e9d3903611ea9a7eeecbccdee5666339765d4d22d2d.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/home_urgent_icon-57089cd277d85ad4a8b00e9d3903611ea9a7eeecbccdee5666339765d4d22d2d.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/home_usual_icon-1d550cffe56c0952e12d2dad6484749d6cbf3a77dc54f83d09ee7b3e072fa462.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/home_usual_icon-1d550cffe56c0952e12d2dad6484749d6cbf3a77dc54f83d09ee7b3e072fa462.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/home_value_icon-adc2ba539e3f22784c35132e3ed6356cc45af38f9f179bd55ea4b651c1ae05e2.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/home_value_icon-adc2ba539e3f22784c35132e3ed6356cc45af38f9f179bd55ea4b651c1ae05e2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/ico-rz-info-9ff692801cf91cffcac195a8edf2149abe3dcbeeddf720284478d7cf233032fd.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/ico-rz-info-9ff692801cf91cffcac195a8edf2149abe3dcbeeddf720284478d7cf233032fd.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/ico-step-not-ab2a51136643d4b16c7e1048e31ddc91f02c7550015dc724be15d3db34b65434.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/ico-step-not-ab2a51136643d4b16c7e1048e31ddc91f02c7550015dc724be15d3db34b65434.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/ico-step-ok-03d74e234915e2d2158270b783f7161a3bdf3b346fb7725f6aa92915e22b874f.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/ico-step-ok-03d74e234915e2d2158270b783f7161a3bdf3b346fb7725f6aa92915e22b874f.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/icon-542fc9b9d75aaff52107e022bc9cb476783cfdceaf112e852835f0cdce5efed2.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/icon-542fc9b9d75aaff52107e022bc9cb476783cfdceaf112e852835f0cdce5efed2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/icon_dt_dzan-5e639cbbc5d5960ddafd9608eb4426312c959707228bb17bac556627c09858af.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/icon_dt_dzan-5e639cbbc5d5960ddafd9608eb4426312c959707228bb17bac556627c09858af.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/icon_liucheng-a994d71f0413c85b6a359936dcd9bc67b349ffde769fb3e001ad902f284aadf7.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/icon_liucheng-a994d71f0413c85b6a359936dcd9bc67b349ffde769fb3e001ad902f284aadf7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/icon_project_browse-1c323b0494a34fc6c87edf1e50532f20309ceedf846e50d39d04e80be3d46b8b.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/icon_project_browse-1c323b0494a34fc6c87edf1e50532f20309ceedf846e50d39d04e80be3d46b8b.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/icon_project_browse_user-7183b5622f8b8d6b79db6c0a0c3536b49fb79bf5af02d5a9c3dd880fd9041821.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/icon_project_browse_user-7183b5622f8b8d6b79db6c0a0c3536b49fb79bf5af02d5a9c3dd880fd9041821.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/icon_project_cad-32d28f799478c2ccdabbb77a0a4fddb997d455255ebde91f299140615baa59d3.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/icon_project_cad-32d28f799478c2ccdabbb77a0a4fddb997d455255ebde91f299140615baa59d3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/icon_project_price-0daf1f8b304f33f5799093480077b9707ff7d7b908fdbcc2ee8c0143f2774bc0.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/icon_project_price-0daf1f8b304f33f5799093480077b9707ff7d7b908fdbcc2ee8c0143f2774bc0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/icon_project_problem-f8434c7fb8143d880b7c5d6f72218597772031e6ccd92f5c082a7510dce82361.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/icon_project_problem-f8434c7fb8143d880b7c5d6f72218597772031e6ccd92f5c082a7510dce82361.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/icon_xq_lx-d80574dd6ee079fbf34bdb472dfaba113ae92b67879a25c07ea9ed36f264bce5.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/icon_xq_lx-d80574dd6ee079fbf34bdb472dfaba113ae92b67879a25c07ea9ed36f264bce5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/interviewer-257f40411aeaf85db1f8b8e4191ae9639a1bc2e3295f12afe108f607587d9972.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/interviewer-257f40411aeaf85db1f8b8e4191ae9639a1bc2e3295f12afe108f607587d9972.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/invite_bg-8fd5b970c9092c518823809d6806c0077e5c17792b1e7cb6541e36af7427b408.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/invite_bg-8fd5b970c9092c518823809d6806c0077e5c17792b1e7cb6541e36af7427b408.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/jiantou-5c9943e6c18f96458307458211fdb156d15ee4219db7beede1a8815baf33b040.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/jiantou-5c9943e6c18f96458307458211fdb156d15ee4219db7beede1a8815baf33b040.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/jm-wk-a9b2f7bf8e38365721914192b5eca5030ab407b19d111cc9312c3223ff0604dd.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/jm-wk-a9b2f7bf8e38365721914192b5eca5030ab407b19d111cc9312c3223ff0604dd.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/jm-zj-cf80fa0dbfa45d931886dc7103677a39e9720ee2338fa8b1c16591f604d1ee41.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/jm-zj-cf80fa0dbfa45d931886dc7103677a39e9720ee2338fa8b1c16591f604d1ee41.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/ks-mj-add64d55def76507af11832092a41514c77d84f1ca91ff0adad7a4fda58ad92b.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/ks-mj-add64d55def76507af11832092a41514c77d84f1ca91ff0adad7a4fda58ad92b.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/li-09928dfe5b698a0e870d6fd6910e8ccd3b3835c5d77e79941faf8664c0532277.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/li-09928dfe5b698a0e870d6fd6910e8ccd3b3835c5d77e79941faf8664c0532277.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/loading-eb4b64cb08d9c7b1b5f67e3043fd0b4691301286bbcb1684e7cde80885bbebe7.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/loading-eb4b64cb08d9c7b1b5f67e3043fd0b4691301286bbcb1684e7cde80885bbebe7.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/login_error_icon-2fdef50ff4540ce104cd74e7fcd05fb63bc863e243d4feebf77a5d7dec3f957a.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/login_error_icon-2fdef50ff4540ce104cd74e7fcd05fb63bc863e243d4feebf77a5d7dec3f957a.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/login_img-fb25e77d1942c9e6e485b259030da4a28067b3cbe2f71763a14a2900bb5cea74.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/login_img-fb25e77d1942c9e6e485b259030da4a28067b3cbe2f71763a14a2900bb5cea74.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/logo-7168e7bf79b7cc35c9507c5b56b75d8d0860aa65b34e2f035cf457ba35cb0886.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/logo-7168e7bf79b7cc35c9507c5b56b75d8d0860aa65b34e2f035cf457ba35cb0886.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/logo-s-90b2916dfe9061b4ab9cd165c643d3b0aba557f154c64893f406c47565c60c58.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/logo-s-90b2916dfe9061b4ab9cd165c643d3b0aba557f154c64893f406c47565c60c58.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/member_info_pop-8b7e92e75e13f787c2d2316114937a78a06081a2012618d61190c5ccc8580395.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/member_info_pop-8b7e92e75e13f787c2d2316114937a78a06081a2012618d61190c5ccc8580395.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/micon-88dc14cdd77d6774cfa2a6149895ecc09c47351c9920e908596d74ca6fb90190.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/micon-88dc14cdd77d6774cfa2a6149895ecc09c47351c9920e908596d74ca6fb90190.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/mobile-e97997ab6351a4b56b3fd0c82010449354fa4a766dfc32a431291c6fd2b8290c.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/mobile-e97997ab6351a4b56b3fd0c82010449354fa4a766dfc32a431291c6fd2b8290c.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/msg-41ce906b02b075c0b872703aa419ad0119d66166e42c067752662c2c54d513ac.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/msg-41ce906b02b075c0b872703aa419ad0119d66166e42c067752662c2c54d513ac.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/my_mem-fe346bee599847f30695370f1076de58daa5bd77fcb7e18f5f91a5a2bd7ff708.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/my_mem-fe346bee599847f30695370f1076de58daa5bd77fcb7e18f5f91a5a2bd7ff708.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/my_pro-0af86563925c79047ebecc60bf491571daaea08d45454219769d71d5e3f018c8.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/my_pro-0af86563925c79047ebecc60bf491571daaea08d45454219769d71d5e3f018c8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/my_reward-73f66fd1e0fcfae59f12ed25f0d3f19c12a0b7b683d7ccec94a43b675c12b0ce.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/my_reward-73f66fd1e0fcfae59f12ed25f0d3f19c12a0b7b683d7ccec94a43b675c12b0ce.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/nav_diqu-97740ac62125ca79a88a12db3a00eb7b5258ac1d071ce34485e7538a65ddb469.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/nav_diqu-97740ac62125ca79a88a12db3a00eb7b5258ac1d071ce34485e7538a65ddb469.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/nav_fuwu-ca4bfad40bc2feb8ac70d63d871710ff39f171c8083e210a4d09ce69c5034a04.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/nav_fuwu-ca4bfad40bc2feb8ac70d63d871710ff39f171c8083e210a4d09ce69c5034a04.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/nav_icon_hot-45e3383dbc9f42570076bec0d7e6a9a3698ccdcfe3499f55033f2cdfad2dfef3.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/nav_icon_hot-45e3383dbc9f42570076bec0d7e6a9a3698ccdcfe3499f55033f2cdfad2dfef3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/nav_icon_new-59469c75d22eb389f882c3bcefc0fac48bfe5e18b9be444669ffb1859868d27f.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/nav_icon_new-59469c75d22eb389f882c3bcefc0fac48bfe5e18b9be444669ffb1859868d27f.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/nav_search-d5a034c290faf03b63711c2c580c3a9fc4cb76011309c1c9fde935b21215fd1d.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/nav_search-d5a034c290faf03b63711c2c580c3a9fc4cb76011309c1c9fde935b21215fd1d.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/nav_search_1-e042f443e023c14121293890883dac8694740810a703b345037c98c7f718d190.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/nav_search_1-e042f443e023c14121293890883dac8694740810a703b345037c98c7f718d190.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/nav_zhuanye-f092228ecd240c9f7733ca820b9db05c68474c182a89a9f43e4e1d96e5579e53.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/nav_zhuanye-f092228ecd240c9f7733ca820b9db05c68474c182a89a9f43e4e1d96e5579e53.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/next-bdb189257ca2b6cfb0509501da3de635d5016063688ef1e4253b5c8c1d104f6f.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/next-bdb189257ca2b6cfb0509501da3de635d5016063688ef1e4253b5c8c1d104f6f.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/next_h-21c7a5cfec9cc9a8b1e2473899e78ba6299fb71430628e12af39618360bcee4b.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/next_h-21c7a5cfec9cc9a8b1e2473899e78ba6299fb71430628e12af39618360bcee4b.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/other-sprite-ece9322c9d00e1d990aaa5443a08ce1aad5b1b92c08363c3ae2bb6d1de201683.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/other-sprite-ece9322c9d00e1d990aaa5443a08ce1aad5b1b92c08363c3ae2bb6d1de201683.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/paiming-ac2276544f583ed2fd6791648735c5dac4ef716113e0e3807574e2d25eb3f1a5.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/paiming-ac2276544f583ed2fd6791648735c5dac4ef716113e0e3807574e2d25eb3f1a5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/pjbq_qian-19e30095ddce890e08ea99489b65462b74b91363ff7d62f23b51a6d67082472f.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/pjbq_qian-19e30095ddce890e08ea99489b65462b74b91363ff7d62f23b51a6d67082472f.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/profile-progress-a5cf4e830536d85208feadfed33af70356543c37b52b681b272e82ee46f11750.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/profile-progress-a5cf4e830536d85208feadfed33af70356543c37b52b681b272e82ee46f11750.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/prve-d6083c55c9bfd82c9305fff6e59d1726adfcf40c12bfac6d94f2c436531f2935.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/prve-d6083c55c9bfd82c9305fff6e59d1726adfcf40c12bfac6d94f2c436531f2935.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/prve_h-070045ad4befa9f6da008cdff0786e4f06631fe6a1031321caa822ccd2daac3e.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/prve_h-070045ad4befa9f6da008cdff0786e4f06631fe6a1031321caa822ccd2daac3e.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/publish-ico-6e9c052a6c6ca2faf98050983af371eadcd0d229e0e69dcd54cc76d1f425cc23.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/publish-ico-6e9c052a6c6ca2faf98050983af371eadcd0d229e0e69dcd54cc76d1f425cc23.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/qm-a8574ff27393daf6bca6c363161d9f5d31e0acfd3028fb0ff8e68bbc97daa784.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/qm-a8574ff27393daf6bca6c363161d9f5d31e0acfd3028fb0ff8e68bbc97daa784.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/qqkf_icon-c2d708a7fd608b57b5cd8cc40932b308668c54acc6e95bb7c5a906c0623203df.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/qqkf_icon-c2d708a7fd608b57b5cd8cc40932b308668c54acc6e95bb7c5a906c0623203df.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/right-68d1328691bbffa74a960cad56725b1988703454f2331e3785398af44c4c6c14.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/right-68d1328691bbffa74a960cad56725b1988703454f2331e3785398af44c4c6c14.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/seek_tabbar_nor-808496d0ca2b95cf7c9ccbf5dad5ef3317e1e049e4f0854442086e151b3fcf0f.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/seek_tabbar_nor-808496d0ca2b95cf7c9ccbf5dad5ef3317e1e049e4f0854442086e151b3fcf0f.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/seek_tabbar_sel-800961818732a744ff0188c2094f419a4128b5707225e5564966b595f4d68997.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/seek_tabbar_sel-800961818732a744ff0188c2094f419a4128b5707225e5564966b595f4d68997.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/select_arrow-6873ee9b6a7bbb60626922cdf0168903310531526b61ad16be3eec1938dbf49c.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/select_arrow-6873ee9b6a7bbb60626922cdf0168903310531526b61ad16be3eec1938dbf49c.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/service_icon_pc-b31bf3f0171d000dca0362e92e884e0bd3ff6fcef95fd512719b507d0eb7ba72.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/service_icon_pc-b31bf3f0171d000dca0362e92e884e0bd3ff6fcef95fd512719b507d0eb7ba72.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/signs-b4367f24d4429204ffd8f03484d51c1c842783a221b6e99a744cbdff91b6461b.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/signs-b4367f24d4429204ffd8f03484d51c1c842783a221b6e99a744cbdff91b6461b.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/skvip_bgbt-f66d8cd37222a9ed7b8cdaae63c8fc665fbfb56a82449794629796bd3926d571.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/skvip_bgbt-f66d8cd37222a9ed7b8cdaae63c8fc665fbfb56a82449794629796bd3926d571.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/skvip_buy_btn_estimate-d7083776fa9de88524e0d502d1694d7374968d705c1933d855f28e43396cbb59.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/skvip_buy_btn_estimate-d7083776fa9de88524e0d502d1694d7374968d705c1933d855f28e43396cbb59.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/skvip_problem_bg-983760eb00aa5be2d08972f74a2c462886e62703b2862f39d670acc810c88aaf.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/skvip_problem_bg-983760eb00aa5be2d08972f74a2c462886e62703b2862f39d670acc810c88aaf.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/skvip_service_bg-6c972c4f2d14f38e5f2bb66a0b6ff02bd2336022cfce17af324b9907af7e31b4.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/skvip_service_bg-6c972c4f2d14f38e5f2bb66a0b6ff02bd2336022cfce17af324b9907af7e31b4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/star-e6e1b6be1c6fe05089cb733e6f3db7f99ed9719aed3bb9b242f9a84b03008452.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/star-e6e1b6be1c6fe05089cb733e6f3db7f99ed9719aed3bb9b242f9a84b03008452.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/swiper_button_left-83b3858b5639511df52a8602547e3a4deb31f48c5b84aee11b346885bf03b06e.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/swiper_button_left-83b3858b5639511df52a8602547e3a4deb31f48c5b84aee11b346885bf03b06e.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/swiper_button_right-231a73237bdc333f0ed68c31fd7b485af049583d4745358c253066c0b3a35c4a.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/swiper_button_right-231a73237bdc333f0ed68c31fd7b485af049583d4745358c253066c0b3a35c4a.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/sy_banner_anniu-b01f40e6bade3ec7943e5f2f66eb08370e1ed3696e89a0dd66c8d29163b36c99.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/sy_banner_anniu-b01f40e6bade3ec7943e5f2f66eb08370e1ed3696e89a0dd66c8d29163b36c99.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/t_money-8baca4cffd362d3492a75137c5c031c3ee0981504b2a5cf1d8fd83e2b2fa5b74.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/t_money-8baca4cffd362d3492a75137c5c031c3ee0981504b2a5cf1d8fd83e2b2fa5b74.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/technical_active-9483d609d80e1ce2c35b0411c3e3c0176e87696d1c39ba1bee3f7f74e7693c3f.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/technical_active-9483d609d80e1ce2c35b0411c3e3c0176e87696d1c39ba1bee3f7f74e7693c3f.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/technical_normal-ab6bf19d494041929725ef31c137f9f1d5801311f78ef1a40388a73f81557bdb.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/technical_normal-ab6bf19d494041929725ef31c137f9f1d5801311f78ef1a40388a73f81557bdb.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/tjsk_arrow-25ace79cf03ed71888c02422baca22aa734891912004e2f47df21363bec8a1ce.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/tjsk_arrow-25ace79cf03ed71888c02422baca22aa734891912004e2f47df21363bec8a1ce.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/tool_banner-09abab0a8b3a35c6760648b9a3f515ed71479ead2542c11df70eb40877c53861.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/tool_banner-09abab0a8b3a35c6760648b9a3f515ed71479ead2542c11df70eb40877c53861.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/tool_bg_count-2a8344f7ce4545dc30d651bdd6275170f79731e6f5cfe082d5c1871ee3236409.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/tool_bg_count-2a8344f7ce4545dc30d651bdd6275170f79731e6f5cfe082d5c1871ee3236409.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/tool_bg_online_look-053b3129c5c0e61258253be4d69f3f949376be7daa9a5f5373c51156fbce93d5.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/tool_bg_online_look-053b3129c5c0e61258253be4d69f3f949376be7daa9a5f5373c51156fbce93d5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/tool_bg_pdf-5404464dabbc735e6447e7435ddbdce9cf7dc254801d6c844c2a9167472df06a.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/tool_bg_pdf-5404464dabbc735e6447e7435ddbdce9cf7dc254801d6c844c2a9167472df06a.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/tool_btn_count-da9f85ba7f2a609bdc4aff55d71037238e06df58130a623f40fc778ae8d9a337.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/tool_btn_count-da9f85ba7f2a609bdc4aff55d71037238e06df58130a623f40fc778ae8d9a337.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/tool_btn_count_sel-547e4f503f61ac810b96c958d09dd78e5abf614751c5cf1a9613fbdec4e13b43.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/tool_btn_count_sel-547e4f503f61ac810b96c958d09dd78e5abf614751c5cf1a9613fbdec4e13b43.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/tool_btn_pdf-93c22d818cc19f649436ca4aa7170b94d50266c12bf187a4f9075709c410c640.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/tool_btn_pdf-93c22d818cc19f649436ca4aa7170b94d50266c12bf187a4f9075709c410c640.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/tool_btn_pdf_sel-a7661601d78e48fb74b64b38c24760826390a5827e6e262b076cb4044e166cb0.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/tool_btn_pdf_sel-a7661601d78e48fb74b64b38c24760826390a5827e6e262b076cb4044e166cb0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/tool_cad_contrast-579c2c7d688d1bf97a21fec1aa7af6a2b3a85a421c63091ce25b31da01ce4b16.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/tool_cad_contrast-579c2c7d688d1bf97a21fec1aa7af6a2b3a85a421c63091ce25b31da01ce4b16.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/tool_count-1c73bc4b6dd1874f64ab6dd878103bb296bfe899b8875e04ce4180e7664611a8.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/tool_count-1c73bc4b6dd1874f64ab6dd878103bb296bfe899b8875e04ce4180e7664611a8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/tool_excel_contrast-847bfb2e72cf4aa6163dbe13a4b4b7aeb1ae3e8cd977485299a808996a03b718.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/tool_excel_contrast-847bfb2e72cf4aa6163dbe13a4b4b7aeb1ae3e8cd977485299a808996a03b718.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/tool_online_look-e7eec878751f6c60af25143617b70251646e7195ba6344306df452c3c2f36bba.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/tool_online_look-e7eec878751f6c60af25143617b70251646e7195ba6344306df452c3c2f36bba.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/tool_pdf_turn-d4d891824cd353cca1661aa580b917039ce494adaa2bcf71f409cf9ea8ddcf88.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/tool_pdf_turn-d4d891824cd353cca1661aa580b917039ce494adaa2bcf71f409cf9ea8ddcf88.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/tool_pdf_turn_icon-9f88f0af299795f96f7b9f12f8707685f805a9e19d5ca391ec1220468e6b95c6.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/tool_pdf_turn_icon-9f88f0af299795f96f7b9f12f8707685f805a9e19d5ca391ec1220468e6b95c6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/tool_search-29d6aba959f52a9bb7ceff1e160492982f930da53ee8a6918893f2fb07346902.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/tool_search-29d6aba959f52a9bb7ceff1e160492982f930da53ee8a6918893f2fb07346902.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/tsk_ws_guanbi-c629e93087c69d263d62e3a4a929ab0ab9425e753ce9d35eee2fe517e4de5a5a.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/tsk_ws_guanbi-c629e93087c69d263d62e3a4a929ab0ab9425e753ce9d35eee2fe517e4de5a5a.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/tubiao-dd0640d05b7292b6fed1774bab359cc25a76e939cd228e9af5aea683dc578a10.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/tubiao-dd0640d05b7292b6fed1774bab359cc25a76e939cd228e9af5aea683dc578a10.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/ui-c54bea145a5dab5d47a198e16ae9187e332f5284a246c5f87672eb9f16ca4921.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/ui-c54bea145a5dab5d47a198e16ae9187e332f5284a246c5f87672eb9f16ca4921.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/ui-icons_cc0000_256x240-f21d4ee3e21fa33fe05bc32fa62360d1e77bcc047ce5e12af5aec86a67084732.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/ui-icons_cc0000_256x240-f21d4ee3e21fa33fe05bc32fa62360d1e77bcc047ce5e12af5aec86a67084732.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/uploadify-cancel-0cc597764a839c1e419b7f3b6ab0beab426a5104fea8c8503d8e6335e964b4d1.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/uploadify-cancel-0cc597764a839c1e419b7f3b6ab0beab426a5104fea8c8503d8e6335e964b4d1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/user-ico-033f6dfe99cc9b549967bddfde040337ad96163a3d66f0d6f16cba263e258f1e.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/user-ico-033f6dfe99cc9b549967bddfde040337ad96163a3d66f0d6f16cba263e258f1e.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/vip_jp_mini-fd0d5d7f1515d64941aef7b22d92c2b1cea51aaafbd1edccfd8403b60712597c.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/vip_jp_mini-fd0d5d7f1515d64941aef7b22d92c2b1cea51aaafbd1edccfd8403b60712597c.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/vip_yp_mini-87e434c6b8bfcfcf8b6043cea4aab97c10b8c2035f8417364a19ac99e5a7d8a5.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/vip_yp_mini-87e434c6b8bfcfcf8b6043cea4aab97c10b8c2035f8417364a19ac99e5a7d8a5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/xmxq_bq_icon-8a521d2e6a17101186d2b48a5513337b54c2b8c923d76f578a2337704c426b3f.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/xmxq_bq_icon-8a521d2e6a17101186d2b48a5513337b54c2b8c923d76f578a2337704c426b3f.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/xmxq_icon-e42f09c281ef65939bfcba36f00c9668c3bf0944a1b73a09d05d377a75fdf3c4.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/xmxq_icon-e42f09c281ef65939bfcba36f00c9668c3bf0944a1b73a09d05d377a75fdf3c4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/xmxq_jiantou-9d82c225abee1a7e4f8c5f1c8922f7590dfe259c93cee8e3cec951555aa84503.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/xmxq_jiantou-9d82c225abee1a7e4f8c5f1c8922f7590dfe259c93cee8e3cec951555aa84503.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/xmxq_tck-35e52498b4dc4322ffaa06a4eb9f92be49a65aea0371e5f2026aae142fb20483.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/xmxq_tck-35e52498b4dc4322ffaa06a4eb9f92be49a65aea0371e5f2026aae142fb20483.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/xmxq_tck_icon-cd65c47fb628596373be52fb9377d81371ca86da90ece7ff8d3acb7a72fb543e.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/xmxq_tck_icon-cd65c47fb628596373be52fb9377d81371ca86da90ece7ff8d3acb7a72fb543e.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/xmxq_zl_icon-df07b779e55ccecdd48eef049898be5db7f7911239ab3877b661306ab97cd27b.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/xmxq_zl_icon-df07b779e55ccecdd48eef049898be5db7f7911239ab3877b661306ab97cd27b.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/yqhd_return-7d0335e13958895c154bfe6f72bd90718d27a21c3b45fd5df6b4803517810a59.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/yqhd_return-7d0335e13958895c154bfe6f72bd90718d27a21c3b45fd5df6b4803517810a59.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/yqsk_btn_ckgz-a6828135ffc10f1bea524189de75531552f17bcf13e07a781df39d77baca4bc4.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/yqsk_btn_ckgz-a6828135ffc10f1bea524189de75531552f17bcf13e07a781df39d77baca4bc4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/yqsk_cj-a32a1348b66f1c638335b621df7569c06c4464c41b4fdf727e33074a9198d8d0.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/yqsk_cj-a32a1348b66f1c638335b621df7569c06c4464c41b4fdf727e33074a9198d8d0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/zb-ico-66ec887e1d37352d58db9afc6c57f84da7416876bb32bb3ae8bb64329027a016.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/zb-ico-66ec887e1d37352d58db9afc6c57f84da7416876bb32bb3ae8bb64329027a016.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/zb_icon-9bcc76e563f05211065cc61031a44f56fbd627e11c9a707258beccd6fefec62e.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/zb_icon-9bcc76e563f05211065cc61031a44f56fbd627e11c9a707258beccd6fefec62e.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/zhengban-12cb218ef52983659401aea1f5e6271e535989fc5aab8cdc0869aa359cfe3f7f.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/zhengban-12cb218ef52983659401aea1f5e6271e535989fc5aab8cdc0869aa359cfe3f7f.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/zj-js-5d86866af7aca4e3c43d07e87e24723c87dbde811a586095a37d938094a1d189.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/zj-js-5d86866af7aca4e3c43d07e87e24723c87dbde811a586095a37d938094a1d189.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/zj-sx-1a4a33fc633e150ab1751c9a693e3c6853b2604f9911441a978acd7143e1b718.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/zj-sx-1a4a33fc633e150ab1751c9a693e3c6853b2604f9911441a978acd7143e1b718.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/zl-ty-231fe1bcbe8a105ceb10e2d9618880802df269f2086b39a63e5d3d1401f84572.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/zl-ty-231fe1bcbe8a105ceb10e2d9618880802df269f2086b39a63e5d3d1401f84572.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/zxm_icon-0545893037d8cc0f89a543edb1ac235eafd342dd140b710633b6d15021e5c0d8.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/zxm_icon-0545893037d8cc0f89a543edb1ac235eafd342dd140b710633b6d15021e5c0d8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/images/zxm_icon-97c0819c84be9006f07fa0a9c588b8ecaf0f587beeb23cb68a9c113f464a4258.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/images/zxm_icon-97c0819c84be9006f07fa0a9c588b8ecaf0f587beeb23cb68a9c113f464a4258.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/js/application-a53f0e0a6a61a86e6cb8f94a2fb64a861d3f1c5f341a2ae992c4adf325a4ea38.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/js/application-a53f0e0a6a61a86e6cb8f94a2fb64a861d3f1c5f341a2ae992c4adf325a4ea38.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/js/charts_utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/js/charts_utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/js/highcharts.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/js/highcharts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/js/jia.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/js/jia.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/100243636_1551356330_1_.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/100243636_1551356330_1_.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/1258699438_logo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/1258699438_logo.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/131732551_444f741fddef0b77d00dc9c006909510.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/131732551_444f741fddef0b77d00dc9c006909510.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/140888175______20190328115041.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/140888175______20190328115041.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/14c063444837466996091d216768de25.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/14c063444837466996091d216768de25.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/1607937403______20190403155151.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/1607937403______20190403155151.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/1639328314_439348611251826594.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/1639328314_439348611251826594.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/1642442310_1521694904_1_.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/1642442310_1521694904_1_.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/1684798044______.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/1684798044______.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/1791515206_____.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/1791515206_____.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/1943176601______20190402173956.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/1943176601______20190402173956.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/1db751f7ac5f99c511b7b66b0c305fb9beb72658.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/1db751f7ac5f99c511b7b66b0c305fb9beb72658.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/2069636631_e1cf4f9b3b80b6f1bf4c98718c41ae6d.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/2069636631_e1cf4f9b3b80b6f1bf4c98718c41ae6d.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/2118195762_______171124_______06.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/2118195762_______171124_______06.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/2422327618_3e7837b0ffa330fb98a2171cac2a7d94252443c3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/2422327618_3e7837b0ffa330fb98a2171cac2a7d94252443c3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/2429668248_qq__20190404143507.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/2429668248_qq__20190404143507.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/2457783837_qq__20180920135648_-___.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/2457783837_qq__20180920135648_-___.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/24889dfbefc74b96b1acd35e18ecd0eb.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/24889dfbefc74b96b1acd35e18ecd0eb.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/2513812320_qq__20190318175913.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/2513812320_qq__20190318175913.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/2772527015_qq__20190404143507.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/2772527015_qq__20190404143507.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/280.100-eb3252bd9ea45b378f98fb7d58650c2d9b2bb9a03ed31552e6704a1c0941bbeb.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/280.100-eb3252bd9ea45b378f98fb7d58650c2d9b2bb9a03ed31552e6704a1c0941bbeb.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/2822962569_1521695009_1_.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/2822962569_1521695009_1_.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/28a784663904499abc6e32f786c03b1d.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/28a784663904499abc6e32f786c03b1d.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/3100149846cb5388afd5cc35f5bb5ba2014fcd21.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/3100149846cb5388afd5cc35f5bb5ba2014fcd21.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/3111253496_3k.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/3111253496_3k.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/3210234683_____.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/3210234683_____.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/3523332047_261dd4dfef4fc9028484b5396f8f4d7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/3523332047_261dd4dfef4fc9028484b5396f8f4d7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/360590464_272372392286783764.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/360590464_272372392286783764.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/3803048588_____.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/3803048588_____.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/3807053162_1521694955_1_.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/3807053162_1521694955_1_.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/3849d3e260edf1bbe89cb21b1a9f85e7a4fed628.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/3849d3e260edf1bbe89cb21b1a9f85e7a4fed628.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/4117290427___-____.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/4117290427___-____.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/412401079_______.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/412401079_______.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/432cde85a9ade44de9201ac5343672bd85ca41ce.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/432cde85a9ade44de9201ac5343672bd85ca41ce.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/43d1e66ea3f34ac2b8e35b96b2e64d12.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/43d1e66ea3f34ac2b8e35b96b2e64d12.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/44171eb188bb07d0cdad8a2d58ae11b8c9d4996a.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/44171eb188bb07d0cdad8a2d58ae11b8c9d4996a.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/45cda1c7effe2dbfe6d894111e1f197066815bc3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/45cda1c7effe2dbfe6d894111e1f197066815bc3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/473cb7cb24f9e9ae0f5101d53a279040ed2d2fa5.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/473cb7cb24f9e9ae0f5101d53a279040ed2d2fa5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/4cb867e715291f9cee0a16e43d7278668dd04129.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/4cb867e715291f9cee0a16e43d7278668dd04129.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/4ff956fc4b2e08d291f2e8b43a19f5d12c8c1793.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/4ff956fc4b2e08d291f2e8b43a19f5d12c8c1793.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/508906590cca4f42a590b3139c3e1129.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/508906590cca4f42a590b3139c3e1129.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/527e966b76e172d4b3e52c00cdf6ded87ce74f4a.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/527e966b76e172d4b3e52c00cdf6ded87ce74f4a.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/56cf7e10d367fe85c219598ee4fa82b96e2f15b2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/56cf7e10d367fe85c219598ee4fa82b96e2f15b2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/5bec075f8a57.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/5bec075f8a57.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/5efb41950fafec77c7d338874446df9a59cbba2e.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/5efb41950fafec77c7d338874446df9a59cbba2e.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/6592039344743115e423d486a64e32ce655df56f.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/6592039344743115e423d486a64e32ce655df56f.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/65fd99c049f749b7a0893d824ab1e59f.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/65fd99c049f749b7a0893d824ab1e59f.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/69cca7085f5474e2fd48b7407417abbccc79267a.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/69cca7085f5474e2fd48b7407417abbccc79267a.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/708019aa05194360b203de1aa8dbe3c7.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/708019aa05194360b203de1aa8dbe3c7.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/76854eb7b832c14357a91862ed6921b58ec41318.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/76854eb7b832c14357a91862ed6921b58ec41318.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/76859ca6a0fc4d6b87a4b8cdc7a67ca2.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/76859ca6a0fc4d6b87a4b8cdc7a67ca2.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/7e8f5af0e2d54bbeb4bb7dffa0353274.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/7e8f5af0e2d54bbeb4bb7dffa0353274.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/7e9e4628400b4f4bbfe09b0da337efea.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/7e9e4628400b4f4bbfe09b0da337efea.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/800.100-c69e23321cd44d8228bbb56a158bc64c84587c8ca6483888813a3059ffabca8e.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/800.100-c69e23321cd44d8228bbb56a158bc64c84587c8ca6483888813a3059ffabca8e.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/86079952341677c25d1a8be6bc30b9f70d467718.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/86079952341677c25d1a8be6bc30b9f70d467718.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/863e11f40943b1993dcc133a951153b9f6145fe5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/863e11f40943b1993dcc133a951153b9f6145fe5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/87d1489a8ab9480cb8d1a8c90d353718.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/87d1489a8ab9480cb8d1a8c90d353718.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/88cfe5ad1d3647d106da407e5b47f623e09a8626.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/88cfe5ad1d3647d106da407e5b47f623e09a8626.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/89a9ca5209c87a0eda9ede548be50b1dd05e3f67.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/89a9ca5209c87a0eda9ede548be50b1dd05e3f67.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/936d61d57cd473bdba4e7dea472becb380bcb280.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/936d61d57cd473bdba4e7dea472becb380bcb280.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/9ae88098fa66471e80b00a8e5e33a57e.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/9ae88098fa66471e80b00a8e5e33a57e.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/9c93c3573e4dcbdea2b281a3e1d254991c3ed736.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/9c93c3573e4dcbdea2b281a3e1d254991c3ed736.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/9e789bf7f44327a521078d5d5892713e15477f91.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/9e789bf7f44327a521078d5d5892713e15477f91.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/a100742b0a3363f9c8fa2f20992d835f82601ec4.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/a100742b0a3363f9c8fa2f20992d835f82601ec4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/a11bd351e1f4aa1582b6c57e0bb5bdb1219f8de0.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/a11bd351e1f4aa1582b6c57e0bb5bdb1219f8de0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/a2b82f74e2985b4e67b16ac57ff7e8fa7fdb2c69.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/a2b82f74e2985b4e67b16ac57ff7e8fa7fdb2c69.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/a70761a4260e28948f18a3abefbe0f25a0434bdb.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/a70761a4260e28948f18a3abefbe0f25a0434bdb.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/a9feb080e781ad35e21a6477787edaa993427232.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/a9feb080e781ad35e21a6477787edaa993427232.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/ac805550e78f9dc51b87c6cf55a66672ca81a8d6.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/ac805550e78f9dc51b87c6cf55a66672ca81a8d6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/app_service_content-951302c48746fabaa5d925a0d48f332c22d5bf1a7bd47d60081b0249105143be.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/app_service_content-951302c48746fabaa5d925a0d48f332c22d5bf1a7bd47d60081b0249105143be.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/avatar-b049fdf65622eaacddd537e45072b28b413672c09b466573427358fb8967a038.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/avatar-b049fdf65622eaacddd537e45072b28b413672c09b466573427358fb8967a038.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/b17d8235df004638b025a0059635eeb7.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/b17d8235df004638b025a0059635eeb7.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/b5bcfcef4d804d539e256745f4711b48.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/b5bcfcef4d804d539e256745f4711b48.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/bc9c5f9b39f64405990ea2cfbd5f938d.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/bc9c5f9b39f64405990ea2cfbd5f938d.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/bdf9d4c2aea6.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/bdf9d4c2aea6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/blank-2f561b02a49376e3679acd5975e3790abdff09ecbadfa1e1858c7ba26e3ffcef.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/blank-2f561b02a49376e3679acd5975e3790abdff09ecbadfa1e1858c7ba26e3ffcef.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/d3c72afe623218a4f9d6d5f4d0f63e5e7800ad16.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/d3c72afe623218a4f9d6d5f4d0f63e5e7800ad16.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/d79cdf4ec9084a77b6c966d47aeae4d2.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/d79cdf4ec9084a77b6c966d47aeae4d2.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/default_com-d7dd01b4fd961fbfdb75c3d2512fe3d7c506a35c59196eb90d32e07080efe4c2.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/default_com-d7dd01b4fd961fbfdb75c3d2512fe3d7c506a35c59196eb90d32e07080efe4c2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/default_qr_code-e370b7478685a8868ad8f637a4b82d704cdafdb953b8fc24cb47930ca4a964f5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/default_qr_code-e370b7478685a8868ad8f637a4b82d704cdafdb953b8fc24cb47930ca4a964f5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/dlwt_home_allow-3d27fdead1ffa4a0b158a9d7d0dfacf1ba35b91fe700c6e16ce9a4983a5143ef.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/dlwt_home_allow-3d27fdead1ffa4a0b158a9d7d0dfacf1ba35b91fe700c6e16ce9a4983a5143ef.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/dlwt_home_left-e53fc7650e6902e8ecc040201ff8585f927ab06cb3554c130f1abb8d22384a3f.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/dlwt_home_left-e53fc7650e6902e8ecc040201ff8585f927ab06cb3554c130f1abb8d22384a3f.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/dlwt_home_right-798b859661f2339181c7038a5eb63b422dc45b1cb62ce2ae70d0f4220f914655.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/dlwt_home_right-798b859661f2339181c7038a5eb63b422dc45b1cb62ce2ae70d0f4220f914655.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/dlwt_iphone_icon-3e349caefe02399fccb4e69ce65a47090ea3c601efba4498de4e0ed32e9ddd0e.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/dlwt_iphone_icon-3e349caefe02399fccb4e69ce65a47090ea3c601efba4498de4e0ed32e9ddd0e.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/dlwt_team_none-f1fe8401446abb4864722409ffc8a716edac5949eddef093f74f25a7a951a0e5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/dlwt_team_none-f1fe8401446abb4864722409ffc8a716edac5949eddef093f74f25a7a951a0e5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/e6e0dac588797aae76adaefead2d9987815b178f.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/e6e0dac588797aae76adaefead2d9987815b178f.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/e9f091b1a2af12e2d461bdc968dc3d29cb4f71f0.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/e9f091b1a2af12e2d461bdc968dc3d29cb4f71f0.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/ed4747c575f63138ecc63fbdd7dd2975a0769e9a.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/ed4747c575f63138ecc63fbdd7dd2975a0769e9a.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/ff970b364d30eebaa3beb10ad65927b94c6e0c5a.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/ff970b364d30eebaa3beb10ad65927b94c6e0c5a.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/footer_logo-93a287937d6cfc0545b5193c491578c201a4bb5c47c1ff3193bcea0a5b204292.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/footer_logo-93a287937d6cfc0545b5193c491578c201a4bb5c47c1ff3193bcea0a5b204292.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/footer_phone_icon-8043e8e9c266263ea8e8ec67c5fa7cdee61ce9c8133513726ef73ae2c8843161.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/footer_phone_icon-8043e8e9c266263ea8e8ec67c5fa7cdee61ce9c8133513726ef73ae2c8843161.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/footer_position_icon-135dea1e0065c84db485aa9a0167983bcf9c72cf46e5e6e62095583096992ce2.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/footer_position_icon-135dea1e0065c84db485aa9a0167983bcf9c72cf46e5e6e62095583096992ce2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/footer_qq_icon-d2a806a6465988b99f4e56cd1f5c8205d1485a51a9af48d2388da1a65b7765d9.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/footer_qq_icon-d2a806a6465988b99f4e56cd1f5c8205d1485a51a9af48d2388da1a65b7765d9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/fxm_pc_iphone-26472c2c2817cf0b00413e408ffcde564a60b0ebbd7758ced8160e362b09d240.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/fxm_pc_iphone-26472c2c2817cf0b00413e408ffcde564a60b0ebbd7758ced8160e362b09d240.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/fxm_pc_qq-f9653344c5db583c292503eeb5091424495915ce85d92bead12bcc0d54259049.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/fxm_pc_qq-f9653344c5db583c292503eeb5091424495915ce85d92bead12bcc0d54259049.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/fxm_pc_step-ea76c1d579d9996637d9d9c693cc652a7bf3de5bb107738abd0ebfd68c34d43d.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/fxm_pc_step-ea76c1d579d9996637d9d9c693cc652a7bf3de5bb107738abd0ebfd68c34d43d.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/fxm_pc_telephone-ec75546f480d8847bab09b8fce4612ec281cdfb9bb63d402da4fec39bfdb8ab3.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/fxm_pc_telephone-ec75546f480d8847bab09b8fce4612ec281cdfb9bb63d402da4fec39bfdb8ab3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/home_enterprise_words_pc-0133843352fb6475f1b6a913d6ba16552cfa2cc35e22f69bed014c2225f2f410.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/home_enterprise_words_pc-0133843352fb6475f1b6a913d6ba16552cfa2cc35e22f69bed014c2225f2f410.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/icon_dt_eye-4d44524c73363b09392456ee2128c35bce9118cc9dc41537f0f6737ad95306ed.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/icon_dt_eye-4d44524c73363b09392456ee2128c35bce9118cc9dc41537f0f6737ad95306ed.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/icon_dt_label-b322fa4a36981655a55e5e74ecf474f807c9d3e0d21f580c034c4d531fff9c73.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/icon_dt_label-b322fa4a36981655a55e5e74ecf474f807c9d3e0d21f580c034c4d531fff9c73.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/icon_dt_zan-47370b28638d5ef9482da6a645216601316a8fc7ab851ccae5a5a78823efdd48.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/icon_dt_zan-47370b28638d5ef9482da6a645216601316a8fc7ab851ccae5a5a78823efdd48.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/icon_help_zk-c31d7171d7c4f70777933a32e343704011699df59586fca313e6d6db4b5598a6.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/icon_help_zk-c31d7171d7c4f70777933a32e343704011699df59586fca313e6d6db4b5598a6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/icon_project_click-575a77278e86efd35f372768c38f9c689cdd0c8fb5ad6700b297201ccaa14c65.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/icon_project_click-575a77278e86efd35f372768c38f9c689cdd0c8fb5ad6700b297201ccaa14c65.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/icon_sq-62bd924cf8925d1ba03c1177fbebaf23b75fb339f328fc36e7535702e6459533.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/icon_sq-62bd924cf8925d1ba03c1177fbebaf23b75fb339f328fc36e7535702e6459533.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/icon_xdiqu-082392fe4781b10bf665e8a65d2fc9ea38e77cfb541a6d3b2b70447c31e4470c.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/icon_xdiqu-082392fe4781b10bf665e8a65d2fc9ea38e77cfb541a6d3b2b70447c31e4470c.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/icon_zsk_sxh-8b682a5122f5ec43ead40fb80dd8293a4e0db544b05ede7efecbffaac19024a2.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/icon_zsk_sxh-8b682a5122f5ec43ead40fb80dd8293a4e0db544b05ede7efecbffaac19024a2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/icon_zsk_xs-d1f58e67c098809a8bb40dedc4f180daedb05f83310ca9c4ded3da9a0c94920b.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/icon_zsk_xs-d1f58e67c098809a8bb40dedc4f180daedb05f83310ca9c4ded3da9a0c94920b.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/join_bg_demand-50207884d8e83c7b7f253ecb06f823d114a2ec8966ad9de2e90024dd5c81ad42.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/join_bg_demand-50207884d8e83c7b7f253ecb06f823d114a2ec8966ad9de2e90024dd5c81ad42.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/join_bg_service-67733b7634cdbf50dc2e38777bda4a944d2e34095444695611d70100115ba8bf.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/join_bg_service-67733b7634cdbf50dc2e38777bda4a944d2e34095444695611d70100115ba8bf.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/join_icon_company-d1a92e25f540417d0dd4615ea49db707cc4ea206e7404e9586ad5a11f076b795.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/join_icon_company-d1a92e25f540417d0dd4615ea49db707cc4ea206e7404e9586ad5a11f076b795.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/join_icon_personal-4dea60cf024032d64109c9ea7a3ad84f1e96be6f5ad69cdc7980ceb0e0620a12.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/join_icon_personal-4dea60cf024032d64109c9ea7a3ad84f1e96be6f5ad69cdc7980ceb0e0620a12.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/join_icon_service-e02ce6f5eb8bbfc9424573881e4146d0e45f7d11467be6bcecce040dacfa23ce.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/join_icon_service-e02ce6f5eb8bbfc9424573881e4146d0e45f7d11467be6bcecce040dacfa23ce.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/logo-b-7dc7909fd0c649f0c33ead53590ba017abe9398b2493a0a86bff0fdbd0093c5e.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/logo-b-7dc7909fd0c649f0c33ead53590ba017abe9398b2493a0a86bff0fdbd0093c5e.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/logo_gld-927bec57c9890d60ce361b1af345f150d3cdc9dcab23d5fc5affc02ab0aa5c9a.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/logo_gld-927bec57c9890d60ce361b1af345f150d3cdc9dcab23d5fc5affc02ab0aa5c9a.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/logo_hlx-27d8b79e2b1d221841b659c329ca008c08074e1d6573ac50d4202256d772fed9.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/logo_hlx-27d8b79e2b1d221841b659c329ca008c08074e1d6573ac50d4202256d772fed9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/logo_jl-63d3c30d09df421f0f8b3a08abddba3147df4149503c832bc31496dca2da6933.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/logo_jl-63d3c30d09df421f0f8b3a08abddba3147df4149503c832bc31496dca2da6933.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/logo_st-361d9bd75b02f027791bd182c7ce05032d11f4e3c1b348017c3ece39de1a9da7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/logo_st-361d9bd75b02f027791bd182c7ce05032d11f4e3c1b348017c3ece39de1a9da7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/logo_yzyw-43473670eb2bcec917a58a122db6211f5fcbea980ad6ee0a7e133906b0364d9e.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/logo_yzyw-43473670eb2bcec917a58a122db6211f5fcbea980ad6ee0a7e133906b0364d9e.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/logo_zs-b2c054b673c7ed2539e67c68f901e6e4c924b11c446b1011d33eebe4f94dbdf7.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/logo_zs-b2c054b673c7ed2539e67c68f901e6e4c924b11c446b1011d33eebe4f94dbdf7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/mail-box-4045b906b517f12ff3f5c64e993468d71d3108cbafe88fd58ce70fc2193ff24f.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/mail-box-4045b906b517f12ff3f5c64e993468d71d3108cbafe88fd58ce70fc2193ff24f.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/nav_dropdown-8b682a5122f5ec43ead40fb80dd8293a4e0db544b05ede7efecbffaac19024a2.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/nav_dropdown-8b682a5122f5ec43ead40fb80dd8293a4e0db544b05ede7efecbffaac19024a2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/pro-33c85ca609e8b9f616de8cb559453fbbef55c684bf587fd0168c1ab6c33c20e1.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/pro-33c85ca609e8b9f616de8cb559453fbbef55c684bf587fd0168c1ab6c33c20e1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/qy_banner-6a19fb1242bdce6235693171079cd58948dd63d606fe1c03ffdca321f2633777.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/qy_banner-6a19fb1242bdce6235693171079cd58948dd63d606fe1c03ffdca321f2633777.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/qy_icon_guzhu-ae52910fd1dce8f50dc397860816a1c8fcb5fd0adfb0f3d35bb482c72d3ffc2c.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/qy_icon_guzhu-ae52910fd1dce8f50dc397860816a1c8fcb5fd0adfb0f3d35bb482c72d3ffc2c.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/qy_icon_money-b63dabdd3724b9f0599f68956072e671898230978d303f2f1658e653796f943c.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/qy_icon_money-b63dabdd3724b9f0599f68956072e671898230978d303f2f1658e653796f943c.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/qy_icon_project-3cbda872b0d3f49e2cf05133eb6cc68e080f7c283e526b6c857c119e17ca39bc.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/qy_icon_project-3cbda872b0d3f49e2cf05133eb6cc68e080f7c283e526b6c857c119e17ca39bc.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/rec-c0b611a1686e7f9102e28eca00ff1730bba7a38253c90c542647d9a467b3e11e.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/rec-c0b611a1686e7f9102e28eca00ff1730bba7a38253c90c542647d9a467b3e11e.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/region_seek_cont-3fa6b6bbfbd5784d6529417bd33ea49f8482506832fd18c0102a28e1f4f31ffd.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/region_seek_cont-3fa6b6bbfbd5784d6529417bd33ea49f8482506832fd18c0102a28e1f4f31ffd.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/right_adv-28190c556c88dab3f46ed8129e1a5042ac50d6fdb7539a92508764b4fbab687e.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/right_adv-28190c556c88dab3f46ed8129e1a5042ac50d6fdb7539a92508764b4fbab687e.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/service_type_0-a15f1377d6693a4564c5d60c284a0497c2795545dd6e76544d7eb2ae6f00d5fa.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/service_type_0-a15f1377d6693a4564c5d60c284a0497c2795545dd6e76544d7eb2ae6f00d5fa.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/service_type_2-b05014215e04b258bd1b458e7a9658d0a8a6e9215dff28806ff7f2e4bc3dbc10.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/service_type_2-b05014215e04b258bd1b458e7a9658d0a8a6e9215dff28806ff7f2e4bc3dbc10.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/service_type_3-f6dd4660f466490c70cfd2abca8aa41d4287b863b6aa33afec08df9bd80e7a64.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/service_type_3-f6dd4660f466490c70cfd2abca8aa41d4287b863b6aa33afec08df9bd80e7a64.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/service_type_4-b864012629f0beda4e85951e4e9149b55fcc36d350482416176f196ff607a4a3.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/service_type_4-b864012629f0beda4e85951e4e9149b55fcc36d350482416176f196ff607a4a3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/service_type_5-84a11b25b24dfb1218a8934eb1ba94eed7c00520b888fcc9dae2d2602d0767e7.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/service_type_5-84a11b25b24dfb1218a8934eb1ba94eed7c00520b888fcc9dae2d2602d0767e7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/skvip_banner_estimate-875f66872ecedd8e931b844e0af095bd206b821c26e5e5046eb244fa07c161b0.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/skvip_banner_estimate-875f66872ecedd8e931b844e0af095bd206b821c26e5e5046eb244fa07c161b0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/skvip_bottom_buy-6d3b1a5abe598730acdd38f129e4497c3cb4831cfb61f7713de79c8b726d2a0a.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/skvip_bottom_buy-6d3b1a5abe598730acdd38f129e4497c3cb4831cfb61f7713de79c8b726d2a0a.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/skvip_btn_consult-584ea71003977bad9aa5cfcbb29e437feaef679b5b781d624202011d17055efd.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/skvip_btn_consult-584ea71003977bad9aa5cfcbb29e437feaef679b5b781d624202011d17055efd.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/skvip_problem-d5f581c3e2bc99f88011d2b733acef7c3238a369ea6972bae962a011f42fa01d.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/skvip_problem-d5f581c3e2bc99f88011d2b733acef7c3238a369ea6972bae962a011f42fa01d.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/skvip_service_front-7d28b345d2893a69df3b18cd046314822dd5e2814060d30dc8a1b70d1131f803.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/skvip_service_front-7d28b345d2893a69df3b18cd046314822dd5e2814060d30dc8a1b70d1131f803.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/top_adv-e8ff207d4a209f257e9e5cdc26044c5b63224a1373009053b5884a842d36abf1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/top_adv-e8ff207d4a209f257e9e5cdc26044c5b63224a1373009053b5884a842d36abf1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/track_ua.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/track_ua.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/vip_content-80d9272ac5252d4a6dace14749b73b78d093abb611c78a55fd3a6a23e8038f30.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/vip_content-80d9272ac5252d4a6dace14749b73b78d093abb611c78a55fd3a6a23e8038f30.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/vip_identity-de5b48bf482ca03ff85237e6581a8a316928f2cc4c1c2b81348ba9d78c76662c.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/vip_identity-de5b48bf482ca03ff85237e6581a8a316928f2cc4c1c2b81348ba9d78c76662c.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/wx-ie-ad7b5613fee33b52167aee1634394882650e400a1fe28d66f6c42a9d8639d4a4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/wx-ie-ad7b5613fee33b52167aee1634394882650e400a1fe28d66f6c42a9d8639d4a4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/static/picture/wz_help_banner-0860d006bd329e315b15dc83d4cd9d2f5334e76988297576b2468d714b93947b.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/static/picture/wz_help_banner-0860d006bd329e315b15dc83d4cd9d2f5334e76988297576b2468d714b93947b.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/components/ExampleComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/ExampleComponent.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/en/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/auth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/en/pagination.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/pagination.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/en/passwords.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/passwords.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/en/validation.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/validation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/bangzhu.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/web/bangzhu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/dongtai.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/web/dongtai.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/dongtaixiangqing.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/web/dongtaixiangqing.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/fabuxiangmu.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/web/fabuxiangmu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/web/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/jinpaisuanke.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/web/jinpaisuanke.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/qiye.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/web/qiye.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/qiyexiangqing.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/web/qiyexiangqing.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/shoujiyanzheng.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/web/shoujiyanzheng.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/suanke.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/web/suanke.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/suankejinjiren.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/web/suankejinjiren.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/suankexiangqing.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/web/suankexiangqing.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/tuanduixiangqing.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/web/tuanduixiangqing.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/vip.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/web/vip.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/zhaopin.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/web/zhaopin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/zhaopinxiangqing.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/web/zhaopinxiangqing.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/zhuce.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/web/zhuce.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/发布.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/web/release.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/channels.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/channels.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/console.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/console.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.php" beforeDir="false" afterPath="$PROJECT_DIR$/server.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/storage/app/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/storage/app/public/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/data/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/data/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/sessions/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/testing/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/testing/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/views/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/views/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/logs/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/storage/logs/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/CreatesApplication.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/CreatesApplication.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Feature/ExampleTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/ExampleTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/TestCase.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/TestCase.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Unit/ExampleTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Unit/ExampleTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
+>>>>>>> 116216e2e224e0b33a9b049e51fa6956dfb891d3
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,30 +479,310 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
   </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="2019870711">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="json" value="1" />
+          <entry key="php" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JSON" value="1" />
+          <entry key="PHP" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="php" value="13" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PHP" value="13" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="214555174">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="editorconfig" value="1" />
+          <entry key="env" value="1" />
+          <entry key="html" value="1" />
+          <entry key="log" value="1" />
+          <entry key="php" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Blade" value="3" />
+          <entry key="HTML" value="1" />
+          <entry key="PHP" value="3" />
+          <entry key="PLAIN_TEXT" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="php" value="470" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Blade" value="267" />
+          <entry key="HTML" value="1" />
+          <entry key="PHP" value="202" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/web.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/composer.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
               <caret line="35" column="17" lean-forward="true" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
             </state>
           </provider>
+=======
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Web/ReleaseController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/web/release.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="97" column="45" selection-start-line="97" selection-start-column="45" selection-end-line="97" selection-end-column="45" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#p#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#table#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#td#0;n#tr#0;n#table#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#td#0;n#tr#1;n#table#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#0;n#tr#2;n#table#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#label#0;n#span#0;n#td#0;n#tr#2;n#table#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#span#0;n#td#0;n#tr#2;n#table#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#td#0;n#tr#3;n#table#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#td#0;n#tr#4;n#table#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#0;n#form#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#table#0;n#form#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#td#0;n#tr#0;n#table#0;n#form#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#td#0;n#tr#1;n#table#0;n#form#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#0;n#td#0;n#tr#1;n#table#0;n#form#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#span#0;n#div#0;n#td#0;n#tr#1;n#table#0;n#form#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#1;n#div#0;n#td#0;n#tr#1;n#table#0;n#form#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#td#0;n#tr#2;n#table#0;n#form#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#td#0;n#tr#3;n#table#0;n#form#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#td#0;n#tr#4;n#table#0;n#form#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#0;n#div#3;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#4;n#div#0;n#div#3;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#6;n#div#0;n#div#3;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#8;n#div#0;n#div#3;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#10;n#div#0;n#div#3;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#12;n#div#0;n#div#3;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#14;n#div#0;n#div#3;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#16;n#div#0;n#div#3;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#18;n#div#0;n#div#3;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#20;n#div#0;n#div#3;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#22;n#div#0;n#div#3;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#24;n#div#0;n#div#3;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#26;n#div#0;n#div#3;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#28;n#div#0;n#div#3;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#0;n#ul#0;n#div#3;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#span#0;n#li#0;n#ul#0;n#div#3;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#div#2;n#div#0;n#div#0;n#span#0;n#li#0;n#ul#0;n#div#3;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#p#0;n#div#2;n#div#0;n#div#0;n#span#0;n#li#0;n#ul#0;n#div#3;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#span#0;n#li#1;n#ul#0;n#div#3;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#span#0;n#li#2;n#ul#0;n#div#3;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#span#0;n#li#2;n#ul#0;n#div#3;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#span#0;n#li#2;n#ul#0;n#div#3;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#span#0;n#li#2;n#ul#0;n#div#3;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#span#0;n#a#0;n#li#4;n#ul#0;n#div#3;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/web/index.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="16" selection-end-column="50" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#p#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#table#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#td#0;n#tr#0;n#table#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#td#0;n#tr#1;n#table#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#0;n#tr#2;n#table#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#label#0;n#span#0;n#td#0;n#tr#2;n#table#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#span#0;n#td#0;n#tr#2;n#table#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#td#0;n#tr#3;n#table#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#td#0;n#tr#4;n#table#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#0;n#form#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#table#0;n#form#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#td#0;n#tr#0;n#table#0;n#form#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#td#0;n#tr#1;n#table#0;n#form#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#0;n#td#0;n#tr#1;n#table#0;n#form#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#span#0;n#div#0;n#td#0;n#tr#1;n#table#0;n#form#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#1;n#div#0;n#td#0;n#tr#1;n#table#0;n#form#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#td#0;n#tr#2;n#table#0;n#form#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#td#0;n#tr#3;n#table#0;n#form#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#td#0;n#tr#4;n#table#0;n#form#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#div#1;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#div#2;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#div#3;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#script#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#5;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#div#3;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#6;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#li#1;n#ul#0;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#li#2;n#ul#0;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#li#3;n#ul#0;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#7;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#div#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#iframe#0;n#div#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#td#1;n#tr#0;n#table#0;n#div#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#1;n#td#1;n#tr#0;n#table#0;n#div#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#8;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#8;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#1;n#div#1;n#div#8;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#div#9;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#9;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#10;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#11;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#12;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#12;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#li#0;n#ul#0;n#div#14;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#span#0;n#li#0;n#ul#0;n#div#14;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#div#2;n#div#0;n#div#0;n#span#0;n#li#0;n#ul#0;n#div#14;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#p#0;n#div#2;n#div#0;n#div#0;n#span#0;n#li#0;n#ul#0;n#div#14;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#span#0;n#li#1;n#ul#0;n#div#14;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#span#0;n#li#2;n#ul#0;n#div#14;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#span#0;n#li#2;n#ul#0;n#div#14;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#span#0;n#li#2;n#ul#0;n#div#14;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#span#0;n#li#2;n#ul#0;n#div#14;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#span#0;n#a#0;n#li#4;n#ul#0;n#div#14;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/console.php">
+          <provider selected="true" editor-type-id="text-editor" />
+>>>>>>> 116216e2e224e0b33a9b049e51fa6956dfb891d3
         </entry>
       </file>
     </leaf>
   </component>
+<<<<<<< HEAD
+=======
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>航哥</find>
+      <find>算客</find>
+      <find>/web//web</find>
+      <find>联系我们</find>
+      <find>点击</find>
+      <find>北京市昌平区龙域东二路龙域中心东塔五层</find>
+      <find>项目大厅</find>
+      <find>static</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>航哥</replace>
+      <replace>/web</replace>
+      <replace>/web/static</replace>
+    </replaceStrings>
+  </component>
+>>>>>>> 116216e2e224e0b33a9b049e51fa6956dfb891d3
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/config/app.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/TestController.php" />
+        <option value="$PROJECT_DIR$/resources/views/web/index.blade.php" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Web/ReleaseController.php" />
+        <option value="$PROJECT_DIR$/resources/views/web/release.blade.php" />
       </list>
     </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/package.json" />
+    </packageJsonPaths>
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -158,6 +903,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -165,11 +911,59 @@
               <item name="hhgc" type="b2602c69:ProjectViewProjectNode" />
               <item name="hhgc" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="hhgc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hhgc" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hhgc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hhgc" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hhgc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hhgc" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hhgc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hhgc" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="Web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hhgc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hhgc" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hhgc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hhgc" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hhgc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hhgc" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hhgc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hhgc" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -211,17 +1005,32 @@
       <updated>1557284390967</updated>
       <workItem from="1557284392408" duration="7771000" />
       <workItem from="1557395509688" duration="1031000" />
+<<<<<<< HEAD
       <workItem from="1557709511120" duration="1943000" />
+=======
+      <workItem from="1557730503368" duration="69000" />
+      <workItem from="1557731494000" duration="9251000" />
+>>>>>>> 116216e2e224e0b33a9b049e51fa6956dfb891d3
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="10745000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="32" width="1366" height="678" extended-state="6" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49946064" visible="true" weight="0.13201821" />
+=======
+    <option name="totallyTimeSpent" value="18122000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49946064" visible="true" weight="0.12961012" />
+>>>>>>> 116216e2e224e0b33a9b049e51fa6956dfb891d3
       <window_info id="Favorites" order="1" sideWeight="0.50053936" side_tool="true" weight="0.12816456" />
       <window_info id="Database" order="2" weight="0.1693038" />
       <window_info active="true" id="Remote Host" order="3" visible="true" weight="0.18037975" />
@@ -235,8 +1044,13 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.54516804" />
       <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.30174083" />
+=======
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.4310532" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.46036917" />
+>>>>>>> 116216e2e224e0b33a9b049e51fa6956dfb891d3
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32983193" />
       <window_info anchor="bottom" id="Database Console" order="11" weight="0.572479" />
       <window_info anchor="bottom" id="File Transfer" order="12" weight="0.17542017" />
@@ -251,28 +1065,40 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/routes/api.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="45" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
-          <folding>
-            <element signature="e#7#389#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -294,10 +1120,206 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.editorconfig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/storage/logs/laravel-2019-05-13.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1632">
+          <caret line="263" column="3" lean-forward="true" selection-start-line="263" selection-start-column="3" selection-end-line="263" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/console.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/web/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="16" selection-end-column="50" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#td#0;n#tr#0;n#table#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#td#0;n#tr#1;n#table#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#2;n#table#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#0;n#span#0;n#td#0;n#tr#2;n#table#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#span#0;n#td#0;n#tr#2;n#table#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#td#0;n#tr#3;n#table#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#td#0;n#tr#4;n#table#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#form#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#form#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#td#0;n#tr#0;n#table#0;n#form#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#td#0;n#tr#1;n#table#0;n#form#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#td#0;n#tr#1;n#table#0;n#form#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#span#0;n#div#0;n#td#0;n#tr#1;n#table#0;n#form#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#0;n#td#0;n#tr#1;n#table#0;n#form#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#td#0;n#tr#2;n#table#0;n#form#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#td#0;n#tr#3;n#table#0;n#form#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#td#0;n#tr#4;n#table#0;n#form#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#1;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#2;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#3;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#script#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#5;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#6;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#li#1;n#ul#0;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#li#2;n#ul#0;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#li#3;n#ul#0;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#7;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#iframe#0;n#div#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#td#1;n#tr#0;n#table#0;n#div#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#1;n#td#1;n#tr#0;n#table#0;n#div#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#8;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#8;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#div#1;n#div#8;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#9;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#9;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#10;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#11;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#12;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#12;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#li#0;n#ul#0;n#div#14;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#span#0;n#li#0;n#ul#0;n#div#14;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#2;n#div#0;n#div#0;n#span#0;n#li#0;n#ul#0;n#div#14;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#p#0;n#div#2;n#div#0;n#div#0;n#span#0;n#li#0;n#ul#0;n#div#14;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#span#0;n#li#1;n#ul#0;n#div#14;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#span#0;n#li#2;n#ul#0;n#div#14;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#span#0;n#li#2;n#ul#0;n#div#14;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#span#0;n#li#2;n#ul#0;n#div#14;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#span#0;n#li#2;n#ul#0;n#div#14;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#0;n#a#0;n#li#4;n#ul#0;n#div#14;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TestController.php" />
+    <entry file="https://schemastore.azurewebsites.net/schemas/json/composer.json">
+      <provider selected="true" editor-type-id="httpFileEditor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="35" column="17" lean-forward="true" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
         </state>
       </provider>
     </entry>
+=======
+    <entry file="file://$PROJECT_DIR$/resources/views/web/release.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="97" column="45" selection-start-line="97" selection-start-column="45" selection-end-line="97" selection-end-column="45" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#td#0;n#tr#0;n#table#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#td#0;n#tr#1;n#table#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#2;n#table#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#0;n#span#0;n#td#0;n#tr#2;n#table#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#span#0;n#td#0;n#tr#2;n#table#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#td#0;n#tr#3;n#table#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#td#0;n#tr#4;n#table#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#form#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#form#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#td#0;n#tr#0;n#table#0;n#form#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#td#0;n#tr#1;n#table#0;n#form#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#td#0;n#tr#1;n#table#0;n#form#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#span#0;n#div#0;n#td#0;n#tr#1;n#table#0;n#form#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#0;n#td#0;n#tr#1;n#table#0;n#form#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#td#0;n#tr#2;n#table#0;n#form#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#td#0;n#tr#3;n#table#0;n#form#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#td#0;n#tr#4;n#table#0;n#form#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#3;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#div#0;n#div#3;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#6;n#div#0;n#div#3;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#8;n#div#0;n#div#3;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#10;n#div#0;n#div#3;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#12;n#div#0;n#div#3;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#14;n#div#0;n#div#3;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#16;n#div#0;n#div#3;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#18;n#div#0;n#div#3;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#20;n#div#0;n#div#3;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#22;n#div#0;n#div#3;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#24;n#div#0;n#div#3;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#26;n#div#0;n#div#3;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#28;n#div#0;n#div#3;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#0;n#ul#0;n#div#3;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#span#0;n#li#0;n#ul#0;n#div#3;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#2;n#div#0;n#div#0;n#span#0;n#li#0;n#ul#0;n#div#3;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#p#0;n#div#2;n#div#0;n#div#0;n#span#0;n#li#0;n#ul#0;n#div#3;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#span#0;n#li#1;n#ul#0;n#div#3;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#span#0;n#li#2;n#ul#0;n#div#3;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#span#0;n#li#2;n#ul#0;n#div#3;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#span#0;n#li#2;n#ul#0;n#div#3;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#span#0;n#li#2;n#ul#0;n#div#3;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#0;n#a#0;n#li#4;n#ul#0;n#div#3;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Web/ReleaseController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> 116216e2e224e0b33a9b049e51fa6956dfb891d3
   </component>
 </project>
