@@ -4,18 +4,16 @@
   <meta charset="utf-8"/>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-<!--  <title></title>-->
-  <title>算客工场--工程行业技术服务众包平台</title>
-<!--  <meta name="description" content="算客工场-- 是一个直达工程师的实名制交易平台，当你遇到任何工程项目问题，都可以快速找到合适的算客，在线委托需求，支付费用，获得服务；我们致力于用共享经济的理念改变工作方式，借助互联网连接工程建设领域的服务需求与工程师，让从业者更方便的出售知识和技能。"/>-->
-  <meta name="description" content="算客工场-- 是一个直达工程师的实名制交易平台，当你遇到任何工程项目问题，都可以快速找到合适的算客，在线委托需求，支付费用，获得服务；我们致力于用共享经济的理念改变工作方式，借助互联网连接工程建设领域的服务需求与工程师，让从业者更方便的出售知识和技能。"/>
-<!--  <meta name="keywords" content="算客工场,造价私活,造价,安装算量,抽钢筋,土建算量,精装算量,北京小栗科技有限公司"/>-->
-  <meta name="keywords" content="算客工场,造价私活,造价,安装算量,抽钢筋,土建算量,精装算量,北京小栗科技有限公司"/>
-  <link rel="stylesheet" media="all" href="static/css/application-f742c9f4d291b8a5e98f7948d3ab74777a2b906c7081c9c6a7b3a231883543f5.css" data-turbolinks-track="true" />
+  <title>航哥工场--工程行业技术服务众包平台</title>
+  <meta name="description" content=""/>
+  <meta name="keywords" content=""/>
 
-  <script src="static/js/application-a53f0e0a6a61a86e6cb8f94a2fb64a861d3f1c5f341a2ae992c4adf325a4ea38.js" data-turbolinks-track="true"></script>
-  <script src="static/js/highcharts.js" data-turbolinks-track="true"></script>
-  <meta name="csrf-param" content="authenticity_token" />
-<meta name="csrf-token" content="8W/XV6W2XGwsQSBqxyxQmV8BuyoJniB4IcNpR50lDCrRRhLTmi40FQ2t+28RnBj0Y489z/TFccsq6zv/JC11Cg==" />
+  <link rel="stylesheet" media="all"
+        href="/web/static/css/application-f742c9f4d291b8a5e98f7948d3ab74777a2b906c7081c9c6a7b3a231883543f5.css"
+        data-turbolinks-track="true"/>
+
+  <script src="/web/static/js/application-a53f0e0a6a61a86e6cb8f94a2fb64a861d3f1c5f341a2ae992c4adf325a4ea38.js"
+          data-turbolinks-track="true"></script>
   <style>
     .header {
       position: relative;
@@ -47,80 +45,67 @@
   <br/>
   <br/>
   <span class="font16">您也可以关注我们的微信公众号，随时随地使用算客工场</span><br/>
-  <img class="mt10 mb10" src="static/picture/wx-ie-ad7b5613fee33b52167aee1634394882650e400a1fe28d66f6c42a9d8639d4a4.jpg" alt="Wx ie ad7b5613fee33b52167aee1634394882650e400a1fe28d66f6c42a9d8639d4a4" width="780" height="375" />
+  <img class="mt10 mb10" src="/web/static/picture/wx-ie-ad7b5613fee33b52167aee1634394882650e400a1fe28d66f6c42a9d8639d4a4.jpg" alt="Wx ie ad7b5613fee33b52167aee1634394882650e400a1fe28d66f6c42a9d8639d4a4" width="780" height="375" />
 </p>
 <![endif]-->
 
 <div class="header" style="z-index: 999;">
   <div class="w rel">
     <a href="/" class="fl">
-      <img src="static/picture/logo-b-7dc7909fd0c649f0c33ead53590ba017abe9398b2493a0a86bff0fdbd0093c5e.png" alt="Logo b 7dc7909fd0c649f0c33ead53590ba017abe9398b2493a0a86bff0fdbd0093c5e" width="147" height="38" />
+      <img src="/web/static/picture/logo-b-7dc7909fd0c649f0c33ead53590ba017abe9398b2493a0a86bff0fdbd0093c5e.png"
+           alt="Logo b 7dc7909fd0c649f0c33ead53590ba017abe9398b2493a0a86bff0fdbd0093c5e" width="147" height="38"/>
     </a>
     <ul class="mnav fl">
       <li>
-        <a href="/home/pub_index">发布项目</a>
+        <a href="/projects/release">发布项目</a>
       </li>
       <li>
-        <a href="/projects/pub">项目</a>
+        <a href="/projects/sala">项目大厅</a>
       </li>
       <li>
         <a href="/companies">企业/团队</a>
       </li>
       <li>
-        <a href="/members">算客</a>
+        <a href="/members">找航哥</a>
       </li>
       <!--      <li>-->
       <!--      </li>-->
 
       <li>
-        <a href="/qas">帮助</a>
+        <a href="/case">案例展示</a>
+      </li>
+      <li>
+        <a href="/speed">速配中心</a>
       </li>
     </ul>
 
     <div class="login mr">
-  <div class="loginLater">
-    <a class="userTitle new" href="javascript:void(0);">
-      发现
-      <img src="static/picture/nav_dropdown-8b682a5122f5ec43ead40fb80dd8293a4e0db544b05ede7efecbffaac19024a2.png" alt="Nav dropdown 8b682a5122f5ec43ead40fb80dd8293a4e0db544b05ede7efecbffaac19024a2" />
-    </a>
+      <div class="loginLater">
+        <a class="userTitle new" href="javascript:void(0);">
+          超级合作
+          <img src="/web/static/picture/nav_dropdown-8b682a5122f5ec43ead40fb80dd8293a4e0db544b05ede7efecbffaac19024a2.png"
+               alt="Nav dropdown 8b682a5122f5ec43ead40fb80dd8293a4e0db544b05ede7efecbffaac19024a2"/>
+        </a>
 
-    <div class="umenu" style="position: absolute; left:0;">
-      <ul style="display: block;">
-        <li>
-          <a href="/recruits">招聘</a>
-        </li>
-        <li>
-          <a href="/share_softwares">工具箱</a>
-        </li>
-        <li>
-          <a href="/articles">最新动态</a>
-        </li>
-        <li>
-          <a target="_blank" href="/vip_members/new">算客会员</a>
-        </li>
-<!--        <li>-->
-<!--        </li>-->
-        <li>
-          <a target="_blank" href="/origins">算客经纪人</a>
-        </li>
-        <li>
-          <a href="/coupons">算客大礼包</a>
-        </li>
-        <li>
-          <a href="/my/perm">我的权限</a>
-        </li>
-
-      </ul>
+        <div class="umenu" style="position: absolute; left:0;">
+          <ul style="display: block;">
+            <li>
+              <a href="/job">求职招聘</a>
+            </li>
+            <li>
+              <a href="/cooperation">培训合作</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
-  </div>
-</div>
 
     <div class="login fr">
 
 
-        <a class="loginButton" onclick="$('#show_login_div').show()" href="javascript:;">登录</a>
+      <a class="loginButton" onclick="$('#show_login_div').show()" href="javascript:;">登录</a>
 
-        <a class="regButton" href="/member_applies?from=nav_top">注册</a>
+      <a class="regButton" href="/member_applies?from=nav_top">注册</a>
 
     </div>
   </div>
@@ -139,7 +124,7 @@
 
   #show_login_div .Validform_wrong::before{
     content: '';
-    background: url(static/images/login_error_icon-2fdef50ff4540ce104cd74e7fcd05fb63bc863e243d4feebf77a5d7dec3f957a.png) no-repeat;/*兼容没测*/
+    background: url(/web/static/images/login_error_icon-2fdef50ff4540ce104cd74e7fcd05fb63bc863e243d4feebf77a5d7dec3f957a.png) no-repeat;/*兼容没测*/
     background-size: cover;
     display: inline-block;
     width: 16px;
@@ -207,7 +192,7 @@
                   </table>
 </form>            </div>
             <div class="wx-login">
-              <img style="height: 160px;width: 160px;" id="wx_qr_img" src="static/picture/default_qr_code-e370b7478685a8868ad8f637a4b82d704cdafdb953b8fc24cb47930ca4a964f5.jpg" alt="Default qr code e370b7478685a8868ad8f637a4b82d704cdafdb953b8fc24cb47930ca4a964f5" />
+              <img style="height: 160px;width: 160px;" id="wx_qr_img" src="/web/static/picture/default_qr_code-e370b7478685a8868ad8f637a4b82d704cdafdb953b8fc24cb47930ca4a964f5.jpg" alt="Default qr code e370b7478685a8868ad8f637a4b82d704cdafdb953b8fc24cb47930ca4a964f5" />
               <span class="font16" style="padding: 20px 0 0 0;">使用微信扫一扫登录</span>
             </div>
             <div class="valid-login">
@@ -662,13 +647,13 @@
 
 <div class="vip-member">
   <div class="com-banner">
-    <img src="static/picture/qy_banner-6a19fb1242bdce6235693171079cd58948dd63d606fe1c03ffdca321f2633777.png" alt="Qy banner 6a19fb1242bdce6235693171079cd58948dd63d606fe1c03ffdca321f2633777" />
+    <img src="/web/static/picture/qy_banner-6a19fb1242bdce6235693171079cd58948dd63d606fe1c03ffdca321f2633777.png" alt="Qy banner 6a19fb1242bdce6235693171079cd58948dd63d606fe1c03ffdca321f2633777" />
   </div>
   <div class="content">
     <div class="row">
       <div class="col-md-4">
         <div>
-          <img src="static/picture/qy_icon_money-b63dabdd3724b9f0599f68956072e671898230978d303f2f1658e653796f943c.png" alt="Qy icon money b63dabdd3724b9f0599f68956072e671898230978d303f2f1658e653796f943c" />
+          <img src="/web/static/picture/qy_icon_money-b63dabdd3724b9f0599f68956072e671898230978d303f2f1658e653796f943c.png" alt="Qy icon money b63dabdd3724b9f0599f68956072e671898230978d303f2f1658e653796f943c" />
         </div>
         <h3>
           67,120,933
@@ -678,21 +663,21 @@
       </div>
       <div class="col-md-4">
         <div>
-          <img src="static/picture/qy_icon_project-3cbda872b0d3f49e2cf05133eb6cc68e080f7c283e526b6c857c119e17ca39bc.png" alt="Qy icon project 3cbda872b0d3f49e2cf05133eb6cc68e080f7c283e526b6c857c119e17ca39bc" />
+          <img src="/web/static/picture/qy_icon_project-3cbda872b0d3f49e2cf05133eb6cc68e080f7c283e526b6c857c119e17ca39bc.png" alt="Qy icon project 3cbda872b0d3f49e2cf05133eb6cc68e080f7c283e526b6c857c119e17ca39bc" />
         </div>
         <h3>19470</h3>
         <h4>项目数量</h4>
       </div>
       <div class="col-md-4">
         <div>
-          <img src="static/picture/qy_icon_guzhu-ae52910fd1dce8f50dc397860816a1c8fcb5fd0adfb0f3d35bb482c72d3ffc2c.png" alt="Qy icon guzhu ae52910fd1dce8f50dc397860816a1c8fcb5fd0adfb0f3d35bb482c72d3ffc2c" />
+          <img src="/web/static/picture/qy_icon_guzhu-ae52910fd1dce8f50dc397860816a1c8fcb5fd0adfb0f3d35bb482c72d3ffc2c.png" alt="Qy icon guzhu ae52910fd1dce8f50dc397860816a1c8fcb5fd0adfb0f3d35bb482c72d3ffc2c" />
         </div>
         <h3>5113</h3>
         <h4>雇主数量</h4>
       </div>
     </div>
 
-    <img src="static/picture/vip_content-80d9272ac5252d4a6dace14749b73b78d093abb611c78a55fd3a6a23e8038f30.png" alt="Vip content 80d9272ac5252d4a6dace14749b73b78d093abb611c78a55fd3a6a23e8038f30" />
+    <img src="/web/static/picture/vip_content-80d9272ac5252d4a6dace14749b73b78d093abb611c78a55fd3a6a23e8038f30.png" alt="Vip content 80d9272ac5252d4a6dace14749b73b78d093abb611c78a55fd3a6a23e8038f30" />
       <div class="jiaru">
   <div class="bt">认证类型</div>
   <br>
@@ -797,16 +782,16 @@
     <div>
       <ul class="tel">
         <li style="margin-bottom: 12px;">
-          <img src="static/picture/footer_logo-93a287937d6cfc0545b5193c491578c201a4bb5c47c1ff3193bcea0a5b204292.png" alt="Footer logo 93a287937d6cfc0545b5193c491578c201a4bb5c47c1ff3193bcea0a5b204292" />
+          <img src="/web/static/picture/footer_logo-93a287937d6cfc0545b5193c491578c201a4bb5c47c1ff3193bcea0a5b204292.png" alt="Footer logo 93a287937d6cfc0545b5193c491578c201a4bb5c47c1ff3193bcea0a5b204292" />
         </li>
-        <li><img src="static/picture/footer_position_icon-135dea1e0065c84db485aa9a0167983bcf9c72cf46e5e6e62095583096992ce2.png" alt="Footer position icon 135dea1e0065c84db485aa9a0167983bcf9c72cf46e5e6e62095583096992ce2" width="14" height="14" />
+        <li><img src="/web/static/picture/footer_position_icon-135dea1e0065c84db485aa9a0167983bcf9c72cf46e5e6e62095583096992ce2.png" alt="Footer position icon 135dea1e0065c84db485aa9a0167983bcf9c72cf46e5e6e62095583096992ce2" width="14" height="14" />
           北京市昌平区龙域东二路龙域中心东塔五层K13区
         </li>
-        <li><img src="static/picture/footer_phone_icon-8043e8e9c266263ea8e8ec67c5fa7cdee61ce9c8133513726ef73ae2c8843161.png" alt="Footer phone icon 8043e8e9c266263ea8e8ec67c5fa7cdee61ce9c8133513726ef73ae2c8843161" width="14" height="14" />
+        <li><img src="/web/static/picture/footer_phone_icon-8043e8e9c266263ea8e8ec67c5fa7cdee61ce9c8133513726ef73ae2c8843161.png" alt="Footer phone icon 8043e8e9c266263ea8e8ec67c5fa7cdee61ce9c8133513726ef73ae2c8843161" width="14" height="14" />
           4009938200
           15321980075
         </li>
-        <li><img src="static/picture/footer_qq_icon-d2a806a6465988b99f4e56cd1f5c8205d1485a51a9af48d2388da1a65b7765d9.png" alt="Footer qq icon d2a806a6465988b99f4e56cd1f5c8205d1485a51a9af48d2388da1a65b7765d9" width="14" height="14" />
+        <li><img src="/web/static/picture/footer_qq_icon-d2a806a6465988b99f4e56cd1f5c8205d1485a51a9af48d2388da1a65b7765d9.png" alt="Footer qq icon d2a806a6465988b99f4e56cd1f5c8205d1485a51a9af48d2388da1a65b7765d9" width="14" height="14" />
           3283170039
           工作日8:30-17:30
         </li>
@@ -865,7 +850,7 @@
   <ul>
     <li class="m-right-tool-list" style="border-top:none;">
       <span class="hbtn" intext="QQ客服">
-        <img class="bg" src="static/picture/blank-2f561b02a49376e3679acd5975e3790abdff09ecbadfa1e1858c7ba26e3ffcef.gif" alt="Blank 2f561b02a49376e3679acd5975e3790abdff09ecbadfa1e1858c7ba26e3ffcef" width="40" height="28" />
+        <img class="bg" src="/web/static/picture/blank-2f561b02a49376e3679acd5975e3790abdff09ecbadfa1e1858c7ba26e3ffcef.gif" alt="Blank 2f561b02a49376e3679acd5975e3790abdff09ecbadfa1e1858c7ba26e3ffcef" width="40" height="28" />
         <span>QQ客服</span>
 
         <div class="bg-poptip">
@@ -874,7 +859,7 @@
             <div class=" ui-poptip-arrow ui-poptip-arrow-bg"></div>
             <div class="m-tool-box clear" style="width:132px;text-align: center;">
               <p class="clear mt20 mb10" style="font-size:14px;font-weight:400;color:rgba(153,153,153,1);">
-                <img style="  background: url(static/images/service_icon_pc-b31bf3f0171d000dca0362e92e884e0bd3ff6fcef95fd512719b507d0eb7ba72.png) no-repeat -435px -30px;" src="static/picture/blank-2f561b02a49376e3679acd5975e3790abdff09ecbadfa1e1858c7ba26e3ffcef.gif" alt="Blank 2f561b02a49376e3679acd5975e3790abdff09ecbadfa1e1858c7ba26e3ffcef" width="30" height="26" />QQ客服
+                <img style="  background: url(/web/static/images/service_icon_pc-b31bf3f0171d000dca0362e92e884e0bd3ff6fcef95fd512719b507d0eb7ba72.png) no-repeat -435px -30px;" src="/web/static/picture/blank-2f561b02a49376e3679acd5975e3790abdff09ecbadfa1e1858c7ba26e3ffcef.gif" alt="Blank 2f561b02a49376e3679acd5975e3790abdff09ecbadfa1e1858c7ba26e3ffcef" width="30" height="26" />QQ客服
               </p>
 
               <p class="clear">
@@ -900,7 +885,7 @@
     </li>
     <li class="m-right-tool-list">
       <span class="hbtn m-right-tool1" intext="联系我们">
-        <img class="bg" src="static/picture/blank-2f561b02a49376e3679acd5975e3790abdff09ecbadfa1e1858c7ba26e3ffcef.gif" alt="Blank 2f561b02a49376e3679acd5975e3790abdff09ecbadfa1e1858c7ba26e3ffcef" width="40" height="28" />
+        <img class="bg" src="/web/static/picture/blank-2f561b02a49376e3679acd5975e3790abdff09ecbadfa1e1858c7ba26e3ffcef.gif" alt="Blank 2f561b02a49376e3679acd5975e3790abdff09ecbadfa1e1858c7ba26e3ffcef" width="40" height="28" />
         <span>联系我们</span>
 
         <div class="bg-poptip" style="width: 446px;">
@@ -924,7 +909,7 @@
     </li>
     <li class="m-right-tool-list">
       <span class="hbtn m-right-tool2" intext="二维码">
-        <img class="bg" src="static/picture/blank-2f561b02a49376e3679acd5975e3790abdff09ecbadfa1e1858c7ba26e3ffcef.gif" alt="Blank 2f561b02a49376e3679acd5975e3790abdff09ecbadfa1e1858c7ba26e3ffcef" width="40" height="28" />
+        <img class="bg" src="/web/static/picture/blank-2f561b02a49376e3679acd5975e3790abdff09ecbadfa1e1858c7ba26e3ffcef.gif" alt="Blank 2f561b02a49376e3679acd5975e3790abdff09ecbadfa1e1858c7ba26e3ffcef" width="40" height="28" />
         <span>二维码</span>
 
         <div class="bg-poptip" style="width: 275px;height:267px;top:-100px;">
@@ -933,7 +918,7 @@
             <div class=" ui-poptip-arrow ui-poptip-arrow-bg" style="top:115px"></div>
             <div class="m-tool-box clear all-center" style="width:228px;">
               <div class="clear">
-                <img class="mt10 mb10" src="static/picture/app_service_content-951302c48746fabaa5d925a0d48f332c22d5bf1a7bd47d60081b0249105143be.png" alt="App service content 951302c48746fabaa5d925a0d48f332c22d5bf1a7bd47d60081b0249105143be" /><br>
+                <img class="mt10 mb10" src="/web/static/picture/app_service_content-951302c48746fabaa5d925a0d48f332c22d5bf1a7bd47d60081b0249105143be.png" alt="App service content 951302c48746fabaa5d925a0d48f332c22d5bf1a7bd47d60081b0249105143be" /><br>
               </div>
             </div>
           </div>
@@ -943,13 +928,13 @@
     </li>
       <li class="m-right-tool-list">
       <span class="hbtn m-right-tool3_no_login" intext="意见反馈">
-        <img class="bg" src="static/picture/blank-2f561b02a49376e3679acd5975e3790abdff09ecbadfa1e1858c7ba26e3ffcef.gif" alt="Blank 2f561b02a49376e3679acd5975e3790abdff09ecbadfa1e1858c7ba26e3ffcef" width="40" height="28" />
+        <img class="bg" src="/web/static/picture/blank-2f561b02a49376e3679acd5975e3790abdff09ecbadfa1e1858c7ba26e3ffcef.gif" alt="Blank 2f561b02a49376e3679acd5975e3790abdff09ecbadfa1e1858c7ba26e3ffcef" width="40" height="28" />
         <span>意见反馈</span></span>
       </li>
 
     <li class="m-right-tool-list gototop" id="gototop">
       <a title="返回顶部" href="#"><span class="hbtn m-right-tool4" intext="TOP">
-        <img class="bg" src="static/picture/blank-2f561b02a49376e3679acd5975e3790abdff09ecbadfa1e1858c7ba26e3ffcef.gif" alt="Blank 2f561b02a49376e3679acd5975e3790abdff09ecbadfa1e1858c7ba26e3ffcef" width="40" height="28" />
+        <img class="bg" src="/web/static/picture/blank-2f561b02a49376e3679acd5975e3790abdff09ecbadfa1e1858c7ba26e3ffcef.gif" alt="Blank 2f561b02a49376e3679acd5975e3790abdff09ecbadfa1e1858c7ba26e3ffcef" width="40" height="28" />
         <span style="padding-left: 5px;">TOP</span></span></a>
     </li>
   </ul>
@@ -992,7 +977,7 @@
         });
     });
 </script>
-<img src="static/picture/track_ua.gif" width="0" height="0" style="line-height: 0;display: none;"/>
+<img src="/web/static/picture/track_ua.gif" width="0" height="0" style="line-height: 0;display: none;"/>
 </div>
 
 <script>

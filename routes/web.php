@@ -18,3 +18,6 @@ Route::get('/', function () {
 
 //发布项目
 Route::get('/projects/release','Web\ReleaseController@show');
+
+//了解企业
+Route::get('/companies/vip','Web\CompanyController@vip');

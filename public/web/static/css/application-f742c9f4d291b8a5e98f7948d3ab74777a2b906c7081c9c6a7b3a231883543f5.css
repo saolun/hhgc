@@ -16239,7 +16239,7 @@ img {
 }
 
 .userTitle.new {
-    background: url(../images/nav_icon_new-59469c75d22eb389f882c3bcefc0fac48bfe5e18b9be444669ffb1859868d27f.png) 47px 12px no-repeat;
+    background: url(../images/nav_icon_new-59469c75d22eb389f882c3bcefc0fac48bfe5e18b9be444669ffb1859868d27f.png) 60px 12px no-repeat;
 
 }
 
@@ -16293,7 +16293,7 @@ img {
 
 .loginLater a.userTitle {
     display: block;
-    width: 90px;
+    width: 100px;
     height: 60px;
     /*margin-left: 100px;*/
     /*background: url(../images/9f44610d7d834bbfa12d0ec5b0d071b3.gif) right center no-repeat;*/
