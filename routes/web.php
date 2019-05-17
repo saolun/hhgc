@@ -21,3 +21,6 @@ Route::get('/projects/release','Web\ReleaseController@show');
 
 //了解企业
 Route::get('/companies/vip','Web\CompanyController@vip');
+
+//项目大厅
+Route::get('/projects/sala','Web\ProjectController@sala');
