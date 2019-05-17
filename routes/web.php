@@ -24,3 +24,6 @@ Route::get('/companies/vip','Web\CompanyController@vip');
 
 //项目大厅
 Route::get('/projects/sala','Web\ProjectController@sala');
+
+//企业/团队
+Route::get('/companies','Web\CompanyController@companies');

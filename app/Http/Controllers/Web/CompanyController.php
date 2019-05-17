@@ -11,4 +11,10 @@ class CompanyController extends Controller
     {
         return view('web.vip');
     }
+
+    //企业或团队
+    public function companies()
+    {
+        return view('web.companies');
+    }
 }
