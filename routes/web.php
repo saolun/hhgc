@@ -27,3 +27,6 @@ Route::get('/projects/sala','Web\ProjectController@sala');
 
 //企业/团队
 Route::get('/companies','Web\CompanyController@companies');
+
+//找航哥
+Route::get('/hang-brother','Web\CompanyController@boat');

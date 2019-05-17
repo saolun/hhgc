@@ -35,7 +35,7 @@
                 <a href="/companies">企业/团队</a>
             </li>
             <li>
-                <a href="/members">找航哥</a>
+                <a href="/hang-brother">找航哥</a>
             </li>
             <li>
                 <a href="/case">案例展示</a>

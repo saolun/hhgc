@@ -17,4 +17,10 @@ class CompanyController extends Controller
     {
         return view('web.companies');
     }
+
+    //找航哥
+    public function boat()
+    {
+        return view('web.boat');
+    }
 }

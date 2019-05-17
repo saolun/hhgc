@@ -1,21 +1,6 @@
-﻿<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8"/>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-<!--  <title></title>-->
-  <title>算客工场--工程行业技术服务众包平台</title>
-<!--  <meta name="description" content="算客工场-- 是一个直达工程师的实名制交易平台，当你遇到任何工程项目问题，都可以快速找到合适的算客，在线委托需求，支付费用，获得服务；我们致力于用共享经济的理念改变工作方式，借助互联网连接工程建设领域的服务需求与工程师，让从业者更方便的出售知识和技能。"/>-->
-  <meta name="description" content="算客工场-- 是一个直达工程师的实名制交易平台，当你遇到任何工程项目问题，都可以快速找到合适的算客，在线委托需求，支付费用，获得服务；我们致力于用共享经济的理念改变工作方式，借助互联网连接工程建设领域的服务需求与工程师，让从业者更方便的出售知识和技能。"/>
-<!--  <meta name="keywords" content="算客工场,造价私活,造价,安装算量,抽钢筋,土建算量,精装算量,北京小栗科技有限公司"/>-->
-  <meta name="keywords" content="算客工场,造价私活,造价,安装算量,抽钢筋,土建算量,精装算量,北京小栗科技有限公司"/>
-  <link rel="stylesheet" media="all" href="static/css/application-f742c9f4d291b8a5e98f7948d3ab74777a2b906c7081c9c6a7b3a231883543f5.css" data-turbolinks-track="true" />
-
-  <script src="static/js/application-a53f0e0a6a61a86e6cb8f94a2fb64a861d3f1c5f341a2ae992c4adf325a4ea38.js" data-turbolinks-track="true"></script>
-  <script src="static/js/highcharts.js" data-turbolinks-track="true"></script>
-  <meta name="csrf-param" content="authenticity_token" />
-<meta name="csrf-token" content="Eg9hy0s8dz3SDwCL/f1amUso8OElfZBysCQjxmSNPLk0W4dwZZTxNsc3KTaiqzR7vObbXqiFoU2pokIY3r8TTg==" />
+﻿@extends('web.layouts.home')
+@section('title','工程行业技术服务众包平台')
+@section('css')
   <style>
     .header {
       position: relative;
@@ -31,104 +16,15 @@
       color: #f66626 !important;
     }
   </style>
-</head>
-<body>
-
-<!--[if lt IE 10]>
-
-<p class="ui-tip ui-tip-yellow font-center ie-update">
-  您正在使用IE低版本浏览器，为了您的账号安全和更好的产品体验，<br/>强烈建议您立即 <a class="font-blue"
-                                                href="http://windows.microsoft.com/zh-cn/internet-explorer/download-ie"
-                                                target="_blank">升级IE浏览器</a> 或者用更快更安全的 <a class="font-blue"
-                                                                                         href="http://www.baidu.com/s?wd=chrome"
-                                                                                         target="_blank">谷歌浏览器Chrome</a>
-  。
-  <br/>
-  <br/>
-  <br/>
-  <span class="font16">您也可以关注我们的微信公众号，随时随地使用算客工场</span><br/>
-  <img class="mt10 mb10" src="static/picture/wx-ie-ad7b5613fee33b52167aee1634394882650e400a1fe28d66f6c42a9d8639d4a4.jpg" alt="Wx ie ad7b5613fee33b52167aee1634394882650e400a1fe28d66f6c42a9d8639d4a4" width="780" height="375" />
-</p>
-<![endif]-->
-
-<div class="header" style="z-index: 999;">
-  <div class="w rel">
-    <a href="/" class="fl">
-      <img src="static/picture/logo-b-7dc7909fd0c649f0c33ead53590ba017abe9398b2493a0a86bff0fdbd0093c5e.png" alt="Logo b 7dc7909fd0c649f0c33ead53590ba017abe9398b2493a0a86bff0fdbd0093c5e" width="147" height="38" />
-    </a>
-    <ul class="mnav fl">
-      <li>
-        <a href="/home/pub_index">发布项目</a>
-      </li>
-      <li>
-        <a href="/projects/pub">项目</a>
-      </li>
-      <li>
-        <a href="/companies">企业/团队</a>
-      </li>
-      <li>
-        <a href="/members">算客</a>
-      </li>
-      <!--      <li>-->
-      <!--      </li>-->
-
-      <li>
-        <a href="/qas">帮助</a>
-      </li>
-    </ul>
-
-    <div class="login mr">
-  <div class="loginLater">
-    <a class="userTitle new" href="javascript:void(0);">
-      发现
-      <img src="static/picture/nav_dropdown-8b682a5122f5ec43ead40fb80dd8293a4e0db544b05ede7efecbffaac19024a2.png" alt="Nav dropdown 8b682a5122f5ec43ead40fb80dd8293a4e0db544b05ede7efecbffaac19024a2" />
-    </a>
-
-    <div class="umenu" style="position: absolute; left:0;">
-      <ul style="display: block;">
-        <li>
-          <a href="/recruits">招聘</a>
-        </li>
-        <li>
-          <a href="/share_softwares">工具箱</a>
-        </li>
-        <li>
-          <a href="/articles">最新动态</a>
-        </li>
-        <li>
-          <a target="_blank" href="/vip_members/new">算客会员</a>
-        </li>
-<!--        <li>-->
-<!--        </li>-->
-        <li>
-          <a target="_blank" href="/origins">算客经纪人</a>
-        </li>
-        <li>
-          <a href="/coupons">算客大礼包</a>
-        </li>
-        <li>
-          <a href="/my/perm">我的权限</a>
-        </li>
-
-      </ul>
-    </div>
-  </div>
-</div>
-
-    <div class="login fr">
+@endsection
 
 
-        <a class="loginButton" onclick="$('#show_login_div').show()" href="javascript:;">登录</a>
+@section('content')
 
-        <a class="regButton" href="/member_applies?from=nav_top">注册</a>
 
-    </div>
-  </div>
-</div>
-<div class="clearfix"></div>
-  <!--<a href="javascript:void(0)" onclick="show_little_alert('show_login_div')">-->
-<!--登录参与-->
-<!--</a>-->
+    @component('web.layouts.compatible')
+    @endcomponent
+
 <style>
   #show_login_div .Validform_wrong{
     display: flex;
@@ -139,7 +35,7 @@
 
   #show_login_div .Validform_wrong::before{
     content: '';
-    background: url(static/images/login_error_icon-2fdef50ff4540ce104cd74e7fcd05fb63bc863e243d4feebf77a5d7dec3f957a.png) no-repeat;/*兼容没测*/
+    background: url(/web/static/images/login_error_icon-2fdef50ff4540ce104cd74e7fcd05fb63bc863e243d4feebf77a5d7dec3f957a.png) no-repeat;/*兼容没测*/
     background-size: cover;
     display: inline-block;
     width: 16px;
@@ -207,7 +103,7 @@
                   </table>
 </form>            </div>
             <div class="wx-login">
-              <img style="height: 160px;width: 160px;" id="wx_qr_img" src="static/picture/default_qr_code-e370b7478685a8868ad8f637a4b82d704cdafdb953b8fc24cb47930ca4a964f5.jpg" alt="Default qr code e370b7478685a8868ad8f637a4b82d704cdafdb953b8fc24cb47930ca4a964f5" />
+              <img style="height: 160px;width: 160px;" id="wx_qr_img" src="/web/static/picture/default_qr_code-e370b7478685a8868ad8f637a4b82d704cdafdb953b8fc24cb47930ca4a964f5.jpg" alt="Default qr code e370b7478685a8868ad8f637a4b82d704cdafdb953b8fc24cb47930ca4a964f5" />
               <span class="font16" style="padding: 20px 0 0 0;">使用微信扫一扫登录</span>
             </div>
             <div class="valid-login">
@@ -543,7 +439,7 @@
 </script>
 
 <div class="bg_gray">
-      <a target="_blank" href="http://www.3kgc.com/articles/1551"><img width="100%" height="60px" style="background:url(static/images/1471533225_____190112.jpg) center;" src="static/picture/blank-2f561b02a49376e3679acd5975e3790abdff09ecbadfa1e1858c7ba26e3ffcef.gif" alt="Blank 2f561b02a49376e3679acd5975e3790abdff09ecbadfa1e1858c7ba26e3ffcef" /></a>
+      <a target="_blank" href="http://www.3kgc.com/articles/1551"><img width="100%" height="60px" style="background:url(/web/static/images/1471533225_____190112.jpg) center;" src="/web/static/picture/blank-2f561b02a49376e3679acd5975e3790abdff09ecbadfa1e1858c7ba26e3ffcef.gif" alt="Blank 2f561b02a49376e3679acd5975e3790abdff09ecbadfa1e1858c7ba26e3ffcef" /></a>
 <div class="find-member-main">
 
   <div class="page-zj">
@@ -1738,10 +1634,10 @@
             <dd>
               <div class="search-input">
                 <span class="unwind-btn" id="more_filter_btn" onclick="">
-                  更多筛选<img src="static/picture/icon_zsk_sxh-8b682a5122f5ec43ead40fb80dd8293a4e0db544b05ede7efecbffaac19024a2.png" alt="Icon zsk sxh 8b682a5122f5ec43ead40fb80dd8293a4e0db544b05ede7efecbffaac19024a2" />
+                  更多筛选<img src="/web/static/picture/icon_zsk_sxh-8b682a5122f5ec43ead40fb80dd8293a4e0db544b05ede7efecbffaac19024a2.png" alt="Icon zsk sxh 8b682a5122f5ec43ead40fb80dd8293a4e0db544b05ede7efecbffaac19024a2" />
                 </span>
 
-                <span class="join-member" style="left: 894px;" onclick="location.href='/member_applies/new'">加入算客</span>
+                <span class="join-member" style="left: 894px;" onclick="location.href='/member_applies/new'"><加入航哥></加入航哥></span>
               </div>
             </dd>
           </dl>
@@ -1766,7 +1662,7 @@
                   'background-color': '#f66626'
               });
               $(this).parent().find('.search-img').css({
-                  background: 'url(static/images/nav_search-d5a034c290faf03b63711c2c580c3a9fc4cb76011309c1c9fde935b21215fd1d.png) no-repeat 15px -22px'
+                  background: 'url(/web/static/images/nav_search-d5a034c290faf03b63711c2c580c3a9fc4cb76011309c1c9fde935b21215fd1d.png) no-repeat 15px -22px'
               });
           });
           $(".search-input > input").on('blur', function () {
@@ -1774,7 +1670,7 @@
                   'background-color': '#ffffff'
               });
               $(this).parent().find('.search-img').css({
-                  background: 'url(static/images/nav_search-d5a034c290faf03b63711c2c580c3a9fc4cb76011309c1c9fde935b21215fd1d.png) no-repeat 15px 3px',
+                  background: 'url(/web/static/images/nav_search-d5a034c290faf03b63711c2c580c3a9fc4cb76011309c1c9fde935b21215fd1d.png) no-repeat 15px 3px',
                   border: '1px solid #c1c1c1'
               });
           });
@@ -1782,10 +1678,10 @@
           $("#more_filter_btn").on('click', function(){
               if($('#more_filter_div').is(':hidden')){
                   $('#more_filter_div').show(600);
-                  $(this).html('收起筛选<img src="static/picture/icon_zsk_xs-d1f58e67c098809a8bb40dedc4f180daedb05f83310ca9c4ded3da9a0c94920b.png" alt="Icon zsk xs d1f58e67c098809a8bb40dedc4f180daedb05f83310ca9c4ded3da9a0c94920b" />')
+                  $(this).html('收起筛选<img src="/web/static/picture/icon_zsk_xs-d1f58e67c098809a8bb40dedc4f180daedb05f83310ca9c4ded3da9a0c94920b.png" alt="Icon zsk xs d1f58e67c098809a8bb40dedc4f180daedb05f83310ca9c4ded3da9a0c94920b" />')
               }else{
                   $('#more_filter_div').hide(600);
-                  $(this).html('更多筛选<img src="static/picture/icon_zsk_sxh-8b682a5122f5ec43ead40fb80dd8293a4e0db544b05ede7efecbffaac19024a2.png" alt="Icon zsk sxh 8b682a5122f5ec43ead40fb80dd8293a4e0db544b05ede7efecbffaac19024a2" />')
+                  $(this).html('更多筛选<img src="/web/static/picture/icon_zsk_sxh-8b682a5122f5ec43ead40fb80dd8293a4e0db544b05ede7efecbffaac19024a2.png" alt="Icon zsk sxh 8b682a5122f5ec43ead40fb80dd8293a4e0db544b05ede7efecbffaac19024a2" />')
               }
           })
 
@@ -1797,7 +1693,7 @@
                   <tr>
   <td width="120px" align="center" style="display: inline-flex; flex-direction: column;">
     <div class="head-img-vip" style="margin-left: 4px;margin-right: 4px;margin-bottom: -8px;margin-top: -12px;">
-      <a title="7年经验，工程量计算, BIM建模" target="_blank" href="/work_centers/5"><img src="static/picture/3100149846cb5388afd5cc35f5bb5ba2014fcd21.png" alt="3100149846cb5388afd5cc35f5bb5ba2014fcd21" width="66" height="66" /></a>
+      <a title="7年经验，工程量计算, BIM建模" target="_blank" href="/work_centers/5"><img src="/web/static/picture/3100149846cb5388afd5cc35f5bb5ba2014fcd21.png" alt="3100149846cb5388afd5cc35f5bb5ba2014fcd21" width="66" height="66" /></a>
           <div class="member-level">v20</div>
     </div>
 
@@ -1811,8 +1707,8 @@
       <div class="person-info">
         <span class="person-name font16"><a target="_blank" href="/work_centers/5">李工(0006464)</a></span>
             <span class="earnest-price font14">保证金：¥5000元</span>
-            <span><img title="官方授权工作中心" style="width:19px;height:auto;" src="static/picture/icon_sq-62bd924cf8925d1ba03c1177fbebaf23b75fb339f328fc36e7535702e6459533.png" alt="Icon sq 62bd924cf8925d1ba03c1177fbebaf23b75fb339f328fc36e7535702e6459533" /></span>
-            <span><a href="/vip_members/new"><img title="金牌会员" style="width:25px;height:20px;" src="static/picture/vip_jp_mini-fd0d5d7f1515d64941aef7b22d92c2b1cea51aaafbd1edccfd8403b60712597c.png" alt="Vip jp mini fd0d5d7f1515d64941aef7b22d92c2b1cea51aaafbd1edccfd8403b60712597c" /></a></span>
+            <span><img title="官方授权工作中心" style="width:19px;height:auto;" src="/web/static/picture/icon_sq-62bd924cf8925d1ba03c1177fbebaf23b75fb339f328fc36e7535702e6459533.png" alt="Icon sq 62bd924cf8925d1ba03c1177fbebaf23b75fb339f328fc36e7535702e6459533" /></span>
+            <span><a href="/vip_members/new"><img title="金牌会员" style="width:25px;height:20px;" src="/web/static/picture/vip_jp_mini-fd0d5d7f1515d64941aef7b22d92c2b1cea51aaafbd1edccfd8403b60712597c.png" alt="Vip jp mini fd0d5d7f1515d64941aef7b22d92c2b1cea51aaafbd1edccfd8403b60712597c" /></a></span>
             <span class="ico-m-zjy" title="造价员"> </span>
             <span class="ico-m-zb" title="使用正版广联达软件"> </span>
             <span class="icon-m-interviewer" title="面试官"> </span>
@@ -1824,7 +1720,7 @@
           土建
         </span>
         <span class="font14">
-        <img style="width:15px; height: 20px; vertical-align: bottom;" src="static/picture/icon_xdiqu-082392fe4781b10bf665e8a65d2fc9ea38e77cfb541a6d3b2b70447c31e4470c.png" alt="Icon xdiqu 082392fe4781b10bf665e8a65d2fc9ea38e77cfb541a6d3b2b70447c31e4470c" />
+        <img style="width:15px; height: 20px; vertical-align: bottom;" src="/web/static/picture/icon_xdiqu-082392fe4781b10bf665e8a65d2fc9ea38e77cfb541a6d3b2b70447c31e4470c.png" alt="Icon xdiqu 082392fe4781b10bf665e8a65d2fc9ea38e77cfb541a6d3b2b70447c31e4470c" />
           重庆 重庆
       </span>
       </div>
@@ -1889,7 +1785,7 @@
                   <tr>
   <td width="120px" align="center" style="display: inline-flex; flex-direction: column;">
     <div class="head-img-vip" style="margin-left: 4px;margin-right: 4px;margin-bottom: -8px;margin-top: -12px;">
-      <a title="7年经验，工程量计算, 工程量清单编制" target="_blank" href="/work_centers/6"><img src="static/picture/4ff956fc4b2e08d291f2e8b43a19f5d12c8c1793.jpg" alt="4ff956fc4b2e08d291f2e8b43a19f5d12c8c1793" width="66" height="66" /></a>
+      <a title="7年经验，工程量计算, 工程量清单编制" target="_blank" href="/work_centers/6"><img src="/web/static/picture/4ff956fc4b2e08d291f2e8b43a19f5d12c8c1793.jpg" alt="4ff956fc4b2e08d291f2e8b43a19f5d12c8c1793" width="66" height="66" /></a>
           <div class="member-level">v26</div>
     </div>
 
@@ -1903,8 +1799,8 @@
       <div class="person-info">
         <span class="person-name font16"><a target="_blank" href="/work_centers/6">柯工(0015872)</a></span>
             <span class="earnest-price font14">保证金：¥20000元</span>
-            <span><img title="官方授权工作中心" style="width:19px;height:auto;" src="static/picture/icon_sq-62bd924cf8925d1ba03c1177fbebaf23b75fb339f328fc36e7535702e6459533.png" alt="Icon sq 62bd924cf8925d1ba03c1177fbebaf23b75fb339f328fc36e7535702e6459533" /></span>
-            <span><a href="/vip_members/new"><img title="金牌会员" style="width:25px;height:20px;" src="static/picture/vip_jp_mini-fd0d5d7f1515d64941aef7b22d92c2b1cea51aaafbd1edccfd8403b60712597c.png" alt="Vip jp mini fd0d5d7f1515d64941aef7b22d92c2b1cea51aaafbd1edccfd8403b60712597c" /></a></span>
+            <span><img title="官方授权工作中心" style="width:19px;height:auto;" src="/web/static/picture/icon_sq-62bd924cf8925d1ba03c1177fbebaf23b75fb339f328fc36e7535702e6459533.png" alt="Icon sq 62bd924cf8925d1ba03c1177fbebaf23b75fb339f328fc36e7535702e6459533" /></span>
+            <span><a href="/vip_members/new"><img title="金牌会员" style="width:25px;height:20px;" src="/web/static/picture/vip_jp_mini-fd0d5d7f1515d64941aef7b22d92c2b1cea51aaafbd1edccfd8403b60712597c.png" alt="Vip jp mini fd0d5d7f1515d64941aef7b22d92c2b1cea51aaafbd1edccfd8403b60712597c" /></a></span>
             <span class="ico-m-zb" title="使用正版广联达软件"> </span>
             <span class="icon-m-interviewer" title="面试官"> </span>
               <span class="icon-m-year icon-m-year-0" title="年度实力算客"> </span>
@@ -1917,7 +1813,7 @@
           土建
         </span>
         <span class="font14">
-        <img style="width:15px; height: 20px; vertical-align: bottom;" src="static/picture/icon_xdiqu-082392fe4781b10bf665e8a65d2fc9ea38e77cfb541a6d3b2b70447c31e4470c.png" alt="Icon xdiqu 082392fe4781b10bf665e8a65d2fc9ea38e77cfb541a6d3b2b70447c31e4470c" />
+        <img style="width:15px; height: 20px; vertical-align: bottom;" src="/web/static/picture/icon_xdiqu-082392fe4781b10bf665e8a65d2fc9ea38e77cfb541a6d3b2b70447c31e4470c.png" alt="Icon xdiqu 082392fe4781b10bf665e8a65d2fc9ea38e77cfb541a6d3b2b70447c31e4470c" />
           湖北 武汉
       </span>
       </div>
@@ -1943,7 +1839,7 @@
               </span>
               <span>其他</span>
               <span>造价师（造价员、预算员）</span>
-                <span class="pull-down-btn"><img src="static/picture/icon_zsk_sxh-8b682a5122f5ec43ead40fb80dd8293a4e0db544b05ede7efecbffaac19024a2.png" alt="Icon zsk sxh 8b682a5122f5ec43ead40fb80dd8293a4e0db544b05ede7efecbffaac19024a2" /></span>
+                <span class="pull-down-btn"><img src="/web/static/picture/icon_zsk_sxh-8b682a5122f5ec43ead40fb80dd8293a4e0db544b05ede7efecbffaac19024a2.png" alt="Icon zsk sxh 8b682a5122f5ec43ead40fb80dd8293a4e0db544b05ede7efecbffaac19024a2" /></span>
                 <div class="exps-pop">
                       <div class="exp-item">
                       <span>
@@ -1994,7 +1890,7 @@
                   <tr>
   <td width="120px" align="center" style="display: inline-flex; flex-direction: column;">
     <div class="head-img-vip" style="margin-left: 4px;margin-right: 4px;margin-bottom: -8px;margin-top: -12px;">
-      <a title="6年经验，工程量计算, 工程量清单编制" target="_blank" href="/work_centers/25"><img src="static/picture/76854eb7b832c14357a91862ed6921b58ec41318.png" alt="76854eb7b832c14357a91862ed6921b58ec41318" width="66" height="66" /></a>
+      <a title="6年经验，工程量计算, 工程量清单编制" target="_blank" href="/work_centers/25"><img src="/web/static/picture/76854eb7b832c14357a91862ed6921b58ec41318.png" alt="76854eb7b832c14357a91862ed6921b58ec41318" width="66" height="66" /></a>
           <div class="member-level">v14</div>
     </div>
 
@@ -2007,8 +1903,8 @@
       <div class="person-info">
         <span class="person-name font16"><a target="_blank" href="/work_centers/25">张工(0017675)</a></span>
             <span class="earnest-price font14">保证金：¥5000元</span>
-            <span><img title="官方授权工作中心" style="width:19px;height:auto;" src="static/picture/icon_sq-62bd924cf8925d1ba03c1177fbebaf23b75fb339f328fc36e7535702e6459533.png" alt="Icon sq 62bd924cf8925d1ba03c1177fbebaf23b75fb339f328fc36e7535702e6459533" /></span>
-            <span><a href="/vip_members/new"><img title="金牌会员" style="width:25px;height:20px;" src="static/picture/vip_jp_mini-fd0d5d7f1515d64941aef7b22d92c2b1cea51aaafbd1edccfd8403b60712597c.png" alt="Vip jp mini fd0d5d7f1515d64941aef7b22d92c2b1cea51aaafbd1edccfd8403b60712597c" /></a></span>
+            <span><img title="官方授权工作中心" style="width:19px;height:auto;" src="/web/static/picture/icon_sq-62bd924cf8925d1ba03c1177fbebaf23b75fb339f328fc36e7535702e6459533.png" alt="Icon sq 62bd924cf8925d1ba03c1177fbebaf23b75fb339f328fc36e7535702e6459533" /></span>
+            <span><a href="/vip_members/new"><img title="金牌会员" style="width:25px;height:20px;" src="/web/static/picture/vip_jp_mini-fd0d5d7f1515d64941aef7b22d92c2b1cea51aaafbd1edccfd8403b60712597c.png" alt="Vip jp mini fd0d5d7f1515d64941aef7b22d92c2b1cea51aaafbd1edccfd8403b60712597c" /></a></span>
             <span class="ico-m-zjy" title="专业水平证书"> </span>
             <span class="ico-m-zb" title="使用正版广联达软件"> </span>
       </div>
@@ -2017,7 +1913,7 @@
           土建
         </span>
         <span class="font14">
-        <img style="width:15px; height: 20px; vertical-align: bottom;" src="static/picture/icon_xdiqu-082392fe4781b10bf665e8a65d2fc9ea38e77cfb541a6d3b2b70447c31e4470c.png" alt="Icon xdiqu 082392fe4781b10bf665e8a65d2fc9ea38e77cfb541a6d3b2b70447c31e4470c" />
+        <img style="width:15px; height: 20px; vertical-align: bottom;" src="/web/static/picture/icon_xdiqu-082392fe4781b10bf665e8a65d2fc9ea38e77cfb541a6d3b2b70447c31e4470c.png" alt="Icon xdiqu 082392fe4781b10bf665e8a65d2fc9ea38e77cfb541a6d3b2b70447c31e4470c" />
           河北 保定
       </span>
       </div>
@@ -2043,7 +1939,7 @@
               </span>
               <span>个人工作室</span>
               <span>商务经理（经营管理，成本管理）</span>
-                <span class="pull-down-btn"><img src="static/picture/icon_zsk_sxh-8b682a5122f5ec43ead40fb80dd8293a4e0db544b05ede7efecbffaac19024a2.png" alt="Icon zsk sxh 8b682a5122f5ec43ead40fb80dd8293a4e0db544b05ede7efecbffaac19024a2" /></span>
+                <span class="pull-down-btn"><img src="/web/static/picture/icon_zsk_sxh-8b682a5122f5ec43ead40fb80dd8293a4e0db544b05ede7efecbffaac19024a2.png" alt="Icon zsk sxh 8b682a5122f5ec43ead40fb80dd8293a4e0db544b05ede7efecbffaac19024a2" /></span>
                 <div class="exps-pop">
                       <div class="exp-item">
                       <span>
@@ -2103,7 +1999,7 @@
                   <tr>
   <td width="120px" align="center" style="display: inline-flex; flex-direction: column;">
     <div class="head-img-vip" style="margin-left: 4px;margin-right: 4px;margin-bottom: -8px;margin-top: -12px;">
-      <a title="0年经验，" target="_blank" href="/m/79380"><img src="static/picture/a2b82f74e2985b4e67b16ac57ff7e8fa7fdb2c69.jpg" alt="A2b82f74e2985b4e67b16ac57ff7e8fa7fdb2c69" width="66" height="66" /></a>
+      <a title="0年经验，" target="_blank" href="/m/79380"><img src="/web/static/picture/a2b82f74e2985b4e67b16ac57ff7e8fa7fdb2c69.jpg" alt="A2b82f74e2985b4e67b16ac57ff7e8fa7fdb2c69" width="66" height="66" /></a>
           <div class="member-level">v15</div>
     </div>
 
@@ -2116,7 +2012,7 @@
       <div class="person-info">
         <span class="person-name font16"><a target="_blank" href="/m/79380">邵工(0079380)</a></span>
             <span class="earnest-price font14">保证金：¥3000元</span>
-            <span><a href="/vip_members/new"><img title="金牌会员" style="width:25px;height:20px;" src="static/picture/vip_jp_mini-fd0d5d7f1515d64941aef7b22d92c2b1cea51aaafbd1edccfd8403b60712597c.png" alt="Vip jp mini fd0d5d7f1515d64941aef7b22d92c2b1cea51aaafbd1edccfd8403b60712597c" /></a></span>
+            <span><a href="/vip_members/new"><img title="金牌会员" style="width:25px;height:20px;" src="/web/static/picture/vip_jp_mini-fd0d5d7f1515d64941aef7b22d92c2b1cea51aaafbd1edccfd8403b60712597c.png" alt="Vip jp mini fd0d5d7f1515d64941aef7b22d92c2b1cea51aaafbd1edccfd8403b60712597c" /></a></span>
             <span class="ico-m-zjy" title="专业水平证书"> </span>
               <span class="icon-m-year icon-m-year-0" title="年度实力算客"> </span>
               <span class="icon-m-year icon-m-year-1" title="年度匠心算客"> </span>
@@ -2128,7 +2024,7 @@
           安装
         </span>
         <span class="font14">
-        <img style="width:15px; height: 20px; vertical-align: bottom;" src="static/picture/icon_xdiqu-082392fe4781b10bf665e8a65d2fc9ea38e77cfb541a6d3b2b70447c31e4470c.png" alt="Icon xdiqu 082392fe4781b10bf665e8a65d2fc9ea38e77cfb541a6d3b2b70447c31e4470c" />
+        <img style="width:15px; height: 20px; vertical-align: bottom;" src="/web/static/picture/icon_xdiqu-082392fe4781b10bf665e8a65d2fc9ea38e77cfb541a6d3b2b70447c31e4470c.png" alt="Icon xdiqu 082392fe4781b10bf665e8a65d2fc9ea38e77cfb541a6d3b2b70447c31e4470c" />
           河北 石家庄
       </span>
       </div>
@@ -2180,7 +2076,7 @@
                   <tr>
   <td width="120px" align="center" style="display: inline-flex; flex-direction: column;">
     <div class="head-img-vip" style="margin-left: 4px;margin-right: 4px;margin-bottom: -8px;margin-top: -12px;">
-      <a title="20年经验，工程量计算, 清单预算编制" target="_blank" href="/work_centers/10"><img src="static/picture/a100742b0a3363f9c8fa2f20992d835f82601ec4.png" alt="A100742b0a3363f9c8fa2f20992d835f82601ec4" width="66" height="66" /></a>
+      <a title="20年经验，工程量计算, 清单预算编制" target="_blank" href="/work_centers/10"><img src="/web/static/picture/a100742b0a3363f9c8fa2f20992d835f82601ec4.png" alt="A100742b0a3363f9c8fa2f20992d835f82601ec4" width="66" height="66" /></a>
           <div class="member-level">v17</div>
     </div>
 
@@ -2194,8 +2090,8 @@
       <div class="person-info">
         <span class="person-name font16"><a target="_blank" href="/work_centers/10">李工(0017379)</a></span>
             <span class="earnest-price font14">保证金：¥7000元</span>
-            <span><img title="官方授权工作中心" style="width:19px;height:auto;" src="static/picture/icon_sq-62bd924cf8925d1ba03c1177fbebaf23b75fb339f328fc36e7535702e6459533.png" alt="Icon sq 62bd924cf8925d1ba03c1177fbebaf23b75fb339f328fc36e7535702e6459533" /></span>
-            <span><a href="/vip_members/new"><img title="金牌会员" style="width:25px;height:20px;" src="static/picture/vip_jp_mini-fd0d5d7f1515d64941aef7b22d92c2b1cea51aaafbd1edccfd8403b60712597c.png" alt="Vip jp mini fd0d5d7f1515d64941aef7b22d92c2b1cea51aaafbd1edccfd8403b60712597c" /></a></span>
+            <span><img title="官方授权工作中心" style="width:19px;height:auto;" src="/web/static/picture/icon_sq-62bd924cf8925d1ba03c1177fbebaf23b75fb339f328fc36e7535702e6459533.png" alt="Icon sq 62bd924cf8925d1ba03c1177fbebaf23b75fb339f328fc36e7535702e6459533" /></span>
+            <span><a href="/vip_members/new"><img title="金牌会员" style="width:25px;height:20px;" src="/web/static/picture/vip_jp_mini-fd0d5d7f1515d64941aef7b22d92c2b1cea51aaafbd1edccfd8403b60712597c.png" alt="Vip jp mini fd0d5d7f1515d64941aef7b22d92c2b1cea51aaafbd1edccfd8403b60712597c" /></a></span>
             <span class="ico-ds-xz" title="算量大赛获奖选手"> </span>
             <span class="ico-m-zb" title="使用正版广联达软件"> </span>
             <span class="icon-m-interviewer" title="面试官"> </span>
@@ -2208,7 +2104,7 @@
           土建
         </span>
         <span class="font14">
-        <img style="width:15px; height: 20px; vertical-align: bottom;" src="static/picture/icon_xdiqu-082392fe4781b10bf665e8a65d2fc9ea38e77cfb541a6d3b2b70447c31e4470c.png" alt="Icon xdiqu 082392fe4781b10bf665e8a65d2fc9ea38e77cfb541a6d3b2b70447c31e4470c" />
+        <img style="width:15px; height: 20px; vertical-align: bottom;" src="/web/static/picture/icon_xdiqu-082392fe4781b10bf665e8a65d2fc9ea38e77cfb541a6d3b2b70447c31e4470c.png" alt="Icon xdiqu 082392fe4781b10bf665e8a65d2fc9ea38e77cfb541a6d3b2b70447c31e4470c" />
           河北 石家庄
       </span>
       </div>
@@ -2273,7 +2169,7 @@
                   <tr>
   <td width="120px" align="center" style="display: inline-flex; flex-direction: column;">
     <div class="head-img-vip" style="margin-left: 4px;margin-right: 4px;margin-bottom: -8px;margin-top: -12px;">
-      <a title="10年经验，工程量计算, BIM建模" target="_blank" href="/work_centers/4"><img src="static/picture/9e789bf7f44327a521078d5d5892713e15477f91.png" alt="9e789bf7f44327a521078d5d5892713e15477f91" width="66" height="66" /></a>
+      <a title="10年经验，工程量计算, BIM建模" target="_blank" href="/work_centers/4"><img src="/web/static/picture/9e789bf7f44327a521078d5d5892713e15477f91.png" alt="9e789bf7f44327a521078d5d5892713e15477f91" width="66" height="66" /></a>
           <div class="member-level">v18</div>
     </div>
 
@@ -2287,8 +2183,8 @@
       <div class="person-info">
         <span class="person-name font16"><a target="_blank" href="/work_centers/4">沈工(0000901)</a></span>
             <span class="earnest-price font14">保证金：¥20000元</span>
-            <span><img title="官方授权工作中心" style="width:19px;height:auto;" src="static/picture/icon_sq-62bd924cf8925d1ba03c1177fbebaf23b75fb339f328fc36e7535702e6459533.png" alt="Icon sq 62bd924cf8925d1ba03c1177fbebaf23b75fb339f328fc36e7535702e6459533" /></span>
-            <span><a href="/vip_members/new"><img title="金牌会员" style="width:25px;height:20px;" src="static/picture/vip_jp_mini-fd0d5d7f1515d64941aef7b22d92c2b1cea51aaafbd1edccfd8403b60712597c.png" alt="Vip jp mini fd0d5d7f1515d64941aef7b22d92c2b1cea51aaafbd1edccfd8403b60712597c" /></a></span>
+            <span><img title="官方授权工作中心" style="width:19px;height:auto;" src="/web/static/picture/icon_sq-62bd924cf8925d1ba03c1177fbebaf23b75fb339f328fc36e7535702e6459533.png" alt="Icon sq 62bd924cf8925d1ba03c1177fbebaf23b75fb339f328fc36e7535702e6459533" /></span>
+            <span><a href="/vip_members/new"><img title="金牌会员" style="width:25px;height:20px;" src="/web/static/picture/vip_jp_mini-fd0d5d7f1515d64941aef7b22d92c2b1cea51aaafbd1edccfd8403b60712597c.png" alt="Vip jp mini fd0d5d7f1515d64941aef7b22d92c2b1cea51aaafbd1edccfd8403b60712597c" /></a></span>
             <span class="ico-m-zjy" title="造价员"> </span>
             <span class="ico-m-zb" title="使用正版广联达软件"> </span>
             <span class="icon-m-interviewer" title="面试官"> </span>
@@ -2301,7 +2197,7 @@
           土建
         </span>
         <span class="font14">
-        <img style="width:15px; height: 20px; vertical-align: bottom;" src="static/picture/icon_xdiqu-082392fe4781b10bf665e8a65d2fc9ea38e77cfb541a6d3b2b70447c31e4470c.png" alt="Icon xdiqu 082392fe4781b10bf665e8a65d2fc9ea38e77cfb541a6d3b2b70447c31e4470c" />
+        <img style="width:15px; height: 20px; vertical-align: bottom;" src="/web/static/picture/icon_xdiqu-082392fe4781b10bf665e8a65d2fc9ea38e77cfb541a6d3b2b70447c31e4470c.png" alt="Icon xdiqu 082392fe4781b10bf665e8a65d2fc9ea38e77cfb541a6d3b2b70447c31e4470c" />
           江苏 淮安
       </span>
       </div>
@@ -2327,7 +2223,7 @@
               </span>
               <span>自由职业者</span>
               <span>造价师（造价员、预算员）</span>
-                <span class="pull-down-btn"><img src="static/picture/icon_zsk_sxh-8b682a5122f5ec43ead40fb80dd8293a4e0db544b05ede7efecbffaac19024a2.png" alt="Icon zsk sxh 8b682a5122f5ec43ead40fb80dd8293a4e0db544b05ede7efecbffaac19024a2" /></span>
+                <span class="pull-down-btn"><img src="/web/static/picture/icon_zsk_sxh-8b682a5122f5ec43ead40fb80dd8293a4e0db544b05ede7efecbffaac19024a2.png" alt="Icon zsk sxh 8b682a5122f5ec43ead40fb80dd8293a4e0db544b05ede7efecbffaac19024a2" /></span>
                 <div class="exps-pop">
                       <div class="exp-item">
                       <span>
@@ -2405,7 +2301,7 @@
                   <tr>
   <td width="120px" align="center" style="display: inline-flex; flex-direction: column;">
     <div class="head-img" style="width: 100px">
-      <a title="0年经验，" target="_blank" href="/m/98632"><img src="static/picture/56cf7e10d367fe85c219598ee4fa82b96e2f15b2.jpg" alt="56cf7e10d367fe85c219598ee4fa82b96e2f15b2" width="66" height="66" /></a>
+      <a title="0年经验，" target="_blank" href="/m/98632"><img src="/web/static/picture/56cf7e10d367fe85c219598ee4fa82b96e2f15b2.jpg" alt="56cf7e10d367fe85c219598ee4fa82b96e2f15b2" width="66" height="66" /></a>
           <div class="member-level">v9</div>
     </div>
 
@@ -2422,7 +2318,7 @@
           安装
         </span>
         <span class="font14">
-        <img style="width:15px; height: 20px; vertical-align: bottom;" src="static/picture/icon_xdiqu-082392fe4781b10bf665e8a65d2fc9ea38e77cfb541a6d3b2b70447c31e4470c.png" alt="Icon xdiqu 082392fe4781b10bf665e8a65d2fc9ea38e77cfb541a6d3b2b70447c31e4470c" />
+        <img style="width:15px; height: 20px; vertical-align: bottom;" src="/web/static/picture/icon_xdiqu-082392fe4781b10bf665e8a65d2fc9ea38e77cfb541a6d3b2b70447c31e4470c.png" alt="Icon xdiqu 082392fe4781b10bf665e8a65d2fc9ea38e77cfb541a6d3b2b70447c31e4470c" />
           上海 上海
       </span>
       </div>
@@ -2464,7 +2360,7 @@
                   <tr>
   <td width="120px" align="center" style="display: inline-flex; flex-direction: column;">
     <div class="head-img-vip" style="margin-left: 4px;margin-right: 4px;margin-bottom: -8px;margin-top: -12px;">
-      <a title="12年经验，" target="_blank" href="/work_centers/24"><img src="static/picture/936d61d57cd473bdba4e7dea472becb380bcb280.jpg" alt="936d61d57cd473bdba4e7dea472becb380bcb280" width="66" height="66" /></a>
+      <a title="12年经验，" target="_blank" href="/work_centers/24"><img src="/web/static/picture/936d61d57cd473bdba4e7dea472becb380bcb280.jpg" alt="936d61d57cd473bdba4e7dea472becb380bcb280" width="66" height="66" /></a>
           <div class="member-level">v13</div>
     </div>
 
@@ -2477,8 +2373,8 @@
       <div class="person-info">
         <span class="person-name font16"><a target="_blank" href="/work_centers/24">乔工(0022104)</a></span>
             <span class="earnest-price font14">保证金：¥8000元</span>
-            <span><img title="官方授权工作中心" style="width:19px;height:auto;" src="static/picture/icon_sq-62bd924cf8925d1ba03c1177fbebaf23b75fb339f328fc36e7535702e6459533.png" alt="Icon sq 62bd924cf8925d1ba03c1177fbebaf23b75fb339f328fc36e7535702e6459533" /></span>
-            <span><a href="/vip_members/new"><img title="金牌会员" style="width:25px;height:20px;" src="static/picture/vip_jp_mini-fd0d5d7f1515d64941aef7b22d92c2b1cea51aaafbd1edccfd8403b60712597c.png" alt="Vip jp mini fd0d5d7f1515d64941aef7b22d92c2b1cea51aaafbd1edccfd8403b60712597c" /></a></span>
+            <span><img title="官方授权工作中心" style="width:19px;height:auto;" src="/web/static/picture/icon_sq-62bd924cf8925d1ba03c1177fbebaf23b75fb339f328fc36e7535702e6459533.png" alt="Icon sq 62bd924cf8925d1ba03c1177fbebaf23b75fb339f328fc36e7535702e6459533" /></span>
+            <span><a href="/vip_members/new"><img title="金牌会员" style="width:25px;height:20px;" src="/web/static/picture/vip_jp_mini-fd0d5d7f1515d64941aef7b22d92c2b1cea51aaafbd1edccfd8403b60712597c.png" alt="Vip jp mini fd0d5d7f1515d64941aef7b22d92c2b1cea51aaafbd1edccfd8403b60712597c" /></a></span>
             <span class="ico-m-zjs" title=造价师"></span>
             <span class="ico-m-zb" title="使用正版广联达软件"> </span>
               <span class="icon-m-year icon-m-year-4" title="年度人气算客"> </span>
@@ -2488,7 +2384,7 @@
           土建
         </span>
         <span class="font14">
-        <img style="width:15px; height: 20px; vertical-align: bottom;" src="static/picture/icon_xdiqu-082392fe4781b10bf665e8a65d2fc9ea38e77cfb541a6d3b2b70447c31e4470c.png" alt="Icon xdiqu 082392fe4781b10bf665e8a65d2fc9ea38e77cfb541a6d3b2b70447c31e4470c" />
+        <img style="width:15px; height: 20px; vertical-align: bottom;" src="/web/static/picture/icon_xdiqu-082392fe4781b10bf665e8a65d2fc9ea38e77cfb541a6d3b2b70447c31e4470c.png" alt="Icon xdiqu 082392fe4781b10bf665e8a65d2fc9ea38e77cfb541a6d3b2b70447c31e4470c" />
           广东 广州
       </span>
       </div>
@@ -2514,7 +2410,7 @@
               </span>
               <span>建设单位</span>
               <span>商务经理（经营管理，成本管理）</span>
-                <span class="pull-down-btn"><img src="static/picture/icon_zsk_sxh-8b682a5122f5ec43ead40fb80dd8293a4e0db544b05ede7efecbffaac19024a2.png" alt="Icon zsk sxh 8b682a5122f5ec43ead40fb80dd8293a4e0db544b05ede7efecbffaac19024a2" /></span>
+                <span class="pull-down-btn"><img src="/web/static/picture/icon_zsk_sxh-8b682a5122f5ec43ead40fb80dd8293a4e0db544b05ede7efecbffaac19024a2.png" alt="Icon zsk sxh 8b682a5122f5ec43ead40fb80dd8293a4e0db544b05ede7efecbffaac19024a2" /></span>
                 <div class="exps-pop">
                       <div class="exp-item">
                       <span>
@@ -2565,7 +2461,7 @@
                   <tr>
   <td width="120px" align="center" style="display: inline-flex; flex-direction: column;">
     <div class="head-img-vip" style="margin-left: 4px;margin-right: 4px;margin-bottom: -8px;margin-top: -12px;">
-      <a title="9年经验，工程量计算, 清单预算编制" target="_blank" href="/work_centers/20"><img src="static/picture/e9f091b1a2af12e2d461bdc968dc3d29cb4f71f0.gif" alt="E9f091b1a2af12e2d461bdc968dc3d29cb4f71f0" width="66" height="66" /></a>
+      <a title="9年经验，工程量计算, 清单预算编制" target="_blank" href="/work_centers/20"><img src="/web/static/picture/e9f091b1a2af12e2d461bdc968dc3d29cb4f71f0.gif" alt="E9f091b1a2af12e2d461bdc968dc3d29cb4f71f0" width="66" height="66" /></a>
           <div class="member-level">v13</div>
     </div>
 
@@ -2578,8 +2474,8 @@
       <div class="person-info">
         <span class="person-name font16"><a target="_blank" href="/work_centers/20">宋工(0034192)</a></span>
             <span class="earnest-price font14">保证金：¥5000元</span>
-            <span><img title="官方授权工作中心" style="width:19px;height:auto;" src="static/picture/icon_sq-62bd924cf8925d1ba03c1177fbebaf23b75fb339f328fc36e7535702e6459533.png" alt="Icon sq 62bd924cf8925d1ba03c1177fbebaf23b75fb339f328fc36e7535702e6459533" /></span>
-            <span><a href="/vip_members/new"><img title="金牌会员" style="width:25px;height:20px;" src="static/picture/vip_jp_mini-fd0d5d7f1515d64941aef7b22d92c2b1cea51aaafbd1edccfd8403b60712597c.png" alt="Vip jp mini fd0d5d7f1515d64941aef7b22d92c2b1cea51aaafbd1edccfd8403b60712597c" /></a></span>
+            <span><img title="官方授权工作中心" style="width:19px;height:auto;" src="/web/static/picture/icon_sq-62bd924cf8925d1ba03c1177fbebaf23b75fb339f328fc36e7535702e6459533.png" alt="Icon sq 62bd924cf8925d1ba03c1177fbebaf23b75fb339f328fc36e7535702e6459533" /></span>
+            <span><a href="/vip_members/new"><img title="金牌会员" style="width:25px;height:20px;" src="/web/static/picture/vip_jp_mini-fd0d5d7f1515d64941aef7b22d92c2b1cea51aaafbd1edccfd8403b60712597c.png" alt="Vip jp mini fd0d5d7f1515d64941aef7b22d92c2b1cea51aaafbd1edccfd8403b60712597c" /></a></span>
             <span class="ico-m-zjy" title="专业水平证书"> </span>
             <span class="ico-m-zb" title="使用正版广联达软件"> </span>
       </div>
@@ -2588,7 +2484,7 @@
           土建
         </span>
         <span class="font14">
-        <img style="width:15px; height: 20px; vertical-align: bottom;" src="static/picture/icon_xdiqu-082392fe4781b10bf665e8a65d2fc9ea38e77cfb541a6d3b2b70447c31e4470c.png" alt="Icon xdiqu 082392fe4781b10bf665e8a65d2fc9ea38e77cfb541a6d3b2b70447c31e4470c" />
+        <img style="width:15px; height: 20px; vertical-align: bottom;" src="/web/static/picture/icon_xdiqu-082392fe4781b10bf665e8a65d2fc9ea38e77cfb541a6d3b2b70447c31e4470c.png" alt="Icon xdiqu 082392fe4781b10bf665e8a65d2fc9ea38e77cfb541a6d3b2b70447c31e4470c" />
           山东 济南
       </span>
       </div>
@@ -2653,7 +2549,7 @@
                   <tr>
   <td width="120px" align="center" style="display: inline-flex; flex-direction: column;">
     <div class="head-img-vip" style="margin-left: 4px;margin-right: 4px;margin-bottom: -8px;margin-top: -12px;">
-      <a title="7年经验，工程量计算, 工程量清单编制, 清单预算编制" target="_blank" href="/m/24785"><img src="static/picture/e6e0dac588797aae76adaefead2d9987815b178f.jpg" alt="E6e0dac588797aae76adaefead2d9987815b178f" width="66" height="66" /></a>
+      <a title="7年经验，工程量计算, 工程量清单编制, 清单预算编制" target="_blank" href="/m/24785"><img src="/web/static/picture/e6e0dac588797aae76adaefead2d9987815b178f.jpg" alt="E6e0dac588797aae76adaefead2d9987815b178f" width="66" height="66" /></a>
           <div class="member-level">v11</div>
     </div>
 
@@ -2666,7 +2562,7 @@
       <div class="person-info">
         <span class="person-name font16"><a target="_blank" href="/m/24785">许工(0024785)</a></span>
             <span class="earnest-price font14">保证金：¥2100元</span>
-            <span><a href="/vip_members/new"><img title="金牌会员" style="width:25px;height:20px;" src="static/picture/vip_jp_mini-fd0d5d7f1515d64941aef7b22d92c2b1cea51aaafbd1edccfd8403b60712597c.png" alt="Vip jp mini fd0d5d7f1515d64941aef7b22d92c2b1cea51aaafbd1edccfd8403b60712597c" /></a></span>
+            <span><a href="/vip_members/new"><img title="金牌会员" style="width:25px;height:20px;" src="/web/static/picture/vip_jp_mini-fd0d5d7f1515d64941aef7b22d92c2b1cea51aaafbd1edccfd8403b60712597c.png" alt="Vip jp mini fd0d5d7f1515d64941aef7b22d92c2b1cea51aaafbd1edccfd8403b60712597c" /></a></span>
             <span class="ico-m-zjy" title="专业水平证书"> </span>
             <span class="ico-m-zb" title="使用正版广联达软件"> </span>
       </div>
@@ -2675,7 +2571,7 @@
           土建
         </span>
         <span class="font14">
-        <img style="width:15px; height: 20px; vertical-align: bottom;" src="static/picture/icon_xdiqu-082392fe4781b10bf665e8a65d2fc9ea38e77cfb541a6d3b2b70447c31e4470c.png" alt="Icon xdiqu 082392fe4781b10bf665e8a65d2fc9ea38e77cfb541a6d3b2b70447c31e4470c" />
+        <img style="width:15px; height: 20px; vertical-align: bottom;" src="/web/static/picture/icon_xdiqu-082392fe4781b10bf665e8a65d2fc9ea38e77cfb541a6d3b2b70447c31e4470c.png" alt="Icon xdiqu 082392fe4781b10bf665e8a65d2fc9ea38e77cfb541a6d3b2b70447c31e4470c" />
           内蒙古 呼和浩特
       </span>
       </div>
@@ -2701,7 +2597,7 @@
               </span>
               <span>设计</span>
               <span>造价师（造价员、预算员）</span>
-                <span class="pull-down-btn"><img src="static/picture/icon_zsk_sxh-8b682a5122f5ec43ead40fb80dd8293a4e0db544b05ede7efecbffaac19024a2.png" alt="Icon zsk sxh 8b682a5122f5ec43ead40fb80dd8293a4e0db544b05ede7efecbffaac19024a2" /></span>
+                <span class="pull-down-btn"><img src="/web/static/picture/icon_zsk_sxh-8b682a5122f5ec43ead40fb80dd8293a4e0db544b05ede7efecbffaac19024a2.png" alt="Icon zsk sxh 8b682a5122f5ec43ead40fb80dd8293a4e0db544b05ede7efecbffaac19024a2" /></span>
                 <div class="exps-pop">
                       <div class="exp-item">
                       <span>
@@ -2783,210 +2679,6 @@
 
 </div>
 <div class="clearfix"></div>
-<div class="tborder">
-  <div class="footer">
-  <div id='show_dlgs' show_fb_dlg=""></div><!--点击意见反馈弹出框需登录 登录后弹出意见反馈窗口标志-->
-  <div class="w">
-    <div>
-      <ul class="tel">
-        <li style="margin-bottom: 12px;">
-          <img src="static/picture/footer_logo-93a287937d6cfc0545b5193c491578c201a4bb5c47c1ff3193bcea0a5b204292.png" alt="Footer logo 93a287937d6cfc0545b5193c491578c201a4bb5c47c1ff3193bcea0a5b204292" />
-        </li>
-        <li><img src="static/picture/footer_position_icon-135dea1e0065c84db485aa9a0167983bcf9c72cf46e5e6e62095583096992ce2.png" alt="Footer position icon 135dea1e0065c84db485aa9a0167983bcf9c72cf46e5e6e62095583096992ce2" width="14" height="14" />
-          北京市昌平区龙域东二路龙域中心东塔五层K13区
-        </li>
-        <li><img src="static/picture/footer_phone_icon-8043e8e9c266263ea8e8ec67c5fa7cdee61ce9c8133513726ef73ae2c8843161.png" alt="Footer phone icon 8043e8e9c266263ea8e8ec67c5fa7cdee61ce9c8133513726ef73ae2c8843161" width="14" height="14" />
-          4009938200
-          15321980075
-        </li>
-        <li><img src="static/picture/footer_qq_icon-d2a806a6465988b99f4e56cd1f5c8205d1485a51a9af48d2388da1a65b7765d9.png" alt="Footer qq icon d2a806a6465988b99f4e56cd1f5c8205d1485a51a9af48d2388da1a65b7765d9" width="14" height="14" />
-          3283170039
-          工作日8:30-17:30
-        </li>
-      </ul>
-      <ul>
-        <li>
-          <a target="_blank" href="http://www.3kgc.com/articles/4">关于我们</a>
-          |
-          <a target="_blank" href="/articles?assort=2">平台规则</a>
-          |
-          <a target="_blank" href="/articles">最新动态</a>
-          |
-          <a target="_blank" href="http://www.3kgc.com/articles/13">手机版</a>
-        </li>
-        <li>
-          Copyright 2015-2019 北京小栗科技有限公司 版权所有 京ICP备15032803号
-        </li>
-        <li>
-          <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
-          document.write(unescape("%3Cspan id='cnzz_stat_icon_1255094452'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s95.cnzz.com/stat.php%3Fid%3D1255094452%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));</script>
-          <script type='text/javascript'>
-              var _hmt = _hmt || [];
-              (function () {
-                  var hm = document.createElement("script");
-                  hm.src = "https://hm.baidu.com/hm.js?455ff2b31e6e616c3896cdec23d94f4e";
-                  var s = document.getElementsByTagName("script")[0];
-                  s.parentNode.insertBefore(hm, s);
-              })();
-          </script>
-          <a class="bdxy" target="_blank" href="http://www.baidu.com/s?wd=www.3kgc.com@v"></a>
-          <a class="zfb" target="_blank" href="javascript:void(0)"></a>
-          <a class="aly" target="_blank" href="javascript:void(0)"></a>
-          <a class="smyz" target="_blank" href="http://www.anquan.org/authenticate/cert/?site=www.3kgc.com&at=business"></a>
-
-        </li>
-
-      </ul>
-
-    </div>
-    <div class="clearfix mb10"></div>
-  </div>
-
-</div>
-<div class="dialog noflash-dialog" style="margin-left: -100px;width:250px;height:200px;">
-
-  <div class="dialog-head">提示<a class="close" href="javascript:;"><b>&#8855;</b>关闭</a></div>
-  <div class="dialog-body">
-    我们的产品需要安装flashplayer 10或更高版本 <br/>
-    请
-    <a target="_blank" href="http://get.adobe.com/flashplayer">点击此处</a>  免费下载
-  </div>
-</div>
-<div class="dialog-bg"></div>
-
-<div class="m-right-tool-bar">
-  <ul>
-    <li class="m-right-tool-list" style="border-top:none;">
-      <span class="hbtn" intext="QQ客服">
-        <img class="bg" src="static/picture/blank-2f561b02a49376e3679acd5975e3790abdff09ecbadfa1e1858c7ba26e3ffcef.gif" alt="Blank 2f561b02a49376e3679acd5975e3790abdff09ecbadfa1e1858c7ba26e3ffcef" width="40" height="28" />
-        <span>QQ客服</span>
-
-        <div class="bg-poptip">
-          <div class="ui-poptip ui-poptip-r ui-poptip-white">
-            <div class="ui-poptip-arrow ui-poptip-arrow-border"></div>
-            <div class=" ui-poptip-arrow ui-poptip-arrow-bg"></div>
-            <div class="m-tool-box clear" style="width:132px;text-align: center;">
-              <p class="clear mt20 mb10" style="font-size:14px;font-weight:400;color:rgba(153,153,153,1);">
-                <img style="  background: url(static/images/service_icon_pc-b31bf3f0171d000dca0362e92e884e0bd3ff6fcef95fd512719b507d0eb7ba72.png) no-repeat -435px -30px;" src="static/picture/blank-2f561b02a49376e3679acd5975e3790abdff09ecbadfa1e1858c7ba26e3ffcef.gif" alt="Blank 2f561b02a49376e3679acd5975e3790abdff09ecbadfa1e1858c7ba26e3ffcef" width="30" height="26" />QQ客服
-              </p>
-
-              <p class="clear">
-                <a target="_blank" title="点击聊天" href="http://wpa.qq.com/msgrd?v=3&uin=3214423261&site=qq&menu=yes">
-                  项目问题咨询
-                </a></p>
-
-              <p class="clear mt10 mb10">
-
-                <a target="_blank" title="点击聊天" href="http://wpa.qq.com/msgrd?v=3&uin=2726153751&site=qq&menu=yes">
-                  算客注册咨询
-                </a></p>
-
-              <p class="clear mb10">
-                <a target="_blank" title="点击聊天" href="http://wpa.qq.com/msgrd?v=3&uin=2726153751&site=qq&menu=yes">
-                  团队企业合作
-                </a></p>
-            </div>
-          </div>
-        </div>
-      </span>
-
-    </li>
-    <li class="m-right-tool-list">
-      <span class="hbtn m-right-tool1" intext="联系我们">
-        <img class="bg" src="static/picture/blank-2f561b02a49376e3679acd5975e3790abdff09ecbadfa1e1858c7ba26e3ffcef.gif" alt="Blank 2f561b02a49376e3679acd5975e3790abdff09ecbadfa1e1858c7ba26e3ffcef" width="40" height="28" />
-        <span>联系我们</span>
-
-        <div class="bg-poptip" style="width: 446px;">
-          <div class="ui-poptip ui-poptip-r ui-poptip-white">
-            <div class="ui-poptip-arrow ui-poptip-arrow-border"></div>
-            <div class=" ui-poptip-arrow ui-poptip-arrow-bg"></div>
-            <div class="m-tool-box clear lxwm">
-              <p class="clear">
-                <span class="bg_phone"></span>电话：4009938200
-                15321980075
-              </p>
-
-              <p class="clear">
-                <span class="bg_address"></span>北京市昌平区龙域东二路龙域中心东塔五层
-              </p>
-            </div>
-          </div>
-        </div>
-      </span>
-
-    </li>
-    <li class="m-right-tool-list">
-      <span class="hbtn m-right-tool2" intext="二维码">
-        <img class="bg" src="static/picture/blank-2f561b02a49376e3679acd5975e3790abdff09ecbadfa1e1858c7ba26e3ffcef.gif" alt="Blank 2f561b02a49376e3679acd5975e3790abdff09ecbadfa1e1858c7ba26e3ffcef" width="40" height="28" />
-        <span>二维码</span>
-
-        <div class="bg-poptip" style="width: 275px;height:267px;top:-100px;">
-          <div class="ui-poptip ui-poptip-r ui-poptip-white">
-            <div class="ui-poptip-arrow ui-poptip-arrow-border" style="top:115px"></div>
-            <div class=" ui-poptip-arrow ui-poptip-arrow-bg" style="top:115px"></div>
-            <div class="m-tool-box clear all-center" style="width:228px;">
-              <div class="clear">
-                <img class="mt10 mb10" src="static/picture/app_service_content-951302c48746fabaa5d925a0d48f332c22d5bf1a7bd47d60081b0249105143be.png" alt="App service content 951302c48746fabaa5d925a0d48f332c22d5bf1a7bd47d60081b0249105143be" /><br>
-              </div>
-            </div>
-          </div>
-        </div>
-      </span>
-
-    </li>
-      <li class="m-right-tool-list">
-      <span class="hbtn m-right-tool3_no_login" intext="意见反馈">
-        <img class="bg" src="static/picture/blank-2f561b02a49376e3679acd5975e3790abdff09ecbadfa1e1858c7ba26e3ffcef.gif" alt="Blank 2f561b02a49376e3679acd5975e3790abdff09ecbadfa1e1858c7ba26e3ffcef" width="40" height="28" />
-        <span>意见反馈</span></span>
-      </li>
-
-    <li class="m-right-tool-list gototop" id="gototop">
-      <a title="返回顶部" href="#"><span class="hbtn m-right-tool4" intext="TOP">
-        <img class="bg" src="static/picture/blank-2f561b02a49376e3679acd5975e3790abdff09ecbadfa1e1858c7ba26e3ffcef.gif" alt="Blank 2f561b02a49376e3679acd5975e3790abdff09ecbadfa1e1858c7ba26e3ffcef" width="40" height="28" />
-        <span style="padding-left: 5px;">TOP</span></span></a>
-    </li>
-  </ul>
-</div>
-<div class="dlg-hidden" id="user-fb">
-  <form class="form-bd plr20" id="new_feedback" action="/feedbacks" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="qftl7cSRHgUgSFnpq5VMbR5P1v0fM4mb3jEuojSbzkOPr4NW6jmYDjVwcFT0wyKP6YH9QpLLuKTHt098jqnhtA==" />
-    <p>
-      <textarea cols="50" rows="5" datatype="*" placeholder="如果您在使用平台时遇到些问题,或者有个人建议,请告知我们,我们会尽快解决." name="feedback[content]" id="feedback_content">
-</textarea>
-
-    </p>
-
-    <!--<p>-->
-    <!--手机号(选填):-->
-    <!--<= f.text_field :mobile, class: "w300", placeholder: "请输入手机号" >-->
-
-    <!--</p>-->
-
-    <p class="font-gray">
-      感谢您的参与,高质量的反馈或建议,一经采纳,将给您增加200经验值
-    </p>
-
-    <div class="mt10">
-      <input type="submit" name="commit" value="提交反馈" class="ui-btn" data-disable-with="提交中..." />
-    </div>
-</form></div>
-<script type="text/javascript" charset="utf-8">
-    $(function () {
-        $(".m-right-tool3").click(function () {
-            $("#user-fb").dialog({width: "500px", title: "意见反馈"})
-        });
-
-//      点击意见反馈弹出框需登录 登录后弹出意见反馈窗口标志
-        $(".m-right-tool3_no_login").click(function () {
-            var new_user_form = document.getElementById("new_user");
-            var login_form = document.getElementById("login_by_mobile-for-login");
-            new_user_form.action += "?show_fb_dlg=true";
-            login_form.action += "?show_fb_dlg=true";
-            $('#show_login_div').show();
-        });
-    });
-</script>
-<img src="static/picture/track_ua.gif" width="0" height="0" style="line-height: 0;display: none;"/>
-</div>
 
 <script>
     $(function () {
@@ -2997,5 +2689,4 @@
         reset_window();
     });
 </script>
-</body>
-</html>
+@endsection
