@@ -11,4 +11,12 @@ class ProjectController extends Controller
     {
         return view('web.project_sala');
     }
+
+    //项目详情
+    public function detail(Request $request)
+    {
+        $projectId = $request->id;
+
+        return view('web.project_detail');
+    }
 }

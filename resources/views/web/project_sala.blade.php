@@ -303,7 +303,7 @@
       <div class="project-name-topic">
            <em class="normal-pd-block">公开报名</em>
           <!--<= link_to(raw("<span style='color: #f66626'>#{pro.self_business_txt}</span>" + topic), pro, :target => '_blank', title: pro.self_business_txt.to_s + topic ) %>-->
-        <a target="_blank" title="贵州贵阳|公路||编清单+组价|中期结算" href="/projects/18631">贵州贵阳|公路||编清单+组价|中期结算</a>
+        <a target="_blank" title="贵州贵阳|公路||编清单+组价|中期结算" href="{{ url('/project/detail/3') }}">贵州贵阳|公路||编清单+组价|中期结算</a>
       </div>
     </span>
                             <span class="project-num">
