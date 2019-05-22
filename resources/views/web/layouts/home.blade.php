@@ -14,7 +14,8 @@
 
     <script src="/web/static/js/application-a53f0e0a6a61a86e6cb8f94a2fb64a861d3f1c5f341a2ae992c4adf325a4ea38.js"
             data-turbolinks-track="true"></script>
-   @yield('css')
+    @yield('js')
+    @yield('css')
 </head>
 
 <body>
@@ -71,7 +72,7 @@
 
             <a class="loginButton" onclick="$('#show_login_div').show()" href="javascript:;">登录</a>
 
-            <a class="regButton" href="/member_applies?from=nav_top">注册</a>
+            <a class="regButton" href="{{ url('/user/register') }}">注册</a>
 
         </div>
     </div>

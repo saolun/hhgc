@@ -16,6 +16,9 @@ Route::get('/', function () {
     return view('web.index');
 });
 
+//注册
+Route::get('/user/register','Web\LoginController@registerShow');
+
 //发布项目
 Route::get('/projects/release','Web\ReleaseController@show');
 
@@ -30,6 +33,9 @@ Route::get('/project/detail/{id}','Web\ProjectController@detail');
 
 //企业/团队
 Route::get('/companies','Web\CompanyController@companies');
+
+//企业/团队详情
+Route::get('/companies/detail/{id}','Web\CompanyController@detail');
 
 //找航哥
 Route::get('/hang-brother','Web\CompanyController@boat');
