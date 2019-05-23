@@ -12,7 +12,8 @@
         "fideloper/proxy": "^4.0",
         "laravel/framework": "5.8.*",
         "laravel/tinker": "^1.0",
-        "smartins/passport-multiauth": "^4.0"
+        "smartins/passport-multiauth": "^4.0",
+        "toplan/laravel-sms": "~2.6"
     },
     "require-dev": {
         "barryvdh/laravel-ide-helper": "^2.6",
