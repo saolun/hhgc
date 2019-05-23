@@ -11,4 +11,9 @@ class ReleaseController extends Controller
     {
         return view('web.release');
     }
+
+    public function  publishWayShow()
+    {
+        return view('web.publish_way');
+    }
 }

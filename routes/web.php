@@ -22,6 +22,9 @@ Route::get('/user/register','Web\LoginController@registerShow');
 //发布项目
 Route::get('/projects/release','Web\ReleaseController@show');
 
+//免费发布项目
+Route::get('/projects/publish_way','Web\ReleaseController@publishWayShow');
+
 //了解企业
 Route::get('/companies/vip','Web\CompanyController@vip');
 

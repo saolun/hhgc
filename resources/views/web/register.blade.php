@@ -1,5 +1,5 @@
 ﻿@extends('web.layouts.home')
-@section('title','工程行业技术服务众包平台')
+@section('title','航辉加盟')
 @section('js')
   <script src="/web/static/js/highcharts.js" data-turbolinks-track="true"></script>
 @endsection
