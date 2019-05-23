@@ -1,21 +1,9 @@
-﻿<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8"/>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-<!--  <title></title>-->
-  <title>算客工场--工程行业技术服务众包平台</title>
-<!--  <meta name="description" content="算客工场-- 是一个直达工程师的实名制交易平台，当你遇到任何工程项目问题，都可以快速找到合适的算客，在线委托需求，支付费用，获得服务；我们致力于用共享经济的理念改变工作方式，借助互联网连接工程建设领域的服务需求与工程师，让从业者更方便的出售知识和技能。"/>-->
-  <meta name="description" content="算客工场-- 是一个直达工程师的实名制交易平台，当你遇到任何工程项目问题，都可以快速找到合适的算客，在线委托需求，支付费用，获得服务；我们致力于用共享经济的理念改变工作方式，借助互联网连接工程建设领域的服务需求与工程师，让从业者更方便的出售知识和技能。"/>
-<!--  <meta name="keywords" content="算客工场,造价私活,造价,安装算量,抽钢筋,土建算量,精装算量,北京小栗科技有限公司"/>-->
-  <meta name="keywords" content="算客工场,造价私活,造价,安装算量,抽钢筋,土建算量,精装算量,北京小栗科技有限公司"/>
-  <link rel="stylesheet" media="all" href="static/css/application-f742c9f4d291b8a5e98f7948d3ab74777a2b906c7081c9c6a7b3a231883543f5.css" data-turbolinks-track="true" />
-
-  <script src="static/js/application-a53f0e0a6a61a86e6cb8f94a2fb64a861d3f1c5f341a2ae992c4adf325a4ea38.js" data-turbolinks-track="true"></script>
-  <script src="static/js/highcharts.js" data-turbolinks-track="true"></script>
-  <meta name="csrf-param" content="authenticity_token" />
-<meta name="csrf-token" content="kpdBVr/Au2ye4ViwY6sQmi0SSwmUTmEWB9W4JmADk3E52G1RfUdFgdevP0BwVKz6i/o5UZSWc7MmoIVEe6ONXw==" />
+﻿@extends('web.layouts.home')
+@section('title','航辉加盟')
+@section('js')
+  <script src="/web//web/static/js/highcharts.js" data-turbolinks-track="true"></script>
+@endsection
+@section('css')
   <style>
     .header {
       position: relative;
@@ -31,104 +19,12 @@
       color: #f66626 !important;
     }
   </style>
-</head>
-<body>
+@endsection
+@section('content')
 
-<!--[if lt IE 10]>
+  @component('web.layouts.compatible')
+  @endcomponent
 
-<p class="ui-tip ui-tip-yellow font-center ie-update">
-  您正在使用IE低版本浏览器，为了您的账号安全和更好的产品体验，<br/>强烈建议您立即 <a class="font-blue"
-                                                href="http://windows.microsoft.com/zh-cn/internet-explorer/download-ie"
-                                                target="_blank">升级IE浏览器</a> 或者用更快更安全的 <a class="font-blue"
-                                                                                         href="http://www.baidu.com/s?wd=chrome"
-                                                                                         target="_blank">谷歌浏览器Chrome</a>
-  。
-  <br/>
-  <br/>
-  <br/>
-  <span class="font16">您也可以关注我们的微信公众号，随时随地使用算客工场</span><br/>
-  <img class="mt10 mb10" src="static/picture/wx-ie-ad7b5613fee33b52167aee1634394882650e400a1fe28d66f6c42a9d8639d4a4.jpg" alt="Wx ie ad7b5613fee33b52167aee1634394882650e400a1fe28d66f6c42a9d8639d4a4" width="780" height="375" />
-</p>
-<![endif]-->
-
-<div class="header" style="z-index: 999;">
-  <div class="w rel">
-    <a href="/" class="fl">
-      <img src="static/picture/logo-b-7dc7909fd0c649f0c33ead53590ba017abe9398b2493a0a86bff0fdbd0093c5e.png" alt="Logo b 7dc7909fd0c649f0c33ead53590ba017abe9398b2493a0a86bff0fdbd0093c5e" width="147" height="38" />
-    </a>
-    <ul class="mnav fl">
-      <li>
-        <a href="/home/pub_index">发布项目</a>
-      </li>
-      <li>
-        <a href="/projects/pub">项目</a>
-      </li>
-      <li>
-        <a href="/companies">企业/团队</a>
-      </li>
-      <li>
-        <a href="/members">算客</a>
-      </li>
-      <!--      <li>-->
-      <!--      </li>-->
-
-      <li>
-        <a href="/qas">帮助</a>
-      </li>
-    </ul>
-
-    <div class="login mr">
-  <div class="loginLater">
-    <a class="userTitle new" href="javascript:void(0);">
-      发现
-      <img src="static/picture/nav_dropdown-8b682a5122f5ec43ead40fb80dd8293a4e0db544b05ede7efecbffaac19024a2.png" alt="Nav dropdown 8b682a5122f5ec43ead40fb80dd8293a4e0db544b05ede7efecbffaac19024a2" />
-    </a>
-
-    <div class="umenu" style="position: absolute; left:0;">
-      <ul style="display: block;">
-        <li>
-          <a href="/recruits">招聘</a>
-        </li>
-        <li>
-          <a href="/share_softwares">工具箱</a>
-        </li>
-        <li>
-          <a href="/articles">最新动态</a>
-        </li>
-        <li>
-          <a target="_blank" href="/vip_members/new">算客会员</a>
-        </li>
-<!--        <li>-->
-<!--        </li>-->
-        <li>
-          <a target="_blank" href="/origins">算客经纪人</a>
-        </li>
-        <li>
-          <a href="/coupons">算客大礼包</a>
-        </li>
-        <li>
-          <a href="/my/perm">我的权限</a>
-        </li>
-
-      </ul>
-    </div>
-  </div>
-</div>
-
-    <div class="login fr">
-
-
-        <a class="loginButton" onclick="$('#show_login_div').show()" href="javascript:;">登录</a>
-
-        <a class="regButton" href="/member_applies?from=nav_top">注册</a>
-
-    </div>
-  </div>
-</div>
-<div class="clearfix"></div>
-  <!--<a href="javascript:void(0)" onclick="show_little_alert('show_login_div')">-->
-<!--登录参与-->
-<!--</a>-->
 <style>
   #show_login_div .Validform_wrong{
     display: flex;
@@ -139,7 +35,7 @@
 
   #show_login_div .Validform_wrong::before{
     content: '';
-    background: url(static/images/login_error_icon-2fdef50ff4540ce104cd74e7fcd05fb63bc863e243d4feebf77a5d7dec3f957a.png) no-repeat;/*兼容没测*/
+    background: url(/web/static/images/login_error_icon-2fdef50ff4540ce104cd74e7fcd05fb63bc863e243d4feebf77a5d7dec3f957a.png) no-repeat;/*兼容没测*/
     background-size: cover;
     display: inline-block;
     width: 16px;
@@ -207,7 +103,7 @@
                   </table>
 </form>            </div>
             <div class="wx-login">
-              <img style="height: 160px;width: 160px;" id="wx_qr_img" src="static/picture/default_qr_code-e370b7478685a8868ad8f637a4b82d704cdafdb953b8fc24cb47930ca4a964f5.jpg" alt="Default qr code e370b7478685a8868ad8f637a4b82d704cdafdb953b8fc24cb47930ca4a964f5" />
+              <img style="height: 160px;width: 160px;" id="wx_qr_img" src="/web/static/picture/default_qr_code-e370b7478685a8868ad8f637a4b82d704cdafdb953b8fc24cb47930ca4a964f5.jpg" alt="Default qr code e370b7478685a8868ad8f637a4b82d704cdafdb953b8fc24cb47930ca4a964f5" />
               <span class="font16" style="padding: 20px 0 0 0;">使用微信扫一扫登录</span>
             </div>
             <div class="valid-login">
@@ -603,11 +499,11 @@
     height: 44px;
     display: inline-block;
     vertical-align: middle;
-    background: url(static/images/fxm_pc_cs-e0f1947efa444a9d3f852663825fbd1ad86cc958a4404d589244cc7fa40ad0ab.png);
+    background: url(/web/static/images/fxm_pc_cs-e0f1947efa444a9d3f852663825fbd1ad86cc958a4404d589244cc7fa40ad0ab.png);
   }
 
   .right-div > a.xmcs:hover .image-bak{
-    background: url(static/images/fxm_pc_cspre-344a5481e19071616dc8678b387ccea068210c884fbea6129cf2da11c9defb27.png);
+    background: url(/web/static/images/fxm_pc_cspre-344a5481e19071616dc8678b387ccea068210c884fbea6129cf2da11c9defb27.png);
   }
 
   .right-div > a.lxkf{
@@ -626,12 +522,12 @@
     height: 41px;
     display: inline-block;
     vertical-align: bottom;
-    background: url(static/images/seek_tabbar_nor-808496d0ca2b95cf7c9ccbf5dad5ef3317e1e049e4f0854442086e151b3fcf0f.png);
+    background: url(/web/static/images/seek_tabbar_nor-808496d0ca2b95cf7c9ccbf5dad5ef3317e1e049e4f0854442086e151b3fcf0f.png);
     background-size: 100% 100%;
   }
 
   .right-div > a.lxkf:hover .image-bak{
-    background: url(static/images/seek_tabbar_sel-800961818732a744ff0188c2094f419a4128b5707225e5564966b595f4d68997.png);
+    background: url(/web/static/images/seek_tabbar_sel-800961818732a744ff0188c2094f419a4128b5707225e5564966b595f4d68997.png);
     background-size: 100% 100%;
   }
 
@@ -692,7 +588,7 @@
       float: left;">
     <div class="service-step">
 
-      <img src="static/picture/fxm_pc_step-ea76c1d579d9996637d9d9c693cc652a7bf3de5bb107738abd0ebfd68c34d43d.png" alt="Fxm pc step ea76c1d579d9996637d9d9c693cc652a7bf3de5bb107738abd0ebfd68c34d43d" width="858" height="80" />
+      <img src="/web/static/picture/fxm_pc_step-ea76c1d579d9996637d9d9c693cc652a7bf3de5bb107738abd0ebfd68c34d43d.png" alt="Fxm pc step ea76c1d579d9996637d9d9c693cc652a7bf3de5bb107738abd0ebfd68c34d43d" width="858" height="80" />
 
     </div>
     <div class="service-types">
@@ -700,7 +596,7 @@
                     /projects/new?project[service_type]=0
           ">
             <div>
-              <img src="static/picture/service_type_0-a15f1377d6693a4564c5d60c284a0497c2795545dd6e76544d7eb2ae6f00d5fa.png" alt="Service type 0 a15f1377d6693a4564c5d60c284a0497c2795545dd6e76544d7eb2ae6f00d5fa" />
+              <img src="/web/static/picture/service_type_0-a15f1377d6693a4564c5d60c284a0497c2795545dd6e76544d7eb2ae6f00d5fa.png" alt="Service type 0 a15f1377d6693a4564c5d60c284a0497c2795545dd6e76544d7eb2ae6f00d5fa" />
             </div>
             <div>造价/预算</div>
           </a>
@@ -708,7 +604,7 @@
                     /projects/new_technical_bid
           ">
             <div>
-              <img src="static/picture/service_type_5-84a11b25b24dfb1218a8934eb1ba94eed7c00520b888fcc9dae2d2602d0767e7.png" alt="Service type 5 84a11b25b24dfb1218a8934eb1ba94eed7c00520b888fcc9dae2d2602d0767e7" />
+              <img src="/web/static/picture/service_type_5-84a11b25b24dfb1218a8934eb1ba94eed7c00520b888fcc9dae2d2602d0767e7.png" alt="Service type 5 84a11b25b24dfb1218a8934eb1ba94eed7c00520b888fcc9dae2d2602d0767e7" />
             </div>
             <div>技术标</div>
           </a>
@@ -716,7 +612,7 @@
                     /projects/new?project[service_type]=3
           ">
             <div>
-              <img src="static/picture/service_type_3-f6dd4660f466490c70cfd2abca8aa41d4287b863b6aa33afec08df9bd80e7a64.png" alt="Service type 3 f6dd4660f466490c70cfd2abca8aa41d4287b863b6aa33afec08df9bd80e7a64" />
+              <img src="/web/static/picture/service_type_3-f6dd4660f466490c70cfd2abca8aa41d4287b863b6aa33afec08df9bd80e7a64.png" alt="Service type 3 f6dd4660f466490c70cfd2abca8aa41d4287b863b6aa33afec08df9bd80e7a64" />
             </div>
             <div>图纸设计</div>
           </a>
@@ -724,7 +620,7 @@
                     /projects/new?project[service_type]=4
           ">
             <div>
-              <img src="static/picture/service_type_4-b864012629f0beda4e85951e4e9149b55fcc36d350482416176f196ff607a4a3.png" alt="Service type 4 b864012629f0beda4e85951e4e9149b55fcc36d350482416176f196ff607a4a3" />
+              <img src="/web/static/picture/service_type_4-b864012629f0beda4e85951e4e9149b55fcc36d350482416176f196ff607a4a3.png" alt="Service type 4 b864012629f0beda4e85951e4e9149b55fcc36d350482416176f196ff607a4a3" />
             </div>
             <div>问题咨询</div>
           </a>
@@ -732,7 +628,7 @@
                     /projects/new?project[service_type]=2
           ">
             <div>
-              <img src="static/picture/service_type_2-b05014215e04b258bd1b458e7a9658d0a8a6e9215dff28806ff7f2e4bc3dbc10.png" alt="Service type 2 b05014215e04b258bd1b458e7a9658d0a8a6e9215dff28806ff7f2e4bc3dbc10" />
+              <img src="/web/static/picture/service_type_2-b05014215e04b258bd1b458e7a9658d0a8a6e9215dff28806ff7f2e4bc3dbc10.png" alt="Service type 2 b05014215e04b258bd1b458e7a9658d0a8a6e9215dff28806ff7f2e4bc3dbc10" />
             </div>
             <div>其它</div>
           </a>
@@ -753,7 +649,7 @@
       <div style="color: #666666;">自己填写嫌麻烦？</div>
       <div style="color: #999999;font-size:12px;">联系客服发项目</div>
       <div class="contact">
-        <img src="static/picture/mail-box-4045b906b517f12ff3f5c64e993468d71d3108cbafe88fd58ce70fc2193ff24f.png" alt="Mail box 4045b906b517f12ff3f5c64e993468d71d3108cbafe88fd58ce70fc2193ff24f" width="24" height="24" />
+        <img src="/web/static/picture/mail-box-4045b906b517f12ff3f5c64e993468d71d3108cbafe88fd58ce70fc2193ff24f.png" alt="Mail box 4045b906b517f12ff3f5c64e993468d71d3108cbafe88fd58ce70fc2193ff24f" width="24" height="24" />
         <div>
           <a href="mailto:skgc400@qq.com">邮件发送项目资料</a><br>
           <span>
@@ -763,21 +659,21 @@
         </div>
       </div>
       <div class="contact">
-        <img src="static/picture/fxm_pc_telephone-ec75546f480d8847bab09b8fce4612ec281cdfb9bb63d402da4fec39bfdb8ab3.png" alt="Fxm pc telephone ec75546f480d8847bab09b8fce4612ec281cdfb9bb63d402da4fec39bfdb8ab3" width="20" height="19" />
+        <img src="/web/static/picture/fxm_pc_telephone-ec75546f480d8847bab09b8fce4612ec281cdfb9bb63d402da4fec39bfdb8ab3.png" alt="Fxm pc telephone ec75546f480d8847bab09b8fce4612ec281cdfb9bb63d402da4fec39bfdb8ab3" width="20" height="19" />
         <div>
           4009938200 <br>
           <span>(8:30~17:30)</span>
         </div>
       </div>
       <div class="contact">
-        <img src="static/picture/fxm_pc_iphone-26472c2c2817cf0b00413e408ffcde564a60b0ebbd7758ced8160e362b09d240.png" alt="Fxm pc iphone 26472c2c2817cf0b00413e408ffcde564a60b0ebbd7758ced8160e362b09d240" width="14" height="20" />
+        <img src="/web/static/picture/fxm_pc_iphone-26472c2c2817cf0b00413e408ffcde564a60b0ebbd7758ced8160e362b09d240.png" alt="Fxm pc iphone 26472c2c2817cf0b00413e408ffcde564a60b0ebbd7758ced8160e362b09d240" width="14" height="20" />
         <div>
           15321980075 <br>
           <span>(8:00~20:00)</span>
         </div>
       </div>
       <div class="contact">
-        <img src="static/picture/fxm_pc_qq-f9653344c5db583c292503eeb5091424495915ce85d92bead12bcc0d54259049.png" alt="Fxm pc qq f9653344c5db583c292503eeb5091424495915ce85d92bead12bcc0d54259049" width="20" height="20" />
+        <img src="/web/static/picture/fxm_pc_qq-f9653344c5db583c292503eeb5091424495915ce85d92bead12bcc0d54259049.png" alt="Fxm pc qq f9653344c5db583c292503eeb5091424495915ce85d92bead12bcc0d54259049" width="20" height="20" />
         <div>
           <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&amp;uin=2726153751&amp;site=qq&amp;menu=yes">3214423261</a>
         </div>
@@ -788,210 +684,6 @@
 </div>
 </div>
 <div class="clearfix"></div>
-<div class="tborder">
-  <div class="footer">
-  <div id='show_dlgs' show_fb_dlg=""></div><!--点击意见反馈弹出框需登录 登录后弹出意见反馈窗口标志-->
-  <div class="w">
-    <div>
-      <ul class="tel">
-        <li style="margin-bottom: 12px;">
-          <img src="static/picture/footer_logo-93a287937d6cfc0545b5193c491578c201a4bb5c47c1ff3193bcea0a5b204292.png" alt="Footer logo 93a287937d6cfc0545b5193c491578c201a4bb5c47c1ff3193bcea0a5b204292" />
-        </li>
-        <li><img src="static/picture/footer_position_icon-135dea1e0065c84db485aa9a0167983bcf9c72cf46e5e6e62095583096992ce2.png" alt="Footer position icon 135dea1e0065c84db485aa9a0167983bcf9c72cf46e5e6e62095583096992ce2" width="14" height="14" />
-          北京市昌平区龙域东二路龙域中心东塔五层K13区
-        </li>
-        <li><img src="static/picture/footer_phone_icon-8043e8e9c266263ea8e8ec67c5fa7cdee61ce9c8133513726ef73ae2c8843161.png" alt="Footer phone icon 8043e8e9c266263ea8e8ec67c5fa7cdee61ce9c8133513726ef73ae2c8843161" width="14" height="14" />
-          4009938200
-          15321980075
-        </li>
-        <li><img src="static/picture/footer_qq_icon-d2a806a6465988b99f4e56cd1f5c8205d1485a51a9af48d2388da1a65b7765d9.png" alt="Footer qq icon d2a806a6465988b99f4e56cd1f5c8205d1485a51a9af48d2388da1a65b7765d9" width="14" height="14" />
-          3283170039
-          工作日8:30-17:30
-        </li>
-      </ul>
-      <ul>
-        <li>
-          <a target="_blank" href="http://www.3kgc.com/articles/4">关于我们</a>
-          |
-          <a target="_blank" href="/articles?assort=2">平台规则</a>
-          |
-          <a target="_blank" href="/articles">最新动态</a>
-          |
-          <a target="_blank" href="http://www.3kgc.com/articles/13">手机版</a>
-        </li>
-        <li>
-          Copyright 2015-2019 北京小栗科技有限公司 版权所有 京ICP备15032803号
-        </li>
-        <li>
-          <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
-          document.write(unescape("%3Cspan id='cnzz_stat_icon_1255094452'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s95.cnzz.com/stat.php%3Fid%3D1255094452%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));</script>
-          <script type='text/javascript'>
-              var _hmt = _hmt || [];
-              (function () {
-                  var hm = document.createElement("script");
-                  hm.src = "https://hm.baidu.com/hm.js?455ff2b31e6e616c3896cdec23d94f4e";
-                  var s = document.getElementsByTagName("script")[0];
-                  s.parentNode.insertBefore(hm, s);
-              })();
-          </script>
-          <a class="bdxy" target="_blank" href="http://www.baidu.com/s?wd=www.3kgc.com@v"></a>
-          <a class="zfb" target="_blank" href="javascript:void(0)"></a>
-          <a class="aly" target="_blank" href="javascript:void(0)"></a>
-          <a class="smyz" target="_blank" href="http://www.anquan.org/authenticate/cert/?site=www.3kgc.com&at=business"></a>
-
-        </li>
-
-      </ul>
-
-    </div>
-    <div class="clearfix mb10"></div>
-  </div>
-
-</div>
-<div class="dialog noflash-dialog" style="margin-left: -100px;width:250px;height:200px;">
-
-  <div class="dialog-head">提示<a class="close" href="javascript:;"><b>&#8855;</b>关闭</a></div>
-  <div class="dialog-body">
-    我们的产品需要安装flashplayer 10或更高版本 <br/>
-    请
-    <a target="_blank" href="http://get.adobe.com/flashplayer">点击此处</a>  免费下载
-  </div>
-</div>
-<div class="dialog-bg"></div>
-
-<div class="m-right-tool-bar">
-  <ul>
-    <li class="m-right-tool-list" style="border-top:none;">
-      <span class="hbtn" intext="QQ客服">
-        <img class="bg" src="static/picture/blank-2f561b02a49376e3679acd5975e3790abdff09ecbadfa1e1858c7ba26e3ffcef.gif" alt="Blank 2f561b02a49376e3679acd5975e3790abdff09ecbadfa1e1858c7ba26e3ffcef" width="40" height="28" />
-        <span>QQ客服</span>
-
-        <div class="bg-poptip">
-          <div class="ui-poptip ui-poptip-r ui-poptip-white">
-            <div class="ui-poptip-arrow ui-poptip-arrow-border"></div>
-            <div class=" ui-poptip-arrow ui-poptip-arrow-bg"></div>
-            <div class="m-tool-box clear" style="width:132px;text-align: center;">
-              <p class="clear mt20 mb10" style="font-size:14px;font-weight:400;color:rgba(153,153,153,1);">
-                <img style="  background: url(static/images/service_icon_pc-b31bf3f0171d000dca0362e92e884e0bd3ff6fcef95fd512719b507d0eb7ba72.png) no-repeat -435px -30px;" src="static/picture/blank-2f561b02a49376e3679acd5975e3790abdff09ecbadfa1e1858c7ba26e3ffcef.gif" alt="Blank 2f561b02a49376e3679acd5975e3790abdff09ecbadfa1e1858c7ba26e3ffcef" width="30" height="26" />QQ客服
-              </p>
-
-              <p class="clear">
-                <a target="_blank" title="点击聊天" href="http://wpa.qq.com/msgrd?v=3&uin=3214423261&site=qq&menu=yes">
-                  项目问题咨询
-                </a></p>
-
-              <p class="clear mt10 mb10">
-
-                <a target="_blank" title="点击聊天" href="http://wpa.qq.com/msgrd?v=3&uin=2726153751&site=qq&menu=yes">
-                  算客注册咨询
-                </a></p>
-
-              <p class="clear mb10">
-                <a target="_blank" title="点击聊天" href="http://wpa.qq.com/msgrd?v=3&uin=2726153751&site=qq&menu=yes">
-                  团队企业合作
-                </a></p>
-            </div>
-          </div>
-        </div>
-      </span>
-
-    </li>
-    <li class="m-right-tool-list">
-      <span class="hbtn m-right-tool1" intext="联系我们">
-        <img class="bg" src="static/picture/blank-2f561b02a49376e3679acd5975e3790abdff09ecbadfa1e1858c7ba26e3ffcef.gif" alt="Blank 2f561b02a49376e3679acd5975e3790abdff09ecbadfa1e1858c7ba26e3ffcef" width="40" height="28" />
-        <span>联系我们</span>
-
-        <div class="bg-poptip" style="width: 446px;">
-          <div class="ui-poptip ui-poptip-r ui-poptip-white">
-            <div class="ui-poptip-arrow ui-poptip-arrow-border"></div>
-            <div class=" ui-poptip-arrow ui-poptip-arrow-bg"></div>
-            <div class="m-tool-box clear lxwm">
-              <p class="clear">
-                <span class="bg_phone"></span>电话：4009938200
-                15321980075
-              </p>
-
-              <p class="clear">
-                <span class="bg_address"></span>北京市昌平区龙域东二路龙域中心东塔五层
-              </p>
-            </div>
-          </div>
-        </div>
-      </span>
-
-    </li>
-    <li class="m-right-tool-list">
-      <span class="hbtn m-right-tool2" intext="二维码">
-        <img class="bg" src="static/picture/blank-2f561b02a49376e3679acd5975e3790abdff09ecbadfa1e1858c7ba26e3ffcef.gif" alt="Blank 2f561b02a49376e3679acd5975e3790abdff09ecbadfa1e1858c7ba26e3ffcef" width="40" height="28" />
-        <span>二维码</span>
-
-        <div class="bg-poptip" style="width: 275px;height:267px;top:-100px;">
-          <div class="ui-poptip ui-poptip-r ui-poptip-white">
-            <div class="ui-poptip-arrow ui-poptip-arrow-border" style="top:115px"></div>
-            <div class=" ui-poptip-arrow ui-poptip-arrow-bg" style="top:115px"></div>
-            <div class="m-tool-box clear all-center" style="width:228px;">
-              <div class="clear">
-                <img class="mt10 mb10" src="static/picture/app_service_content-951302c48746fabaa5d925a0d48f332c22d5bf1a7bd47d60081b0249105143be.png" alt="App service content 951302c48746fabaa5d925a0d48f332c22d5bf1a7bd47d60081b0249105143be" /><br>
-              </div>
-            </div>
-          </div>
-        </div>
-      </span>
-
-    </li>
-      <li class="m-right-tool-list">
-      <span class="hbtn m-right-tool3_no_login" intext="意见反馈">
-        <img class="bg" src="static/picture/blank-2f561b02a49376e3679acd5975e3790abdff09ecbadfa1e1858c7ba26e3ffcef.gif" alt="Blank 2f561b02a49376e3679acd5975e3790abdff09ecbadfa1e1858c7ba26e3ffcef" width="40" height="28" />
-        <span>意见反馈</span></span>
-      </li>
-
-    <li class="m-right-tool-list gototop" id="gototop">
-      <a title="返回顶部" href="#"><span class="hbtn m-right-tool4" intext="TOP">
-        <img class="bg" src="static/picture/blank-2f561b02a49376e3679acd5975e3790abdff09ecbadfa1e1858c7ba26e3ffcef.gif" alt="Blank 2f561b02a49376e3679acd5975e3790abdff09ecbadfa1e1858c7ba26e3ffcef" width="40" height="28" />
-        <span style="padding-left: 5px;">TOP</span></span></a>
-    </li>
-  </ul>
-</div>
-<div class="dlg-hidden" id="user-fb">
-  <form class="form-bd plr20" id="new_feedback" action="/feedbacks" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="XvBT081K6kE0mIM1KDmOSVt+qNGJeSJZHW0KZYHXKe/1v3/UD80UrH3W5MU7xjIp/ZbaiYmhMPw8GDcHmnc3wQ==" />
-    <p>
-      <textarea cols="50" rows="5" datatype="*" placeholder="如果您在使用平台时遇到些问题,或者有个人建议,请告知我们,我们会尽快解决." name="feedback[content]" id="feedback_content">
-</textarea>
-
-    </p>
-
-    <!--<p>-->
-    <!--手机号(选填):-->
-    <!--<= f.text_field :mobile, class: "w300", placeholder: "请输入手机号" >-->
-
-    <!--</p>-->
-
-    <p class="font-gray">
-      感谢您的参与,高质量的反馈或建议,一经采纳,将给您增加200经验值
-    </p>
-
-    <div class="mt10">
-      <input type="submit" name="commit" value="提交反馈" class="ui-btn" data-disable-with="提交中..." />
-    </div>
-</form></div>
-<script type="text/javascript" charset="utf-8">
-    $(function () {
-        $(".m-right-tool3").click(function () {
-            $("#user-fb").dialog({width: "500px", title: "意见反馈"})
-        });
-
-//      点击意见反馈弹出框需登录 登录后弹出意见反馈窗口标志
-        $(".m-right-tool3_no_login").click(function () {
-            var new_user_form = document.getElementById("new_user");
-            var login_form = document.getElementById("login_by_mobile-for-login");
-            new_user_form.action += "?show_fb_dlg=true";
-            login_form.action += "?show_fb_dlg=true";
-            $('#show_login_div').show();
-        });
-    });
-</script>
-<img src="static/picture/track_ua.gif" width="0" height="0" style="line-height: 0;display: none;"/>
-</div>
 
 <script>
     $(function () {
@@ -1002,5 +694,4 @@
         reset_window();
     });
 </script>
-</body>
-</html>
+@endsection

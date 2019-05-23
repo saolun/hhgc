@@ -105,6 +105,7 @@ return [
     |
     */
     'templates' => [
+        'Aliyun' => 'SMS_166095557'
     ],
 
     /*

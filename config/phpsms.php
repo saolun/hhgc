@@ -23,6 +23,7 @@ return [
      */
     'scheme' => [
         'Log',
+        'Aliyun' =>'100'
     ],
 
     /*
@@ -196,9 +197,9 @@ return [
          * support template sms.
          */
         'Aliyun' => [
-            'accessKeyId'       => 'your_access_key_id',
-            'accessKeySecret'   => 'your_access_key_secret',
-            'signName'          => 'your_sms_sign_name',
+            'accessKeyId'       => 'LTAIfdgEMglcWYy1',
+            'accessKeySecret'   => 'RJ6vQD7uSzuFMYG9TuElnFwS5i0gNT',
+            'signName'          => '航辉工场',
             'regionId'          => 'cn-shenzhen',
         ],
     ],
